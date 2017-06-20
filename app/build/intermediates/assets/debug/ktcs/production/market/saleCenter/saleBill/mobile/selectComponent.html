@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet" />
+
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+	  <style>
+	  
+		.pagination{
+		
+			margin-top:10px;margin-bottom:0px;
+			font-size:12px;
+		
+		}
+	  
+	  </style>
+
+
+</head>
+<body>
+	
+	
+	
+	<div id="commonSelectDiv">
+	
+		<input type="hidden" id="funcName" />
+	<!-- Modal -->
+	<div class="modal fade" id="myModalBank" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog"  >
+			<div class="modal-content"  >
+				<div class="modal-header" style="padding-top:10px;padding-bottom:5px;">
+					<button type="button" class="close" data-dismiss="modal" onclick="closeModal()">x</button>
+					<h4 class="modal-title" id="myModalLabel"  >选择银行</h4>
+				</div>
+				<div class="modal-body" style="padding:0px 0px 20px 20px;" >
+					
+				</div>
+				<div class="modal-footer"  style="padding-top:5px;padding-bottom:5px;margin-top:0px; ">
+					<button type="button" class="btn btn-default"  onclick="closeModal()">取消</button>
+					<button type="button" class="btn btn-primary"
+						onclick="handSelect()">确认</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+		
+	</div>
+	</div>
+	
+	
+	
+	<div id="bankList" style="display:none;">
+	
+		<div style="">
+			<input type="text"   style="display: inline; "
+				name="bankName" id="bankName" placeholder="银行名称" />
+			<input type="button" class="btn btn-default" value="搜索" onclick="searchBank()" />
+		</div>
+
+		<input type="hidden" id="hiddenValue" />
+
+		<table class="table table-condensed table-striped " 
+			style="margin-top: 0; margin-bottom: 0;">
+			<tr>
+				<th width="60" align="center" style="text-align: center;">选择</th>
+				<th>银行名称</th>
+			</tr>
+
+		</table>
+		
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageBank(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageBank(1)">下一页</a></li>
+		</ul>
+	
+	</div>
+	
+	<div id="contractList" style="display:none;">
+		<div class="input-append">
+		<input type="text" name="contractnumber" id="contractnumber" placeholder="合同号" />
+		<input type="button" class="btn" value="搜索" onclick="searchContract()" />
+	</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>合同号</th>
+		</tr>
+
+	</table>
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageContract(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageContract(1)">下一页</a></li>
+		</ul>
+	
+	</div>
+	
+	<div id="machineTypeList" style="display:none;">
+	
+		<div class="input-append">
+			<input type="text" name="machineTypeCode"  id="machineTypeCode" placeholder="机型" /> <input type="button" onclick="searchMachineType()"
+				class="btn" value="搜索" />
+		</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>机型</th>
+		</tr>
+
+
+	</table>
+
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageMachineType(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageMachineType(1)">下一页</a></li>
+		</ul>
+	</div>
+	
+	<div id="orgTopList" style="display:none;">
+	
+		<div class="input-append">
+			<input type="text" name="orgName" id="orgName" placeholder="区域名称" /> <input type="button"
+				class="btn" value="搜索" onclick="searchOrgTopList()" />
+		</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>区域名称</th>
+		</tr>
+
+	</table>
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageOrgTopList(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageOrgTopList(1)">下一页</a></li>
+		</ul>
+	</div>
+	
+	<div id="templateList" style="display:none;">
+	
+		<div class="input-append">
+		<input type="text" name="templateName" id="templateName" placeholder="模板名称" /> <input
+			type="button" class="btn" value="搜索" onclick="searchTemplateList()" />
+	</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>模板名称</th>
+		</tr>
+
+
+	</table>
+			<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageTemplateList(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageTemplateList(1)">下一页</a></li>
+		</ul>
+		</div>
+	
+	
+	
+	
+
+</body>
+</html>

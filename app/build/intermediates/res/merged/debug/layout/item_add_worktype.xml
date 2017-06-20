@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_layout_off_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_delete_layout"
+            android:minHeight="@null"
+            android:minWidth="@null" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_add_layout"
+            android:minHeight="@null"
+            android:minWidth="@null" />
+
+    </LinearLayout>
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/workType"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldName="workType"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="工作类别："
+        aaron:fieldType="Select"
+        android:background="@drawable/btn_layout_off_bg"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/costMinute"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldName="costMinute"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="耗时时间(分钟)："
+        aaron:fieldType="Number"
+        android:background="@drawable/btn_layout_off_bg"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/handleSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        aaron:fieldLines="3"
+        aaron:fieldName="handleSub"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="处理过程："
+        aaron:fieldType="Dialog"
+        android:background="@drawable/btn_layout_off_bg"
+        android:paddingBottom="@dimen/common_padding"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5"
+        android:paddingTop="@dimen/common_padding" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/remark"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="其他说明："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5"
+        android:visibility="gone" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/troubleReasonCode"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldName="troubleReasonCode"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="本次故障原因："
+        aaron:fieldType="Select"
+        android:background="@drawable/btn_layout_off_bg"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5"
+        android:visibility="gone" >
+
+    </com.kingteller.client.view.KingTellerEditText>
+
+</LinearLayout>

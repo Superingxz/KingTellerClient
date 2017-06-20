@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/common_title_main_bar" />
+
+    <LinearLayout
+        android:id="@+id/layout_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common_map_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_set_line"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_layout_off_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.kingteller.client.view.ChangeColorButton
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/edittext_start"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+          		aaron:drawable="@drawable/ic_geofence_nomal"
+                aaron:hintDrawable="@drawable/ic_geofence_nomal"
+                aaron:hintString="起点" />
+
+            <Button
+                android:id="@+id/start_mac_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:background="@null"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="选择机器"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_layout_off_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.kingteller.client.view.ChangeColorButton
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/edittext_end"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+                aaron:drawable="@drawable/ic_geofence_nomal"
+                aaron:hintDrawable="@drawable/ic_geofence_nomal"
+                aaron:hintString="终点" />
+
+            <Button
+                android:id="@+id/end_mac_code"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center_vertical"
+                android:background="@null"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="选择机器"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/imagebtn_roadsearch_tab_transit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/ic_geofence_bus_nomal"
+                android:minHeight="@null"
+                android:minWidth="@null" />
+
+            <Button
+                android:id="@+id/imagebtn_roadsearch_tab_driving"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/ic_geofence_taxi_pressed"
+                android:minHeight="@null"
+                android:minWidth="@null" />
+
+            <Button
+                android:id="@+id/imagebtn_roadsearch_tab_walk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/ic_geofence_walk_nomal"
+                android:minHeight="@null"
+                android:minWidth="@null" />
+
+        </LinearLayout>
+
+        <include layout="@layout/common_list_view" />
+
+    </LinearLayout>
+
+</LinearLayout>

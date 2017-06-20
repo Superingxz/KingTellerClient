@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:id="@+id/workorder_condition"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            android:orientation="horizontal" >
+	
+	            <com.kingteller.client.view.ConditionView
+	                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                android:id="@+id/troubleMark"
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/common_layout_height"
+	                android:layout_weight="1"
+	                aaron:fieldHint="故障描述"
+	                android:background="@drawable/btn_layout_off_bg"
+	                android:padding="5dp" />
+	        </LinearLayout>
+	
+	        <include layout="@layout/common_list_view" />
+	        
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

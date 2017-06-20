@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_audit_common"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/auditTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="维护报告意见"
+        android:textColor="@color/common_left_edittext_textcolor"
+        android:textSize="@dimen/common_text_middleer" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/auditContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        aaron:fieldLines="3"
+        aaron:fieldName="auditContent"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="审核意见："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/auditRemark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        aaron:fieldLines="3"
+        aaron:fieldName="auditRemark"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="备注："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+
+</LinearLayout>

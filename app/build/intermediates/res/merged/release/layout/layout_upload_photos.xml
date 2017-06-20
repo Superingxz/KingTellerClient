@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.GroupPicGridView
+        android:id="@+id/item_add_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </com.kingteller.client.view.GroupPicGridView>
+    
+     <LinearLayout
+         android:id="@+id/layout_btn"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:orientation="horizontal"
+         android:padding="@dimen/common_padding5" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="上传照片"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

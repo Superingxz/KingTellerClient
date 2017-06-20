@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.kingteller.client.view.KingTellerScrollView
+            android:id="@+id/layout_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/oa_general_aduit_btn_layout" >
+
+            <LinearLayout
+                android:id="@+id/oa_general_content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <include layout="@layout/common_attendance_audit_djxx" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/oa_name_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/oa_work_people_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="请假人员："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/oa_work_people"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_qjlx_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/TextView03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="请假类型："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/leaveType"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="请选择请假类型"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_qjdh_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="请假单号："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/leaveNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="请选择请假单号"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_qjdh_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp" >
+
+                            <TextView
+                                android:id="@+id/TextView09"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:text="请假时长："
+                                android:textColor="@color/common_right_edittext_textcolor"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/oa_use_sick_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_text_select"
+                                android:gravity="center"
+                                android:text="0.0"
+                                android:textColor="@color/common_left_edittext_textcolor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp" >
+
+                            <TextView
+                                android:id="@+id/TextView11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="请假时间："
+                                android:textColor="@color/common_right_edittext_textcolor"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/oa_start_sick_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_text_select"
+                                android:gravity="center"
+                                android:text="2015-01-01 10:10"
+                                android:textColor="@color/common_left_edittext_textcolor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="——"
+                                android:textColor="@color/common_left_edittext_textcolor"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/oa_end_sick_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_text_select"
+                                android:gravity="center"
+                                android:text="2015-01-01 10:10"
+                                android:textColor="@color/common_left_edittext_textcolor"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_czmdd_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/TextView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="出差地址："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/oa_work_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_edittext_bg"
+                            android:ems="10"
+                            android:gravity="left"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/cursor_set_black"
+                            android:textSize="14sp" >
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_start_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/oa_start_time_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="开始时间："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/oa_start_day"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="日期"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/oa_start_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="5"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="时间"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_end_time_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/oa_end_time_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="结束时间："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/oa_end_day"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="日期"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/oa_end_time"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="5"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="时间"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_usertime_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/oa_all_usertime_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="请假时长："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/oa_all_usertime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_text_select"
+                            android:gravity="center"
+                            android:text="0.0"
+                            android:textColor="@color/common_left_edittext_textcolor"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp" >
+
+                        <TextView
+                            android:id="@+id/oa_all_why_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:text="请假原因："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/oa_all_why"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_edittext_bg"
+                            android:ems="10"
+                            android:gravity="left|top"
+                            android:minLines="3"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/cursor_set_black"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_sctp_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_layout_off_bg"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/oa_all_sctp_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="上传图片："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <com.kingteller.client.view.GroupPicGridView
+                            android:id="@+id/oa_add_pic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                        </com.kingteller.client.view.GroupPicGridView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/oa_bdxx_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_layout_off_bg"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="补登类型："
+                            android:textColor="@color/common_right_edittext_textcolor"
+                            android:textSize="16sp" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/oa_all_bdxx_lx"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_text_select"
+                                android:gravity="center"
+                                android:text="请选择补登类型"
+                                android:textColor="@color/common_left_edittext_textcolor"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/oa_all_bdxx_qtsm"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/oa_all_bdxx_lx"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_edittext_bg"
+                                android:ems="10"
+                                android:hint="请输入其他说明"
+                                android:textColor="@color/black"
+                                android:textCursorDrawable="@drawable/cursor_set_black"
+                                android:textSize="14sp"
+                                android:visibility="gone" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/common_attendance_audit_ldyj" />
+
+            </LinearLayout>
+
+        </com.kingteller.client.view.KingTellerScrollView>
+
+        <LinearLayout
+            android:id="@+id/oa_general_aduit_btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_layout_off_bg"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/oa_general_aduit_ty"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_green_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="同意"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_btn_text_size" />
+
+            <Button
+                android:id="@+id/oa_general_aduit_th"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_red_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="退回"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_btn_text_size" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+</LinearLayout>

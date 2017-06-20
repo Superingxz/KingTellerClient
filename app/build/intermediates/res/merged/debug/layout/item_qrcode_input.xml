@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_select_setting"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/qrcode_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/qrewm_ewm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="二维码："
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativelayout1"
+            android:layout_toLeftOf="@+id/relativelayout7" >
+
+            <RelativeLayout
+                android:id="@+id/relativelayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/qrewm_wlbm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="物料编码："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout5"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/qrewm_ggxh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="规格型号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout2"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/qrewm_wlmc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="物料名称："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativelayout6"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/relativelayout6"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin" >
+
+            <TextView
+                android:id="@+id/qrewm_kcsl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="库存量："
+                android:textColor="#EE7600"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/qrewm_ylr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/qrewm_kcsl"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="已录入："
+                android:textColor="#008B00"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/qrewm_wlr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/qrewm_ylr"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="未录入："
+                android:textColor="#FF0000"
+                android:textSize="@dimen/common_text_small" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout6"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin" >
+
+            <TextView
+                android:id="@+id/assignManText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="扫描状态："
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/qrewm_smzt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_toLeftOf="@+id/qrewm_sc"
+                android:layout_toRightOf="@+id/assignManText"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/qrewm_sc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="删除"
+                android:textColor="#FF0000"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.6dp"
+            android:layout_below="@+id/relativelayout4"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider_gray" />
+
+    </RelativeLayout>
+
+</LinearLayout>

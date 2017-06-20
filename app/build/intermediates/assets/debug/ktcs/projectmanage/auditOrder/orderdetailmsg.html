@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <title>维护报告详细信息</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+	<script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+	<link href="../../js/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+    <script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+    <script src="../../js/iscroll/lib/require.js"></script>
+    <script>
+	require([ '../../js/iscroll/common'], function(commonaaa) {
+
+		require([ 'orderdetailmsg.js' ]);
+	});
+	</script>
+	
+	<style>
+	.zz_div{
+	 z-index:99999;  
+	 filter:alpha(opacity=60);
+	  -moz-opacity:0.6;  
+      -khtml-opacity: 0.6;  
+      background:#ffffff;
+      opacity: 0.6;  
+	 width: 100%;height: 100%; 
+	 display: block;  position: absolute;
+	 text-align: center;
+	 }	
+	footer{
+		margin-bottom:10px;
+		position:fixed;
+		border:1px solid black;
+		bottom:0px;
+	}
+	
+	.tdLabel{
+		background-color:#eee;
+		width:40%;
+		
+	}
+	.trLabel{
+		background-color:#eee;
+		 
+	}
+	
+	ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+
+</style>
+</head>
+  
+  <body style="margin:3px">
+    <div class="container" style="margin-bottom:20px">
+		<table class="table table-bordered">
+			  <thead>
+			          <tr style="background-color:#CCCCCC;">
+			            <th colspan='2' id="orderno">45613216565</th>
+			          </tr>
+			        </thead>
+			        <tbody id="tbody">
+			          <tr>
+			            <td style="width:30%;">项目主题</td>
+						<td id="content">null</td>
+			          </tr>
+			          <tr>
+						<td >项目类型</td>
+			            <td id="type">null</td>
+			          </tr>
+			          <tr>
+						<td >所属区域</td>
+			            <td id="area">null</td>
+			          </tr>
+			          <tr>
+						<td >所属服务站</td>
+			            <td id="fwz">null</td>
+			          </tr>
+					  <tr>
+			            <td>紧急程度</td>
+						<td id="emergency">null</td>
+			          </tr>
+					  <tr>
+			            
+			            <td>工单计划开始时间</td>
+			          	<td id="jhkssj">null</td>
+			          </tr>
+			          <tr>
+			            
+			            <td>工单计划完成时间</td>
+			          	<td id="jhwcsj">null</td>
+			          </tr>
+					   <tr>
+			            <td>机器编号</td>
+			          <td id="jqbh">null</td>
+			          </tr>
+					  
+					   <tr>
+			            <td>机器地址</td>
+			          <td id="jqdz">null</td>
+			          </tr>
+					   <tr>
+			            <td>机器归属人</td>
+						<td id="jqgsr">null</td>
+			
+			          </tr>
+					   <tr>
+			           <td>维护报告备注说明</td>
+					   <td id="whbgbzsm">null</td>
+			
+			          </tr>
+					   <tr>
+			           <td>销单开始时间</td>
+						<td id="xdkssj">null</td>
+			
+			          </tr>
+					   <tr>
+			           <td>销单结束时间</td>
+				            <td id="xdjssj">null</td>
+			          </tr>
+					    <tr>
+			           <td>销单人</td>
+				            <td id="xdr">null</td>
+			          </tr>
+					   <tr>
+			           <td>流程状态 </td>
+				            <td id="lczt">null</td>
+			          </tr>
+			          <tr>
+			           <td>费用总和</td>
+				            <td id="fyzh">null</td>
+			          </tr>
+			        </tbody>
+			</table>
+		</div>
+		<div style="Opacity:0.7;filter:alpha(opacity=70);position:fixed; bottom:0; left:0;width:100%;height:40px;background-color:black;color:#fff;text-align: center;cursor: pointer;font-size: 20px;padding-top:5px" onclick="history.go(-1);">返&nbsp;&nbsp;回</div>
+  </body>
+</html>

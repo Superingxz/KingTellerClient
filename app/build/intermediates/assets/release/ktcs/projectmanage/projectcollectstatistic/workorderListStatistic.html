@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.knowledge/TR/html4/loose.dtd">
+<html>
+ <head>
+    <title>项目工单统计</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+    <link rel="stylesheet" href="../../js/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/iscroll/css/iscroll-load-data.css">
+    <script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+    <script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+    <script src="../../js/iscroll/lib/require.js"></script>
+    <script>
+	require([ '../../js/iscroll/common'], function(commonaaa) {
+
+		require([ 'workorderListStatistic.js' ]);
+	});
+
+</script>
+<style type="text/css">
+.zz_div{
+	 z-index:11000;  
+	 filter:alpha(opacity=60);
+	  -moz-opacity:0.6;  
+      -khtml-opacity: 0.6;  
+      opacity: 0.6;  
+	 background:#ffffff;
+	 width: 100%;height: 100%; 
+	 display: none;  position: absolute;
+	 text-align: center;
+	 }	
+
+</style>
+</head>
+<BODY style="width:100%;">
+	<!-- id="loadingDiv" -->
+	 <div class="zz_div" id="loadingDiv"  tabindex="-1"  >
+		<img src="../../img/loading3.gif" style="position: absolute;top: 45%;left:45%;"/> 
+	</div>
+	
+	 <div class="btn-group btn-group-justified" id="toolbarDiv"
+		style="z-index: 99;  height:30px;  border-bottom: 0px solid; background-color: white;" >
+		 <input type="text" class="form-control" id="gdh" placeholder="工单号">
+ 		<a type="button" class="btn btn-default" style="border: 1;width:20%" id="serBtn">搜索</a>
+		<a type="button" class="btn btn-default" onclick="showSearchDiv()"  style="border-top: 0;border-bottom:0;width:20%"  ><span class="glyphicon glyphicon-search"></span></a> 
+	</div>
+	
+	
+		<div class="modal fade" id="searchModal" tabindex="-1" role="dialog"5
+		aria-labelledby="myModalLabel" aria-hidden="true" style="width:98%;">
+		<div id="searchModal_contentDia" class="modal-content"
+			style="  width:85%; left:10%; height:400px;    ">
+			<div class="modal-body"  style="height:80%; margin-top:5%;-webkit-transform:scale(0.85);">
+                <form role="form" id="searchForm">
+					<div class="form-group">
+						<label for="orderno">工单号</label> <input
+							type="text" class="form-control" id="orderno" name="orderno"
+							>
+					</div>
+					<div class="form-group">
+					<label for="gznum" >总台数</label>
+					<input type="text" name="gznum"
+						class="form-control valid_require" 
+						id="gznum" placeholder="请输入数字,结果大于等于输入数" onkeyup="checkNum()">
+					</div>
+					<div class="form-group">
+						<label for="type">项目类型</label> 
+						<select class="form-control" id="type" name="type"  >
+							<option value="">全部</option>
+							<option value="1" >PM</option>
+							<option value="2" >硬件改造</option>
+							<option value="3" >软件升级</option>
+							<option value="4" >市场单加装</option>
+							<option value="5" >缺料加装</option>
+							<option value="6" >工程</option>
+							<option value="7" >其他</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="orderstatus">工单状态</label> 
+						<select class="form-control" id="orderstatus" name="orderstatus"  >
+							<option value="">全部</option>
+							<option value="1" >已完成</option>
+							<option value="2" >未完成</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="emergency">紧急程度</label> 
+						<select class="form-control" id="emergency" name="emergency"  >
+							<option value="">全部</option>
+							<option value="0" >普通</option>
+							<option value="1" >紧急</option>
+						</select>
+					</div>
+					<div style="white-space:nowrap;">
+					<button type="reset" id="resetBtn" class="btn btn-default"  >重置</button>
+					<button type="button" id="searchBtn" class="btn btn-primary"  onclick="handleSearch()" >搜索</button>
+					<button type="button" id="cancelBtn" class="btn btn-default" onclick="javascript:$('#searchModal').modal('hide');" >关闭</button>
+					</div>
+				</form>
+            </div>  
+            </div>  
+        </div>  
+       
+        
+  <div id="wrapper" style="margin-top:-7px;">
+		<div class="scroller">
+			<div id="scroller-pullDown"  align="center">
+				<span class="pullDownLabel">下拉刷新...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp" align="center">
+				<span class="pullUpLabel">上翻更多...</span>
+			</div>
+		</div>
+	</div>
+
+</BODY>
+</html>

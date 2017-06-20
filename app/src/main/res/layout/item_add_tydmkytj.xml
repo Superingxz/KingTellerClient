@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/common_padding5"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/common_padding"
+            android:text="托运单号:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/tydh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+        
+        <TextView
+            android:id="@+id/tydId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:text="123456789"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" 
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调出地址:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/tcdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调出联系人:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/tclxr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:text="张三   "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/tclxr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_line_height"
+            android:text="张三 "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tclxr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_line_height"
+            android:text="张三  "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调出联系电话:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+
+            <Button
+                android:id="@+id/tclxdh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:background="@null"
+                android:text="12345678910"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15"/>
+
+            <Button
+                android:id="@+id/tclxdh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_line_height"
+                android:background="@null"
+                android:text="123456789112"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调出联系电话:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/tclxdh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:background="@null"
+                android:text="123456789113"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="机器编码:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/jqbm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:text="123456789"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调入地址:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/trdz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:text="123456789"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调入联系人:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/trlxr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:text="张三   "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/trlxr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_line_height"
+            android:text="张三 "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/trlxr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_line_height"
+            android:text="张三  "
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_15"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_padding" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调入联系电话:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+
+            <Button
+                android:id="@+id/trlxdh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:background="@null"
+                android:text="12345678910"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15"/>
+
+            <Button
+                android:id="@+id/trlxdh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_line_height"
+                android:background="@null"
+                android:text="123456789112"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调入联系电话:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/trlxdh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:background="@null"
+                android:text="123456789113"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/common_text_15" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.kingteller.client.view.ListViewForScrollView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+    </com.kingteller.client.view.ListViewForScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/common_padding5"
+        android:paddingTop="@dimen/common_padding5" >
+
+        <Button
+            android:id="@+id/acceptMalf"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="接障"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        
+        <Button
+            android:id="@+id/takePhoto"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="选择上传"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_layout_off_bg"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/numId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="3"
+        android:textColor="@color/black" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/btn_choose"
+        android:layout_toRightOf="@+id/numId"
+        android:layout_weight="1"
+        aaron:fieldHint=""
+        aaron:fieldLines="2"
+        aaron:fieldName="editText"
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/common_text_small" />
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/btn_delete"
+        android:background="@drawable/btn_green_bg"
+        android:minHeight="@null"
+        android:minWidth="@null"
+        android:text="选择"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/btn_delete_layout"
+        android:gravity="center"
+        android:minHeight="@null"
+        android:minWidth="@null" />
+
+</RelativeLayout>

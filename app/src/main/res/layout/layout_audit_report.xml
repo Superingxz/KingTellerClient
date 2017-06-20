@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_main_bar" />
+
+    <include
+        android:id="@+id/common_title_twolevel"
+        layout="@layout/common_title_twolevel_two_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPaper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_ll" />
+
+        <LinearLayout
+            android:id="@+id/bottom_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_layout_off_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/batchAudit"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_green_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="批量审核"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/batchReturn"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_red_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="批量退回"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

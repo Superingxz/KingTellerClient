@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 权限对应名称 -->
+    <string name="MOBILE_MAP">地图功能</string>
+    <string name="MOBILE_MAP_USER">员工定位</string>
+    <string name="MOBILE_MAP_FWZ">服务站查询</string>
+    <string name="MOBILE_MAP_LOCATION">机器定位</string>
+    <string name="MOBILE_MAP_MACHINE">机器查询</string>
+    <string name="MOBILE_MAP_DF">手机导航</string>
+    <string name="MOBILE_MAP_SERVICE">服务站定位</string>
+    
+    <string name="MOBILE_JNKH">技能考核</string>
+    <string name="MOBILE_SJK">数据库</string>
+    <string name="MOBILE_RWD">我的工单</string>
+    <string name="MOBILE_ZSK">知识库</string>
+    <string name="MOBILE_SPBG">报告审核</string>
+    <string name="MOBILE_ATMWZ">ATM位置</string>
+  
+    <string name="notice">公告信息</string>
+    <string name="MOBILE_CACHE_DATA">离线任务</string>
+    
+    <string name="sale">销售下单</string>
+    <string name="saleshow">销售单查询</string>
+    <string name="mysale">我的销售单</string>
+    <string name="saleshen">销售单审核</string>
+    <string name="MOBILE_XD">下单</string>
+    <string name="MOBILE_PROJECTSTATISTIC">项目管理统计</string>
+    <string name="MOBILE_PROJECTORDERAUDIT">项目工单审批</string>
+    <string name="MOBILE_PROJECTDEALORDER">项目工单销单</string>
+    <string name="MOBILE_ASSIGN">派单工作台</string>
+    <string name="WLJK_MOBILE">物流监控</string>
+    <string name="WLJK_MOBILE_HDGL">货单管理</string>
+    <string name="WLJK_MOBILE_TXRWBG">查看任务报告</string>
+    <string name="WLJK_MOBILE_QTSWGL">其他事物管理</string>
+    <string name="WLJK_MOBILE_TXQTSWBG">填写其他事物报告</string>
+    <string name="MOBILE_PXKHSJ">专项考核</string>
+    <string name="MOBILE_ONLINE_LEARNING">在线学习</string>
+    <string name="MOBILE_ONLINE_VIDEO">在线视频</string>
+    <string name="MOBILE_ONLINE_FILE">在线文档</string>
+    <string name="MOBILE_ONLINE_LEARNING_RECORDS">学习记录</string>
+    <string name="MOBILE_EWM">二维码扫描</string>
+    <string name="MOBILE_EWM_LR">库存录入</string>
+    <string name="MOBILE_EWM_FH_SM">发货物料扫描</string>
+    <string name="MOBILE_EWM_SH_SM">收货物料扫描</string>
+    <string name="MOBILE_EWM_BX_SM">报修物料扫描</string>
+    <string name="MOBILE_EWM_REG_SM">出入库物料登记扫描</string>
+    <string name="MOBILE_EWM_WDJQ_SM">设备录入</string>
+    <!-- <string name="MOBILE_EWM_WDJQGH_SM">网点机器备件更换扫描</string> -->
+    <string name="MOBILE_EWM_WD_FH">网点发货扫描</string>
+    <string name="MOBILE_EWM_ZS">二维码追溯</string>
+     
+    <string name="MOBILE_EWM_WDJQGH_SM_LX">离线部件更换扫描</string>
+    <string name="MOBILE_EWM_WDJQ_SM_LX">离线设备录入</string>
+    
+    <string name="MOBILE_KQ_FOR_MY">我的考勤</string>
+    <string name="MOBILE_KQ_AUDIT">考勤审核</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+        <shape  android:shape="rectangle">
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners android:radius="5dp"/>
+
+            <!--填充-->
+            <solid android:color="#46aaf8"/>
+
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape  android:shape="rectangle">
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners android:radius="5dp"/>
+
+            <!--填充-->
+            <solid android:color="#46aaf8"/>
+
+        </shape>
+    </item>
+    <item>
+        <shape  android:shape="rectangle">
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners android:radius="5dp"/>
+            
+            <!--填充-->
+            <solid android:color="#e1e1e1"/>
+
+        </shape>
+    </item>
+</selector>

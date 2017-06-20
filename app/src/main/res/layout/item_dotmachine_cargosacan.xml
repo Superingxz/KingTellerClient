@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_select_setting"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:layout_marginTop="@dimen/common_margin" >
+
+        <ImageView
+            android:id="@+id/wdjq_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:layout_marginRight="@dimen/common_padding5"
+            android:src="@drawable/ic_tree_ec" />
+
+        <RelativeLayout
+            android:id="@+id/wdjq_wuxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/wdjq_item_image" >
+
+            <TextView
+                android:id="@+id/textView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_14" />
+
+            <TextView
+                android:id="@+id/wdjq_item_wlmc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView01"
+                android:maxLines="2"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_14" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wdjq_wuxn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wdjq_wuxx"
+            android:layout_toRightOf="@+id/wdjq_item_image" >
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_14" />
+
+            <TextView
+                android:id="@+id/wdjq_item_tmbh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView02"
+                android:maxLines="2"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_14" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

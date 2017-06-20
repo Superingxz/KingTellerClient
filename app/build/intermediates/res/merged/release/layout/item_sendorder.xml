@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_layout_off_bg"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/work_order_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:text="工单单号:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/orderNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/work_order_no"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <ImageView
+            android:id="@+id/cmFlag"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_iphone_nomal"
+            android:contentDescription="@null" />
+        
+      <!--   <TextView
+            android:id="@+id/cmFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="手机端派单"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/common_text_small" /> -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="机器信息:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/atmMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_mark_edittext_textcolor_greed"
+            android:textSize="@dimen/common_text_small" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网点设备简称:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/wdsbjc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="任务信息:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/troubleRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="维护人员:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/assignWorkerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/assign_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="派单人:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small"/>
+
+        <TextView
+            android:id="@+id/assignName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/assign_name"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+        
+        <TextView
+            android:id="@+id/assignTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/assignMan"
+            android:textColor="@color/common_mark_edittext_textcolor_orange"
+            android:textSize="@dimen/common_text_small" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进度:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+       		android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_small" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预约时间:"
+            android:textColor="@color/common_mark_edittext_textcolor_blue"
+            android:textSize="@dimen/common_text_small" />
+
+        <TextView
+            android:id="@+id/prearrangeDateStr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_mark_edittext_textcolor_blue"
+            android:textSize="@dimen/common_text_small" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_green_bg"
+        android:minHeight="@null"
+        android:minWidth="@null"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_text_small"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\mimetypes.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\xml\\mimetypes.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\xml\\mimetypes.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\xml\\mimetypes.xml"
+    }
+]

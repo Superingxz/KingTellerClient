@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/add_oa_people_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_blue_two_bg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/overtimePeopleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/overtimePeopleName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/add_oa_view_one"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/common_all_background" />
+
+    <LinearLayout
+        android:id="@+id/add_oa_ward_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_blue_two_bg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/overtimereWard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="请选择"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/add_oa_view_two"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/common_all_background" />
+
+    <LinearLayout
+        android:id="@+id/add_oa_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/overtimereUsed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_edittext_bg"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="请输入"
+            android:inputType="numberDecimal"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textCursorDrawable="@drawable/cursor_set_black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/add_oa_view_three"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/common_all_background" />
+
+    <LinearLayout
+        android:id="@+id/add_oa_checkout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/overtimereCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/add_oa_view_four"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/common_all_background" />
+
+    <RelativeLayout
+        android:id="@+id/add_oa_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_delete_layout"
+            android:minHeight="@null"
+            android:minWidth="@null" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="服务方式："
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_middle" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/btn_radiobutton"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="现场服务"
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="@dimen/common_text_middle" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/btn_radiobutton"
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:text="电话服务"
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="@dimen/common_text_middle" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/btn_radiobutton"
+                    android:drawablePadding="10dp"
+                    android:padding="5dp"
+                    android:text="第三方处理"
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="@dimen/common_text_middle" />
+
+            </RadioGroup>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/backorderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="该服务即将结束"
+        android:textColor="@color/common_mark_edittext_textcolor_orange"
+        android:textSize="@dimen/common_text_middle"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_middle" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_middle" />
+
+    </LinearLayout>
+
+</LinearLayout>

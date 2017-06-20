@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    android:padding="@dimen/common_padding" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="事务单号："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/swdh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="事务名称："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/swname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="车  牌  号："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/cl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="跟车员一："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/gcy1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="跟车员二："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/gcy2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="派单时间："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/pdsj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="状        态："
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+
+        <TextView
+            android:id="@+id/rwdzt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="3"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/common_text_13" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginTop="@dimen/common_margin"
+        android:background="@color/divider_gray" />
+
+</LinearLayout>

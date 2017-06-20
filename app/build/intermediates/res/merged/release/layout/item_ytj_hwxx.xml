@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/hw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="货物名称:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+
+            <TextView
+                android:id="@+id/hwmc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:layout_toRightOf="@+id/hw"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/sl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="数量:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+
+            <TextView
+                android:id="@+id/hwsl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding5"
+                android:layout_toRightOf="@+id/sl"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_15" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/sjps"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        aaron:fieldName="sjps"
+        aaron:fieldTitle="实际配送/调入地址："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/sqxz"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        aaron:fieldName="sqxz"
+        aaron:fieldTitle="市区/县乡镇："
+        aaron:fieldType="Select"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/qsdlsh"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        aaron:fieldName="qsdlsh"
+        aaron:fieldTitle="签收单流水号："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/sj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="实际配送日期:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+        <TextView
+            android:id="@+id/sjpsrq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding5"
+            android:layout_toRightOf="@+id/sj"
+            android:text="123234"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+    </RelativeLayout>
+
+    <!--
+         <com.kingteller.client.view.ConditionView
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/sjpsrq"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        aaron:fieldName="sjpsrq"
+        aaron:fieldTitle="实际配送日期："
+        aaron:fieldHint="请输入"
+        aaron:fieldType="Date"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+    -->
+
+</LinearLayout>

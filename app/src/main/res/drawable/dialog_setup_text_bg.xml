@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape  android:shape="rectangle">
+            <!-- 描边 -->
+            <stroke
+                android:width="2dp"
+                android:color="#cccccc" />
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners android:radius="50dp"/>
+
+            <!--间隔 按钮文字和边缘距离(内边距)-->
+            <padding
+                android:bottom="5dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="5dp" />
+
+            <!--填充-->
+            <solid android:color="@android:color/white"/>
+
+        </shape>
+    </item>
+</selector>

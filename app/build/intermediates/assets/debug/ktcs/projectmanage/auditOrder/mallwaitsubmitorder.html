@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.knowledge/TR/html4/loose.dtd">
+<html>
+ <head>
+    <title>维护报告审批</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+	<link rel="stylesheet" href="../../js/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/iscroll/css/iscroll-load-data.css">
+    <script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+    <script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+     <script src="../../js/iscroll/lib/require.js"></script>
+    <script>
+	require([ '../../js/iscroll/common'], function(commonaaa) {
+
+		require([ 'mallwaitsubmitorder.js' ]);
+	});
+	</script>
+</head>
+<BODY style="margin:0px;padding:0px;">
+	<!--  <div style="width: 100%;position:fixed;z-index:100;margin:0px;padding:0px;">
+		<table class="table table-bordered">
+			  <thead>
+		          <tr style="background-color:#FFFFFF;height:18px;">
+          				<th style="text-align: center;"  data-toggle="modal"  data-target="#myModal">
+          				<span data-toggle="modal"  data-target="#myModal" > 审批</span>
+          				</th>
+          				<th style="text-align: center;" >
+          				<span id="selectBtn"   onclick="selectAll()" >全选</span></th>
+          				<th style="text-align: center;"  data-toggle="modal"  data-target="#searchModal">
+          				<span data-toggle="modal"  data-target="#searchModal"> 查询</span></th>
+		          </tr>
+	          </thead>
+         </table>
+    </div>-->
+    <div class="btn-group btn-group-justified" id="tabDiv"
+		style="z-index: 99; border-bottom: 1px solid;  height:25px;clear:both; " >
+		<a type="button" class="btn btn-default" id="toDoBtn" style="border-top: 0;border-bottom:0;" data-toggle="modal"  data-target="#myModal">审批</a>
+		<a type="button" class="btn btn-default" style="border-top: 0;border-bottom:0; " id="selectBtn"   onclick="selectAll()" >全选</a>
+		<a type="button" class="btn btn-default" style="border-top: 0;border-bottom:0;" data-toggle="modal"  data-target="#searchModal">查询</a>
+		
+	</div>
+        <!-- id="loadingDiv" -->
+	 <div class="zz_div" id="loadingDiv"  tabindex="-1"  >
+		<img src="../../img/loading3.gif" style="position: absolute;top: 30%;left:45%;"/> 
+	</div>
+    <div>
+      <div id="wrapper" style="width:100%">
+		<div class="scroller">
+			<div id="scroller-pullDown"  style="text-align: center;width:100%;">
+				<span class="pullDownLabel" style="text-align: cetner;width:100%;">下拉刷新...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp" style="text-align: center;width:100%;">
+				<span class="pullUpLabel" style="width:100%;text-align: cetner">上翻更多...</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="101" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="height: 98%;top:10%">
+	   <div class="modal-dialog" style="height:200px">
+	      <div class="modal-content" style="height: 100%">
+	         <div class="modal-body" style="height:75%">
+	        	<textarea id="textarea" style="width:100%;height:100%;border: 1px solid;"></textarea>
+	         </div>
+	          <div style="text-align: center;">
+	            <button type="button" class="btn btn-primary" onclick="audit('1')">通过</button>&nbsp;&nbsp;
+	            <button type="button" class="btn btn-primary" onclick="audit('2')">退回</button>&nbsp;&nbsp;
+	            <button type="button" class="btn btn-default" onclick="audit('3')">取消</button>
+	         </div>
+	      </div><!-- /.modal-content -->
+	</div><!-- /.modal -->	 
+	</div>
+	<div class="modal fade" id="searchModal" tabindex="101" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="height: 98%;top:10%">
+		<div class="modal-dialog" style="height:400px">
+	      <div class="modal-content" style="height: 100%">
+	         <div class="modal-body" style="height:100%">
+	        	 <form role="form" id="searchForm">
+					<div class="form-group">
+						<label for="orderno">工单号</label> <input type="text" class="form-control" id="orderno" name="orderno">
+					</div>
+					<div class="form-group">
+					<label for="gznum" >机器编号</label>
+						<input type="text" class="form-control" id="jqbh" name="jqbh"/><!-- placeholder="机器编号"> --> 
+					</div>
+					<div class="form-group">
+					<label for="gznum" >维护报告提交人</label>
+						<input type="text" class="form-control" id="creatuser" name="creatuser" />
+					</div>
+					<div style="white-space:nowrap;">
+					<button type="button" id="search1Btn" class="btn btn-primary"  onclick="handleSearch()" >搜索</button>
+					<button type="button" id="cancelBtn" class="btn btn-default" onclick="javascript:$('#searchModal').modal('hide');" >关闭</button>
+					</div>
+				</form>
+	         </div>
+	      </div>
+       </div> 
+     </div>
+</BODY>
+</html>
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用数据条件 -->
+    <!-- 0 标题 1 fieldName 2 fieldTitle 3 Url -->
+    <string-array name="serverState">
+        <item>服务站</item>
+        <item>orgNameLike</item>
+        <item>服务站名称：</item>
+        <item>/sysmgr/workreportmobile/queryServiceOrgList_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="atmcode">
+        <item>机器编号</item>
+        <item>jqbh</item>
+        <item>机器编号：</item>
+        <item>/sysmgr/workreportmobile/queryMachineInfoList_workReportMobileNew.action</item>
+    </string-array>
+    
+    <string-array name="wddz">
+        <item>网点信息查询</item>
+        <item>wddz</item>
+        <item>/sysmgr/workreportmobile/queryWDDZ_workReportMobileNew.action</item>
+    </string-array>
+
+    <!-- 树形和通用数据全部 -->
+    <!-- 0 标题 1 Url -->
+    <string-array name="bjmk">
+        <item>故障类别</item>
+        <item>/sysmgr/workreportmobile/queryWlByAll_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="feetype">
+        <item>费用类型</item>
+        <item>/sysmgr/workreportmobile/getFeeTree_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="bjwl">
+        <item>故障部件</item>
+        <item>/sysmgr/workreportmobile/queryWlByAll_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="clgc">
+        <item>处理过程</item>
+        <item>/sysmgr/workreportmobile/getHandleSubInfo_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="gzms">
+        <item>故障描述</item>
+        <item>/sysmgr/workreportmobile/getTroubleRemarkInfo_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="jtgj">
+        <item>交通工具</item>
+        <item>/sysmgr/workreportmobile/getFeeMode_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="clgcworktype">
+        <item>处理过程</item>
+        <item>/sysmgr/workreportmobile/getWorkTypeHandleSub_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="cxfwzry">
+		<item>查询服务站人员</item>
+		<item>/workreportmobile/queryFwzWorker_workordermobile.action</item>
+    </string-array>
+    <string-array name="fylx">
+        <item>费用类型</item>
+        <item>/custmgr/logisticmonitor/queryFare_TaskAndConsignMobile.action</item>
+    </string-array>
+    <string-array name="jqzd">
+        <item>机器字段</item>
+        <item>/sysmgr/workreportmobile/queryMachineComponentList_workReportMobileNew.action</item>
+    </string-array>
+
+</resources>

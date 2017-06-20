@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+	<include layout="@layout/common_title_main_bar" />
+ 
+    <LinearLayout
+        android:id="@+id/workorder_condition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/orderNo"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldHint="ATM号/机器编号/工单单号"
+            aaron:fieldName="orderNo"
+            aaron:fieldTitle="请输入："
+            android:background="@drawable/btn_layout_off_bg"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/ordertype"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldHint="请选择"
+            aaron:fieldName="ordertype"
+            aaron:fieldTitle="工单类型："
+            aaron:fieldType="Select"
+            android:background="@drawable/btn_layout_off_bg"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/start_date"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="start_date"
+            aaron:fieldTitle="开始日期："
+            aaron:fieldType="Date"
+            android:background="@drawable/btn_layout_off_bg"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/end_date"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="end_date"
+            aaron:fieldTitle="结束日期："
+            aaron:fieldType="Date"
+            android:background="@drawable/btn_layout_off_bg"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+    </LinearLayout>
+
+    <include layout="@layout/common_list_view" />
+
+</LinearLayout>

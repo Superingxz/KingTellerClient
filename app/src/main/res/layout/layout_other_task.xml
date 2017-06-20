@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/otherconsign_li"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_btn"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding5" >
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认接收"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="开始"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_complete"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认返回"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+       <!--  <Button
+            android:id="@+id/btn_backo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red"
+            android:text="返回任务清单"
+            android:textColor="@color/white" /> -->
+        
+        <Button
+            android:id="@+id/btn_lx"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="联系调度员"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/shortAnswerId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/contentName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/saEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:hint="@null"
+        android:gravity="top"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_text_14" />
+
+</LinearLayout>

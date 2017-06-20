@@ -1,0 +1,850 @@
+[
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_app_new.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_app_new.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_quxiao_unfocused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_quxiao_unfocused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\accountmanage_add.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\accountmanage_add.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_unchecked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_up.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete_icon_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\delete_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_nav.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_nav.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_right_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_right_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_arrow.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_arrow.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_shanchu_unfocused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_shanchu_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_app_new.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_app_new.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_yuyinyun.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\logo_yuyinyun.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yuyun_logo.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\yuyun_logo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete_icon_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\delete_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_right_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_right_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_queding_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_queding_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sale.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_sale.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tips_manager_bg11.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tips_manager_bg11.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_quxiao_unfocused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_quxiao_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\map.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_data_select.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_data_select.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_checked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_photo.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_photo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_end.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_end.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_right_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_right_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_shanchu_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_shanchu_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yuyun_logo.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\yuyun_logo.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\float_logo.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\float_logo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_queding_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_queding_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_widget_divider.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_widget_divider.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\btn_login_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_close.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_close.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg_input.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_bg_input.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_unchecked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toggle_on.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\toggle_on.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_folder.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\compose_pic_add_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\compose_pic_add_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_shanchu_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_shanchu_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map_location_point.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\map_location_point.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_radiobutton_unchecked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_radiobutton_unchecked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_back_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\pic_back_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_arrow.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_arrow.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_album_back.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_album_back.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toggle_on.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\toggle_on.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toggle_off.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\toggle_off.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_delete_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_delete_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_competence_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_competence_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\btn_login_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_password.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_password.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_password.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_password.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notice_logo.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\notice_logo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_all_file.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_all_file.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_add.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_add.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\float_logo.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\float_logo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_radiobutton_checked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_radiobutton_checked.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choose_back.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choose_back.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plubin_camera_del_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plubin_camera_del_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\location_circle.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\location_circle.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_close.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_close.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_radiobutton_checked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_radiobutton_checked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\new_dot.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\new_dot.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_add_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_add_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_left_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_left_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_checked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_data_select.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_data_select.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_refreshing.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\xlistview_refreshing.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_setting_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_setting_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_all_file.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_all_file.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_del_unfocused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_del_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_add_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_add_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_arrow_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\back_arrow_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_checked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\btn_login_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_addpic_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_addpic_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_user.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_folder.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\compose_pic_add_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\compose_pic_add_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\location_circle.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\location_circle.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_cancel_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_cancel_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete_icon_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\delete_icon_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_delete_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_delete_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_setting_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_setting_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_login_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\btn_login_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_phone1.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_phone1.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_delete_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_delete_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_widget_divider.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_widget_divider.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_dialog_bg.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_dialog_bg.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choosed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choosed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigationbar_close_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\navigationbar_close_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\delete_icon_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\delete_icon_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_unchecked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\compose_pic_add_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\compose_pic_add_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_picture.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_picture.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\new_dot.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\new_dot.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_quxiao_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_quxiao_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_radiobutton_unchecked.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_radiobutton_unchecked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_right.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_right.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_arrow_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\back_arrow_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_setting_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_setting_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_yuyinyun.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\logo_yuyinyun.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_checkbox_checked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\common_checkbox_checked.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_unselected.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_unselected.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_new_small.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_new_small.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_widget_split_bg.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_widget_split_bg.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_competence_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_competence_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_competence_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_competence_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choosed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choosed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_addpic_unfocused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_addpic_unfocused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toggle_off.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\toggle_off.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_filenum.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_filenum.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_add.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_add.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_left_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_left_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigationbar_close.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\navigationbar_close.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_back_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\pic_back_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_ing.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_ing.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tips_manager_bg11.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tips_manager_bg11.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_arrow_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\back_arrow_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_chooser.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_chooser.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_refreshing.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\xlistview_refreshing.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_unselected.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_unselected.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_preview_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_preview_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_start.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_start.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\msp_warning.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\msp_warning.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_album_back.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_album_back.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_user.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_user.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_filenum.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_filenum.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_nav.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_nav.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_phone.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_phone.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_phone1.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_phone1.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_dialog_bg.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_dialog_bg.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_unchecked.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\checkbox_unchecked.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notice_logo.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\notice_logo.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_queding_unfocused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_queding_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_setting_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_setting_pressed.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\biz_widget_split_bg.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\biz_widget_split_bg.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_no_pictures.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_no_pictures.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plubin_camera_del_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plubin_camera_del_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_delete_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_delete_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_sale.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_sale.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_choose_back.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_choose_back.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_transparent.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\bg_transparent.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_left_pressed.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_left_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_file.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_photo.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_photo.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_end.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_end.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_left_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_left_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_right.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_right.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\compose_pic_add_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\compose_pic_add_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_no_pictures.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_no_pictures.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_chooser.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_chooser.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_ing.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_ing.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_addpic_focused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_addpic_focused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_file.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\msp_warning.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\msp_warning.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_shanchu_unfocused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_shanchu_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_new_small.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_new_small.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_del_unfocused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_del_unfocused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_waitdo.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_waitdo.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_add_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_add_nomal.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\segment_right_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\segment_right_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_bottom_bar.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_bottom_bar.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_unselected.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_unselected.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigationbar_close.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\navigationbar_close.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_send_unselected.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_send_unselected.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_competence_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_competence_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\map.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_phone.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_phone.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tu_start.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\tu_start.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back_arrow_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\back_arrow_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_queding_unfocused.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_queding_unfocused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_addpic_unfocused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_addpic_unfocused.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_bottom_bar.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_bottom_bar.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map_location_point.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\map_location_point.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plugin_camera_back_btn.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\plugin_camera_back_btn.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_back_nomal.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\pic_back_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_quxiao_focused.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_quxiao_focused.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigationbar_close_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\navigationbar_close_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_back_pressed.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\pic_back_pressed.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\editgroup_item_add_nomal.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\editgroup_item_add_nomal.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_picture.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\icon_picture.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_up.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_bg_input.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\login_bg_input.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\accountmanage_add.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\accountmanage_add.png"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_transparent.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-hdpi\\bg_transparent.png"
+    }
+]

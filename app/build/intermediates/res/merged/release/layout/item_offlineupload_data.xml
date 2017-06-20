@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 检查单位item布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_layout_on_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/item_offline_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/item_offline_bg_dh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="7"
+                        android:clickable="false"
+                        android:text="填写报告(单号)"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/item_offline_bg_jqxx_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_offline_bg_dh" >
+
+                        <TextView
+                            android:id="@+id/item_offline_bg_jqbm_tou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="机器信息："
+                            android:textColor="@color/text_666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/item_offline_bg_jqbm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/item_offline_bg_jqbm_tou"
+                            android:textColor="@color/text_666666"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/item_offline_bg_wdjc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_offline_bg_jqxx_rl"
+                        android:text="网点设备简称"
+                        android:textColor="@color/text_666666"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/item_offline_bg_rwxx_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_offline_bg_wdjc" >
+
+                        <TextView
+                            android:id="@+id/item_offline_bg_rwxx_tou"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="任务信息："
+                            android:textColor="@color/seagreen"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/item_offline_bg_rwxx"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/item_offline_bg_rwxx_tou"
+                            android:textColor="@color/seagreen"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/item_offline_bg_hcsj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/item_offline_bg_rwxx_rl"
+                        android:text="缓存时间"
+                        android:textColor="@color/text_666666"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/item_offline_checkbox"
+            style="@style/common_checkbox_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:clickable="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item_offline_selectbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_layout_three_bg"
+        android:minHeight="@null"
+        android:minWidth="@null"
+        android:text="请选择工单单号"
+        android:textColor="@color/common_left_edittext_textcolor"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</LinearLayout>

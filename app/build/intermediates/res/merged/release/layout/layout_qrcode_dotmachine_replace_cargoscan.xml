@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+   <include layout="@layout/common_title_main_bar" />
+   
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/sdl_background"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:id="@+id/dj_service_information"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+	
+	            <RelativeLayout
+	                android:id="@+id/bjghsm_rl_1"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="@dimen/common_margin" >
+	
+	                <TextView
+	                    android:id="@+id/wdjq_gh_gdh"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:text="工单单号："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	
+	            </RelativeLayout>
+
+	            <RelativeLayout
+	                android:id="@+id/bjghsm_rl_2"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="@dimen/common_margin"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:layout_marginRight="@dimen/common_margin" >
+
+	                <TextView
+	                    android:id="@+id/wdjq_gh_jqbm"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="机器编码："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/bjghsm_rl_3"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="@dimen/common_margin"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:layout_marginRight="@dimen/common_margin" >
+	
+	                <TextView
+	                    android:id="@+id/wdjq_gh_fwz"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:text="所属服务站："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/bjghsm_rl_4"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="@dimen/common_margin"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:layout_marginRight="@dimen/common_margin" >
+	
+	                <TextView
+	                    android:id="@+id/wdjq_gh_wdsbjc"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:text="网点设备简称："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	
+	            </RelativeLayout>
+	
+	            <RelativeLayout
+	                android:id="@+id/bjghsm_rl_5"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="@dimen/common_margin"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:layout_marginRight="@dimen/common_margin" >
+	
+	                <TextView
+	                    android:id="@+id/wdjq_gh_whgcs"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:text="维护工程师："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	
+	                <TextView
+	                    android:id="@+id/wdjq_gh_pdsj"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentRight="true"
+	                    android:text="派单时间："
+	                    android:textColor="@color/text_666666"
+	                    android:textSize="@dimen/common_text_small" />
+	            </RelativeLayout>
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:padding="5dp" >
+	
+	            <Button
+	                android:id="@+id/ewm_opencame_jwl"
+	                android:layout_width="@dimen/common_btn_width"
+	                android:layout_height="@dimen/common_btn_height"
+	                android:layout_alignParentLeft="true"
+	                android:layout_alignParentRight="true"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:layout_marginRight="@dimen/common_margin"
+	                android:layout_weight="1"
+	                android:background="@drawable/btn_red_bg"
+	                android:minHeight="@null"
+	                android:minWidth="@null"
+	                android:text="旧物料扫描"
+	                android:textColor="@color/white"
+	                android:textSize="16sp" />
+	
+	            <Button
+	                android:id="@+id/ewm_opencame_xwl"
+	                android:layout_width="@dimen/common_btn_width"
+	                android:layout_height="@dimen/common_btn_height"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:layout_weight="1"
+	                android:background="@drawable/btn_black_bg"
+	                android:minHeight="@null"
+	                android:minWidth="@null"
+	                android:text="新物料扫描"
+	                android:textColor="@color/white"
+	                android:textSize="16sp" />
+	
+	        </LinearLayout>
+	    </LinearLayout>
+	
+	    <ExpandableListView
+	        android:id="@+id/wdjq_gh_expandableListView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/ewm_btnlinearlayout"
+	        android:layout_below="@+id/linearLayout1"
+	        android:background="@drawable/sdl_background"
+	        android:divider="@null"
+	        android:groupIndicator="@null" >
+	
+	    </ExpandableListView>
+	
+	    <LinearLayout
+	        android:id="@+id/ewm_btnlinearlayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:padding="@dimen/common_padding5" >
+	
+	        <Button
+	            android:id="@+id/ewm_cancel"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginRight="@dimen/common_margin"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_orange_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="关闭"
+	            android:textColor="@color/white"
+	            android:textSize="16sp" />
+	
+	        <Button
+	            android:id="@+id/ewm_preservation"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginLeft="@dimen/common_margin"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="保存"
+	            android:textColor="@color/white"
+	            android:textSize="16sp" />
+
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

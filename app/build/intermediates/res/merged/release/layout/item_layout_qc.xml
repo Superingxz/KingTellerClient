@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/common_padding"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/qclcs"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldName="qclcs"
+        aaron:fieldTitle="启程里程数(km)："
+        aaron:fieldRequested="true"
+        aaron:fieldType="Number"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/sjpsrq"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldRequested="true"
+        aaron:fieldEnabled="false"
+        aaron:fieldName="sjpsrq"
+        aaron:fieldTitle="实际配送日期："
+        aaron:fieldType="String"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

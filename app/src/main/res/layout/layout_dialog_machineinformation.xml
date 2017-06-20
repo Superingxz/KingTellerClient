@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/jqxx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="机器信息"
+        android:textColor="#61AEDC"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="银行简称："
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <TextView
+                android:id="@+id/jqxx_wdsbjc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="银行联系人："
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <TextView
+                android:id="@+id/jqxx_wdlxr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="电话："
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/jqxx_wdlxdh1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:minHeight="@null"
+                    android:minWidth="@null"
+                    android:textColor="@color/common_mark_edittext_textcolor_orange"
+                    android:textSize="@dimen/common_item_text_size_btn" />
+
+                <Button
+                    android:id="@+id/jqxx_wdlxdh2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:minHeight="@null"
+                    android:minWidth="@null"
+                    android:textColor="@color/common_mark_edittext_textcolor_orange"
+                    android:textSize="@dimen/common_item_text_size_btn"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="地图图标："
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1" >
+
+                <ImageButton
+                    android:id="@+id/jqxx_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_user_location"
+                    android:contentDescription="@null" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="#DCDCDC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_jqxx_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="关闭"
+            android:textColor="#8a000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kingteller"
+    android:versionCode="53"
+    android:versionName="2.2.20" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <permission
+        android:name="com.kingteller.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.kingteller.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    
+    <!-- 短信权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 二维码 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" />
+
+    <!-- Donut-specific flags which allow us to run on any dpi screens. -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".client.KingTellerApplication"
+        android:allowBackup="true"
+        android:persistent="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".client.activity.login.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 主界面  -->
+        <activity
+           android:name="com.kingteller.client.activity.account.MainActivity"
+           android:launchMode="singleTask"
+           android:screenOrientation="portrait"/>
+         
+        <!-- 欢迎页-->
+        <activity
+            android:name=".client.activity.welcome.WelComeActivity"
+            android:screenOrientation="portrait"/>
+     
+        
+        <!-- 图片预览 -->
+        <activity
+            android:name=".client.activity.common.PicViewActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 测试 Activity 图片选择器-->
+        <activity
+            android:name=".client.activity.map.SelectImageAllActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 图片选择器 -->
+        <activity
+            android:name=".client.view.image.activity.PickBigImagesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".client.view.image.activity.PickOrTakeImageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".client.view.image.activity.ChangePicBigImagesActivity"
+            android:screenOrientation="portrait"/>
+         <!-- 图片选择器 -->
+         
+        
+        <!-- 关于我们 -->
+        <activity
+            android:name=".client.activity.more.AboutUsActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 反馈意见 -->
+        <activity
+            android:name=".client.activity.more.FeedBackActivity"
+            android:screenOrientation="portrait" />
+
+        
+        <!-- 在线学习部分 -->
+        <activity
+            android:name=".client.activity.onlinelearning.OnlineMainActivity"
+            android:screenOrientation="portrait"  />
+        <!--  视频目录 -->
+        <activity
+            android:name=".client.activity.onlinelearning.OnlineVideoListActivity"
+            android:screenOrientation="portrait" />
+        <!--  视频列表 -->
+        <activity
+            android:name=".client.activity.onlinelearning.OnlineVideoCatalogActivity"
+            android:screenOrientation="portrait" />
+        <!--  在线文档 -->
+        <activity
+            android:name=".client.activity.onlinelearning.OnlineWorkCatalogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/YTheme" />
+        
+        
+        
+        <!-- 公告信息-->
+        <activity
+            android:name=".client.activity.notice.NoticeListActivity"
+            android:screenOrientation="portrait" />
+        
+        
+          
+        <!-- 地图功能 -->
+        <activity
+            android:name=".client.activity.map.MapMainActivity"
+            android:screenOrientation="portrait" />
+        
+        
+        
+        
+        <!-- 服务站定位 -->
+        <activity
+            android:name=".client.activity.map.ServiceStationLocationActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 机器定位 -->
+        <activity
+            android:name=".client.activity.map.ATMUploadActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 添加机器 -->
+        <activity
+            android:name=".client.activity.map.ATMAddActivity"
+            android:screenOrientation="portrait" />
+        
+       <!-- 地图选择器 -->
+       <activity
+            android:name=".client.activity.common.SelectMapAddressActivity"
+            android:screenOrientation="portrait" />
+       <!-- 地址搜索选择器-->
+       <activity
+            android:name=".client.activity.common.SelectAddressActivity"
+            android:screenOrientation="portrait" />
+       
+       <!-- ATM号选择器 -->
+       <activity
+            android:name=".client.activity.common.SelectATMCodeActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 员工定位 -->
+        <activity
+            android:name=".client.activity.map.StaffLocationActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 员工轨迹 -->
+        <activity
+            android:name=".client.activity.map.StaffLocusActivity"
+            android:screenOrientation="portrait"/>
+   
+        <!-- 机器查询-->
+        <activity
+            android:name=".client.activity.map.ATMQueryActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 服务站查询 -->
+        <activity
+            android:name=".client.activity.map.ServiceStationQueryActivity"
+            android:screenOrientation="portrait" />
+              
+        <!-- 手机导航 -->    
+        <activity
+            android:name=".client.activity.map.MobileNavActivity"
+            android:screenOrientation="portrait" />
+      
+   		<!-- 设置线路 -->    
+        <activity
+            android:name=".client.activity.map.SetNavLineActivity"
+            android:screenOrientation="portrait" />
+    
+       <!-- 二维码扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRMainActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 库存录入 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRCodeInputActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 发货物料扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRDeliveryMaterialActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 收货物料扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRReceiptMaterialActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 报修物料扫描-->
+		<activity 
+		    android:name=".client.activity.qrcode.QRGuaranteeMaterialActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 二维码追溯-->
+		<activity 
+		    android:name=".client.activity.qrcode.QRTraceBackToActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 二维码追溯 展示-->
+		<activity 
+		    android:name=".client.activity.qrcode.QRTraceBackToShowActivity"
+		    android:screenOrientation="portrait"/>
+		
+		
+		
+		
+		
+		<!-- 扫描-->
+		<activity 
+		    android:name=".client.activity.qrcode.QRCargoScanActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 服务站物料出入库登记   列表-->
+		<activity 
+		    android:name=".client.activity.qrcode.QRServiceStationMaterialInOutCheckActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 服务站物料出入库登记  扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRServiceStationCargoScanActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 网点发货扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRDotDeliveryCargoScanActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 网点机器扫描 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRDotMachineCargoScanActivict"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 网点机器扫描列表 -离线 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QROfflineDotMachineActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 网点机器扫描 -离线 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QROfflineDotMachineCargoScanActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 部件更换扫描  -->
+		<activity 
+		    android:name=".client.activity.qrcode.QRDotMachineReplaceCargoScanActivict"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 部件更换扫描列表 -离线 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QROfflineDotMachineReplaceActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 部件更换扫描 -离线 -->
+		<activity 
+		    android:name=".client.activity.qrcode.QROfflineDotMachineReplaceCargoScanActivity"
+		    android:screenOrientation="portrait"/>
+		
+		<!-- 二维码扫描 -->
+        <activity
+            android:name=".modules.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 二维码扫描结果  -->
+        <activity
+            android:name=".modules.zxing.activity.CaptureShowActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 我的派单  -->
+        <activity
+            android:name=".client.activity.workorder.SendOrderListActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 查询派单  -->
+        <activity  
+            android:name=".client.activity.workorder.SendOrderSearchListActivity"
+            android:screenOrientation="portrait"/>
+        
+       <!-- 新建工单 -->
+       <activity
+            android:name=".client.activity.workorder.RapairSendOrderActivity"
+            android:screenOrientation="portrait" />
+       
+       <!-- 选择人员 -->
+       <activity
+            android:name=".client.activity.workorder.AssignWorkerSearchActivity"
+            android:screenOrientation="portrait" />
+       
+       <!-- 选择机器  -->
+       <activity
+            android:name=".client.activity.workorder.MachineSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的工单 -->
+        <activity
+            android:name=".client.activity.workorder.WorkOrderActivity"
+            android:screenOrientation="portrait"  />
+        
+        <!-- 查询工单-->
+        <activity
+            android:name=".client.activity.workorder.WorkOrderSearchActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 维护报告-->
+        <activity
+            android:name=".client.activity.workorder.RepairReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".client.activity.workorder.checkout.RepairReportCheckoutActivity"
+            android:screenOrientation="portrait" />
+   		<!-- 维护报告-->
+        
+        <!-- 其他事物报告 -->
+        <activity
+            android:name=".client.activity.workorder.OtherMatterReportActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".client.activity.workorder.checkout.OtherMatterReportCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 其他事物报告 -->
+        
+        <!-- 物流报告 -->
+        <activity
+            android:name=".client.activity.workorder.LogisticsReportActivity"
+            android:screenOrientation="portrait" />
+   
+        <activity
+            android:name=".client.activity.workorder.checkout.LogisticsReportCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 物流报告 -->
+       
+   		<!-- 审核报告 -->
+        <activity
+            android:name=".client.activity.workorder.AduitReportActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 报告中查看 机器位置 -->
+        <activity
+            android:name=".client.activity.workorder.MobileNavJqbhActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 知识库 -->
+        <activity
+            android:name=".client.activity.knowledge.KnowledgeActivity"
+            android:screenOrientation="portrait" />
+
+  		<!-- 通用页面访问  -->
+        <activity
+            android:name=".client.activity.base.BaseWebActivity"
+            android:screenOrientation="portrait" />
+        
+         <!-- 通用页面访问  -->
+        <activity
+            android:name=".client.activity.common.CommonWebViewActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 通用数据列表  -->
+        <activity
+            android:name=".client.activity.common.CommonListActivity"
+            android:screenOrientation="portrait" />
+        
+        <!--通用条件数据 选择  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectDataSearchActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 故障类别  选择  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectDataActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 交通工具  选择  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectGtgjActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 处理过程  选择  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectClgcActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 故障描述  选择  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectGZMSActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 更换物料  选择  -->
+        <activity
+            android:name=".client.activity.common.TreeChooserActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 网点信息  查询  -->
+        <activity
+            android:name=".client.activity.common.CommonSelectWddzSearchActivity"
+            android:screenOrientation="portrait" />
+        <!-- 新增网点   -->
+        <activity
+            android:name=".client.activity.workorder.IncreaseWddzActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 地区地域  选择 -->
+        <activity
+            android:name=".client.activity.common.CommonSelectAreaActivity"
+            android:screenOrientation="portrait"/>
+        <!-- 物流监控 -->
+        <activity
+            android:name=".client.activity.logisticmonitor.WLJKMainActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 货单管理-->
+        <activity
+            android:name=".client.activity.logisticmonitor.LogisticOrderListActivity"
+            android:screenOrientation="portrait" />
+        
+         <!-- 填写其他事物报告-->
+        <activity
+            android:name=".client.activity.logisticmonitor.WriteOtherTaskListActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 查看任务报告-->
+        <activity
+            android:name=".client.activity.logisticmonitor.WriteLogisticTaskListActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 其他事物管理-->
+        <activity
+            android:name=".client.activity.logisticmonitor.OtherTaskListActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- 文件选择器 -->
+        <activity
+            android:name=".modules.filechooser.FileChooserActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name=".client.activity.common.FloatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/> 
+            
+        
+        <!-- 缓存数据  -->
+        <activity
+            android:name=".client.activity.offlineupload.OfflineUploadActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的考勤 -->
+        <activity
+            android:name=".client.activity.attendance.WorkAttendanceActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤 选择人员 -->
+        <activity
+            android:name=".client.activity.attendance.search.WorkAttendanceSearchPersonnelActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤 选择请假单 -->
+        <activity
+            android:name=".client.activity.attendance.search.WorkAttendanceSearchLeaveFromActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写加班单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkOvertimeFormActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写请假单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkLeaveFormActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写销假单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkSickLeaveFromActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写出差单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkBusinessTripFromActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写补登单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkBoardFromActivity"
+            android:screenOrientation="portrait" />
+        <!-- 我的考勤  填写旷工单-->
+        <activity
+            android:name=".client.activity.attendance.fillin.WorkAbsentFromActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 我的考勤  查看日历-->
+        <activity
+            android:name=".client.activity.attendance.WorkAttendanceHistoricalActivity"
+            android:screenOrientation="portrait" />
+ 
+        <!-- 考勤审批 -->
+        <activity
+            android:name=".client.activity.attendance.AduitAttendanceActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批   多选 -->
+        <activity
+            android:name=".client.activity.attendance.AduitBatchAttendanceActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批    加班审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkOvertimeFormCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批    请假审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkLeaveFromCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批    销假审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkSickLeaveFromCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批    出差审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkBusinessTripFromCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <!-- 考勤审批    补登审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkBoardFromCheckoutActivity"
+            android:screenOrientation="portrait" />
+ 		<!-- 考勤审批   旷工审批-->
+        <activity
+            android:name=".client.activity.attendance.checkout.WorkAbsentFromCheckoutActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 清洁报告  -->
+        <activity
+            android:name=".client.activity.workorder.CleanReportActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/YTheme" />
+        <!-- 清洁报告 -->
+        
+        <!-- 专项考核-->
+        <activity
+            android:name=".client.activity.pxkhsj.DoPxkhsjListActivity"
+            android:screenOrientation="portrait"/>
+        
+        <!-- 专项考核 试卷-->
+        <activity
+            android:name=".client.activity.pxkhsj.DoPxkhSjActivity"
+            android:screenOrientation="portrait" />
+        
+        
+        <activity
+            android:name=".client.activity.logisticmonitor.report.OtherTaskReportListActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.OtherTaskActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.LogisticTaskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/YTheme" />
+        <activity
+            android:name=".client.activity.logisticmonitor.WriteLogisticTaskActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.WriteOtherTaskActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.OtherTaskSearchActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.UploadPhotosActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.activity.logisticmonitor.WriteOtherTaskActivityTest"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+
+        
+
+        <!-- 图片选择 -->
+        <activity
+            android:name=".client.photo.activity.AlbumActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.photo.activity.TestAlbumActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.photo.activity.GalleryActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.photo.activity.ImageFile"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.photo.activity.ShowAllPhoto"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        <activity
+            android:name=".client.photo.activity.PhotoMainActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/>
+        
+                
+		<!-- <activity
+            android:name=".client.activity.workorder.FeeChooserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/YTheme" /> -->
+            
+       <!--  <activity
+            android:name=".client.activity.workorder.RapairReportWebViewActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@style/YTheme"/> -->
+        
+        
+        <!-- 自定义服务（上传经纬度、验证登录、重新登录） -->
+        <service android:name="com.kingteller.client.service.KingTellerService"></service>
+        
+        <!-- 进程服务
+ 		<service android:enabled="true" android:name="com.kingteller.client.service.KingTellerPushService"  android:process=":push"></service>
+    	-->
+    	
+        <!-- 网络错误定义消息receiver声明 -->
+        <receiver android:name=".client.recever.KingTellerBroadCastRecever" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.kingteller.client.recever.KingTellerBroadCastRecever.netErrorAction" />
+                <action android:name="com.kingteller.client.recever.KingTellerBroadCastRecever.authErrorAction" />
+                <action android:name="com.kingteller.client.recever.KingTellerBroadCastRecever.dataErrorAction" />
+                <action android:name="com.kingteller.client.recever.KingTellerBroadCastRecever.OpenMainActivityAction" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 短信广播事件 -->
+        <receiver android:name=".client.recever.SMSBroadcaster" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 高德地图appkey 调试 ：f49e592c000d98696e07b8bd8452f028 发布：143d8ccd06405489a1500559caa3bd07   -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="143d8ccd06405489a1500559caa3bd07" />
+
+        <!-- jpush推送 -->
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.kingteller" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.kingteller" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name=".client.recever.JPushReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <category android:name="com.kingteller" />
+            </intent-filter>
+        </receiver>
+ 
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="cd2821ac7aa22ea5c92991b0" />
+    </application>
+
+</manifest>

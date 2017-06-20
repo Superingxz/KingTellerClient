@@ -1,0 +1,194 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>项目管理销单-销单管理页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+ 
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href="../../js/bootstrap3/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../js/iscroll/css/iscroll-load-data.css">
+<script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+<script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+<script src="../../js/iscroll/lib/require.js"></script>
+<script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+ <script>
+	require([ '../../js/iscroll/common'], function(commonaaa) {
+
+		require([ 'xdlist.js' ]);
+	});
+	</script>
+
+<style type="text/css" media="all">
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.zz_div{
+	 z-index:99999;  
+	 filter:alpha(opacity=60);
+	  -moz-opacity:0.6;  
+      -khtml-opacity: 0.6;  
+      background:#ffffff;
+      opacity: 0.6;  
+	 width: 100%;height: 100%; 
+	 display: block;  position: absolute;
+	 text-align: center;
+	 }	
+body {
+	font-size: 12px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+}
+
+.btn[disabled]{
+	color:#ccc;
+	opacity:1;
+}
+</style>
+
+
+</head>
+<body>
+ <div class="zz_div" id="loadingDiv"  tabindex="-1"  >
+		<img src="../../img/loading3.gif" style="position: absolute;top: 45%;left:45%;"/> </div>
+		
+<div class="btn-group btn-group-justified" id="tabDiv"
+		style="z-index: 99; border-bottom: 1px solid;  height:25px;clear:both; " >
+	<input type="text" class="form-control" style="width:100%" id="jqno" placeholder="机器编号" />
+ 	<a type="button" class="btn btn-default" style="border: 1;width:20%" id="serBtn">搜索</a>
+	<a type="button" class="btn btn-default" data-toggle="modal" data-target="#seartab" style="border-top: 0;border-bottom:0;width:10%;margin-right:0px" ><span class="glyphicon glyphicon-search"></span></a>
+</div>
+
+<div class="btn-group btn-group-justified"  id="tabDiv"
+		style="z-index: 99; border-bottom: 1px solid;  height:25px;clear:both; " >
+		<a type="button" class="btn btn-default" id="toDoBtn" onclick='startHandle()' style="border-top: 0;border-bottom:0;" >开始销单</a>
+		<a type="button" id="doingBtn"  class="btn btn-default" onclick='pauseHandle()' data-toggle="modal" data-target="#myModal" style="border-top: 0;border-bottom:0; " >无需销单</a>
+		<a type="button" class="btn btn-default" onclick="endHandle()"  data-toggle="modal" data-target="#myModal" style="border-top: 0;border-bottom:0;" id="doneBtn">完成销单</a>
+</div>
+
+<div class="btn-group btn-group-justified" id="tabDiv"
+		style="z-index: 99; border-bottom: 1px solid;  height:0px;clear:both; " >
+			<div style="Opacity:0.7;filter:alpha(opacity=70);position:fixed; bottom:0; left:0;width:100%;height:40px;background-color:black;color:#fff;text-align: center;cursor: pointer;font-size: 20px;padding-top:5px" onclick="history.go(-1);">返&nbsp;&nbsp;回</div>
+</div>
+<div style="display: none" id="template"></div>
+	
+	<!-- Modal -->
+<div class="modal fade" id="seartab" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+       <form class="form-horizontal" role="form">
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">销单人</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="xdr" id="xdr" placeholder="">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">机器编号</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="jqbh" id="jqbh" placeholder="">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">服务站</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="fwz" id="fwz" placeholder="">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">网点设备简称</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="wdsbjc" id="wdsbjc" placeholder="">
+		    </div>
+		  </div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="searchCond()">搜索</button>
+        <button type="button" class="btn btn-default" id="cz" onclick="cz()" >重置</button>
+        <button type="button" class="btn btn-default" id="gb" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" style="height:100%" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	   <div class="modal-content">
+	      <div class="modal-body">
+	         <form role="form"  id="form" >
+	          <div class="form-group">
+	          	<table id="testtab" class="table table-condensed">
+	          	</table>
+	          </div>
+			  <div class="form-group">
+			   <table class="table table-condensed">
+					<tr>
+						<td>备<br/>注：</td>
+						<td >
+							<textarea id="reportRemark" name="remark" class="form-control" rows="3" ></textarea>
+							<input type="hidden" id="loginuser" value=""/>
+							<input type="hidden" id="dlr" value=""/>
+							<input id="testsize" type="hidden" value="" name="testsize"/>
+							<input type="hidden" id="hideid" name="id"/>
+							<input type="hidden" id="orderid" name="orderid"/>
+							<input type="hidden" id="reportstatus" name="status"/>
+							<input type="hidden" id="dostatus"/>
+							<input type="hidden" id="initorderid"/>
+							<input type="hidden" id="xd"/>
+						</td>
+					</tr>
+				</table>
+			  </div>
+			  <div id="yjpz" class="form-group" style="margin-bottom:1px"></div>
+			  <div id="rjpz" class="form-group" style="margin-bottom:1px"></div>
+			  <div id="csnr" class="form-group" style="margin-bottom:1px"></div>
+			  
+			  <div class="form-group" >
+			    <table class="table table-condensed" id="tblTable">
+					<tr >
+						<td >费用类型</td>
+						<td >交通工具</td>
+						<td >金额</td>
+						<td >路线</td>
+						<td >操作
+						<span class="glyphicon glyphicon-plus" onClick="addLine(this)"></span>
+						</td>
+					</tr>
+				</table>
+			  </div>
+			 <div class="controls">
+			  <button type="button" class="btn btn-primary" onclick="submitReport()" id="ok">提交报告</button>
+	          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+			  </div>
+			</form>     
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="wrapper" style="margin-top:25px;">
+		<div class="scroller">
+			<div id="scroller-pullDown"  align="center">
+				<span class="pullDownLabel">下拉刷新...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp" align="center">
+				<span class="pullUpLabel">上翻更多...</span>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

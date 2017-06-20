@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\release\\xml\\mimetypes.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\xml\\mimetypes.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\xml\\preferences.xml"
+    }
+]

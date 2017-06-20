@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/common_title_main_bar" />
+    
+    <EditText
+        android:id="@+id/feedback_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_layout_text_two_bg"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/feedback_hint"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_baocun"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_btn_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_green_bg"
+        android:minHeight="@null"
+        android:minWidth="@null"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

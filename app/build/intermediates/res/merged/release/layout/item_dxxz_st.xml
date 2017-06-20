@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/common_layout_height"
+    android:background="@color/bg"
+    android:paddingTop="@dimen/common_padding" >
+
+    <TextView
+        android:id="@+id/choiceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton"
+        android:layout_alignBottom="@+id/radioButton"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_text_14"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/radioButton"
+        style="@style/common_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_padding"
+        android:checked="false" />
+
+    <TextView
+        android:id="@+id/choiceItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton"
+        android:layout_alignBottom="@+id/radioButton"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_padding"
+        android:layout_toRightOf="@+id/radioButton"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_text_14" />
+
+</RelativeLayout>

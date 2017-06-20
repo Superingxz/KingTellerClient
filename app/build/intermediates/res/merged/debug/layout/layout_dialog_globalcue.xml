@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg" >
+
+    <TextView
+        android:id="@+id/qjts_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="机器信息"
+        android:textColor="#61AEDC"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view01"
+        android:layout_below="@+id/qjts_title" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/qjts_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#383838"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/lineralayout01"
+        android:background="#DCDCDC" />
+
+    <LinearLayout
+        android:id="@+id/lineralayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btn_qjts_copy"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="复制错误"
+            android:textColor="#8a000000"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC" />
+	  	
+        <Button
+            android:id="@+id/btn_qjts_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="关闭程序"
+            android:textColor="#8a000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

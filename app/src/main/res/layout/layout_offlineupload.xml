@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_main_bar" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ECEFF0" >
+
+        <ListView
+            android:id="@+id/offlineupload_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:footerDividersEnabled="false"
+		    android:listSelector="#00000000" >
+        </ListView>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/offlineupload_btn_delete"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/offlineupload_btn_selectall"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="全选"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/offlineupload_btn_up"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="上传"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

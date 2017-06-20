@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_select_setting"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/goodrs_delivery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/relativelayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/work_order_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="出库单号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_deliveryoddnumbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/work_order_no"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_processstate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/machineId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="发货仓库："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_deliverywarehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/machineId"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_lb_wlzs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#008B00"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/taskId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="单据类型："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_documenttype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/taskId"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_lb_mtms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout3"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/assignManText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="制单人员："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_singlename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/assignManText"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_singletime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativelayout2"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="收货仓库："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_receivingwarehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView01"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/fh_lb_ytms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#4169E1"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/relativelayout4"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_receipt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="收货单号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_receiptoddnumbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView13"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_wlzs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#EE7600"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout05"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="发货仓库："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_deliverywarehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView04"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_tmzs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#008B00"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout02"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="发货人员："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_relivergoodsname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView08"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_singletime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout06"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="收货仓库："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_receivingwarehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView12"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/sh_wyztms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout04"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_guaranteen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="报修单号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/bx_guaranteennumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView09"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/bx_guaranteendzt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="已扫描"
+                    android:textColor="#008B00"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout07"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout03"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="报修仓位："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/bx_guaranteenwarehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView14"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout09"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout07"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="报修人员："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/bx_guaranteengoodsname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView05"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/bx_singletime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout09"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_servicestationinout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="登记单号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_servicenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView11"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_servicelczt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout11"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="登记仓位："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_servicehouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView03"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout08"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="登记人员："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_servicename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView15"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_singletime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout08"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout22"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout014"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout019"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="登记出库物料"
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/TextView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/TextView02"
+                            android:text="总数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_serviceckzs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView18"
+                            android:layout_weight="2"
+                            android:textColor="#EE7600"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout110"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/RelativeLayout019"
+                        android:layout_marginTop="@dimen/common_margin" >
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="登记入库物料"
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/TextView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/TextView10"
+                            android:text="总数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_servicerkzs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView17"
+                            android:layout_weight="2"
+                            android:textColor="#EE7600"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/RelativeLayout014" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" >
+
+                        <TextView
+                            android:id="@+id/TextView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="已扫描数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_servicecktmzs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView22"
+                            android:layout_weight="2"
+                            android:textColor="#008B00"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RelativeLayout12"
+                        android:layout_marginTop="@dimen/common_margin" >
+
+                        <TextView
+                            android:id="@+id/TextView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="已扫描数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_servicerktmzs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView16"
+                            android:layout_weight="2"
+                            android:textColor="#008B00"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/RelativeLayout20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/RelativeLayout015" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" >
+
+                        <TextView
+                            android:id="@+id/TextView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="无条码数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_serviceckwtms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView23"
+                            android:layout_weight="2"
+                            android:textColor="#FF0000"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RelativeLayout19"
+                        android:layout_marginTop="@dimen/common_margin" >
+
+                        <TextView
+                            android:id="@+id/TextView26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_margin"
+                            android:text="无条码数："
+                            android:textColor="@color/text_666666"
+                            android:textSize="@dimen/common_text_small" />
+
+                        <TextView
+                            android:id="@+id/dj_servicerkwtms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/TextView26"
+                            android:layout_weight="2"
+                            android:textColor="#FF0000"
+                            android:textSize="@dimen/common_text_small" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout10"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="出库性质："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_serviceckxz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView28"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout21"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="入库性质："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/dj_servicerkxz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView31"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout01"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_dotmachine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="网点机器名称："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/wdjq_mc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView20"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/TextView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout14"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="网点机器编码："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/wdjq_bm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView35"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout15"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="机器所属仓位："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/wdjq_sscw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView07"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/TextView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout17"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="网点机器条码："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/wdjq_tm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView21"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/TextView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout16"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_dotmachine_offline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="离线设备录入："
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/offline_jqlr_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView24"
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout25"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="整机二维码："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_jqlr_zjewm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView38"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout23"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="机器编号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_jqlr_jqbh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView36"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout24"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="任务信息："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_jqlr_rwxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView30"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout26"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="缓存时间："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_jqlr_hcsj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView37"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout27"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goodrs_dotmachine_replace_offline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="离线部件更换扫描："
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/offline_bjghsm_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView40"
+                    android:textColor="@color/common_right_edittext_textcolor"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout31"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="工单单号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_bjghsm_gddh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView43"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout28"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TextView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="机器编号："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_bjghsm_jqbh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView34"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout29"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="任务信息："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_bjghsm_rwxx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView42"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout32"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout30"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin" >
+
+                <TextView
+                    android:id="@+id/TextView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:text="缓存时间："
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+
+                <TextView
+                    android:id="@+id/offline_bjghsm_hcsj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:layout_toRightOf="@+id/TextView44"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_small" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.6dp"
+                android:layout_below="@+id/RelativeLayout32"
+                android:layout_marginTop="5dp"
+                android:background="@color/divider_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

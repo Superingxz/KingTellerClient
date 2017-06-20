@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_btn" >
+
+        <LinearLayout
+            android:id="@+id/layout_form"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/common_padding"
+                android:layout_marginLeft="@dimen/common_margin" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/workDateRange1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+                aaron:fieldName="workDateRange1"
+                aaron:fieldText="发机"
+                aaron:fieldTitle="托运类型："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/workDateRange2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+                aaron:fieldName="workDateRange2"
+                aaron:fieldText="2014-06-06"
+                aaron:fieldTitle="托运日期："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/workDateRange3"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+                aaron:fieldName="workDateRange3"
+                aaron:fieldText="2014-06-06"
+                aaron:fieldTitle="提货时间："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/workDateRange4"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                android:layout_weight="1"
+                aaron:fieldName="workDateRange4"
+                aaron:fieldText="2014-06-06"
+                aaron:fieldTitle="到达时间："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="广东省广州市天河区棠东丰乐路52号"
+                aaron:fieldTitle="提货地点："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="是"
+                aaron:fieldTitle="是否转运："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/common_padding"
+                android:layout_marginLeft="@dimen/common_margin" />
+            
+            <!-- <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide3"
+                android:background="@color/blue" /> -->
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="TY20141010"
+                aaron:fieldTitle="托运单号："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="河南省鹤壁市浚县善堂镇贾村120号"
+                aaron:fieldTitle="配送地址1："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="靳永辉"
+                aaron:fieldTitle="联系人："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="13160881962"
+                aaron:fieldTitle="联系电话："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="100"
+                aaron:fieldTitle="数量："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="3"
+                aaron:fieldText="货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称货物名称"
+                aaron:fieldTitle="货物名称："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/common_padding"
+                android:layout_marginLeft="@dimen/common_margin" />
+            
+            <!-- <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide3"
+                android:background="@color/blue" /> -->
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="广州市天河区五山路248号1311室"
+                aaron:fieldTitle="转运单位："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="靳永辉"
+                aaron:fieldTitle="联系人："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="13160881962"
+                aaron:fieldTitle="联系电话："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="广州市天河区五山路248号1311室"
+                aaron:fieldTitle="转运单位地址："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/common_padding"
+                android:layout_marginLeft="@dimen/common_margin" />
+            
+        <!--     <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide3"
+                android:background="@color/blue" /> -->
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="129342934"
+                aaron:fieldTitle="使用车辆："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="张三     李四"
+                aaron:fieldTitle="随行人员："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="注意事项"
+                aaron:fieldTitle="注意事项："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide3"
+                android:background="@color/blue" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldText="新任务"
+                aaron:fieldTitle="当前动作："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                aaron:fieldLines="2"
+                aaron:fieldText="备注备注备注备注备注备注备注备注备注备注备注备注备注备注备注备注备注"
+                aaron:fieldTitle="备注："
+                aaron:fieldType="String"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/common_padding"
+                android:paddingLeft="@dimen/common_padding5"
+                android:paddingRight="@dimen/common_padding5"
+                android:paddingTop="@dimen/common_padding" />
+        </LinearLayout>
+    </com.kingteller.client.view.KingTellerScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认接收"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_sp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="返回任务清单"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="联系调度员"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

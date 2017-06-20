@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/search_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="请输入你的搜索条件"
+        android:textColor="#61AEDC"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/search_qr_shwl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货单号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_qr_shwl_shdh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入收货单号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/search_qr_fhwl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出库单号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_qr_fhwl_ckdh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入出库单号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/search_qr_bxwl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="报修单号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_qr_bxwl_bxdh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入报修单号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="物料状态："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_qr_bxwl_wlzt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择物料状态"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_qr_crkdj_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登记单号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_qr_crkdj_djdh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入物料出入库登记单号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_map_yg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户姓名："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_yg_yhxm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入用户姓名"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户账号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_yg_yhzh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入用户账号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属部门："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_yg_ssbm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属部门"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="选择日期："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_map_yg_cxrq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择日期"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="选择时间："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_map_yg_kssj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="开始时间"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_map_yg_jssj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="结束时间"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_map_fwz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属大区："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_fwz_ssdq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属银行"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属区域："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_fwz_ssqy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属服务站"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务站名："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_fwz_fwzm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入机器归属人"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_map_atm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机器编号："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_jqbh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入机器编号"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATM号码："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_atmhm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入ATM号码"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="机器类别："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_map_atm_jqlb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择单据类型"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属大区："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_ssdq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属大区"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属区域："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_ssqy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属区域"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属银行："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_ssyh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属银行"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属服务站："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_ssfwz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属服务站"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机器归属人："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_map_atm_jqgsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入机器归属人"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_kq_aduit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="单据类别："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_kq_aduit_djlb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择单据类型"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="开始日期："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_kq_aduit_ksrq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择开始日期"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="结束日期："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_kq_aduit_jsrq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/btn_text_select"
+                android:gravity="center"
+                android:text="请选择结束日期"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所属部门："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/search_kq_aduit_ssbm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_edittext_bg"
+                android:ems="10"
+                android:gravity="left|top"
+                android:hint="请输入所属部门"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@drawable/cursor_set_black"
+                android:textSize="14sp" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view01"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="#DCDCDC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_search_search"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="搜索"
+            android:textColor="#8a000000"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/btn_search_clear"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="清空"
+            android:textColor="#a0ff3f00"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/btn_search_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="#8a000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

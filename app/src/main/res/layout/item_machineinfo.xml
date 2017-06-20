@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/jqbh"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldEnabled="false"
+        aaron:fieldTitle="机器编号："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/atmh"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldEnabled="false"
+        aaron:fieldTitle="ATM号："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+</LinearLayout>

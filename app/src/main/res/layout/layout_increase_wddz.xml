@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/provence"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="provence"
+	            aaron:fieldRequested="true"
+	            aaron:fieldTitle="省份："
+	            aaron:fieldType="Dialog"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/city"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="city"
+	            aaron:fieldRequested="true"
+	            aaron:fieldTitle="地市："
+	            aaron:fieldType="Dialog"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/district"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="district"
+	            aaron:fieldRequested="true"
+	            aaron:fieldTitle="区县："
+	            aaron:fieldType="Dialog"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/town"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="town"
+	            aaron:fieldTitle="镇："
+	            aaron:fieldType="String"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/street"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="street"
+	            aaron:fieldTitle="街道："
+	            aaron:fieldType="String"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+	
+	        <com.kingteller.client.view.KingTellerEditText
+	            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	            android:id="@+id/houseNum"
+	            android:layout_width="fill_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            aaron:fieldName="houseNum"
+	            aaron:fieldTitle="门牌号："
+	            aaron:fieldType="String"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" />
+
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/layout_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="horizontal"
+	        android:padding="@dimen/common_padding5" >
+	
+	        <Button
+	            android:id="@+id/btn_save"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="保存"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

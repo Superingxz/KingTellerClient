@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_btn" >
+
+        <LinearLayout
+            android:id="@+id/layout_form"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/common_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="托运类型:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/tylx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:text="发机"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/common_padding"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="托运日期:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/tyrq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:text="2014-10-13"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/common_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="是否转运:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/sfzy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:paddingBottom="@dimen/common_padding"
+                        android:text="是"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="提货时间:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/thsj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:text="2014-10-13"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="到达时间:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/ddsj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:text="2014-10-13"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+            </LinearLayout>
+
+     <!--        <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提货地点:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/thdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:text=""
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout> -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_padding5"
+                android:background="#99ccff" />
+
+            <com.kingteller.client.view.ListViewForScrollView
+                android:id="@+id/listView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@null" >
+            </com.kingteller.client.view.ListViewForScrollView>
+
+            <LinearLayout
+                android:id="@+id/zymk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/common_padding5"
+                    android:background="#99ccff" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/common_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/common_padding"
+                        android:text="转运单位:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/zydw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:text="转运单位转运单位"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/navigation_item_divide"
+                    android:background="@color/navigation_item_divide" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/common_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="联系人:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/zylxr1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/zylxr2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/zylxr3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/navigation_item_divide"
+                    android:background="@color/navigation_item_divide" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/common_padding" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="联系电话:"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/common_text_15" />
+
+                        <Button
+                            android:id="@+id/zylxdh1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_padding5"
+                            android:background="@null"
+                            android:text="12345678910"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/common_text_15" />
+
+                        <Button
+                            android:id="@+id/zylxdh2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_line_height"
+                            android:background="@null"
+                            android:text="123456789112"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/common_text_15"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="联系电话:"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/common_text_15"
+                            android:visibility="invisible" />
+
+                        <Button
+                            android:id="@+id/zylxdh3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/common_padding5"
+                            android:background="@null"
+                            android:text="123456789113"
+                            android:textColor="@color/orange"
+                            android:textSize="@dimen/common_text_15" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/navigation_item_divide"
+                    android:background="@color/navigation_item_divide" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/common_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="转运单位地址:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/common_text_15" />
+
+                    <TextView
+                        android:id="@+id/zydwdz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding5"
+                        android:paddingBottom="@dimen/common_padding"
+                        android:text=""
+                        android:textColor="@color/text_666666"
+                        android:textSize="@dimen/common_text_15" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_padding5"
+                android:background="#99ccff" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/common_padding"
+                    android:text="使用车辆:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/sycl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="随车人员:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/scry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="注意事项:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/zysx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:paddingBottom="@dimen/common_padding"
+                    android:text=""
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/common_padding5"
+                android:background="#99ccff" />
+
+          <!--   <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/common_padding"
+                    android:text="当前动作:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/dqdz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:text="新任务"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/navigation_item_divide"
+                android:background="@color/navigation_item_divide" /> -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/common_text_15" />
+
+                <TextView
+                    android:id="@+id/bz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_padding5"
+                    android:paddingBottom="@dimen/common_padding"
+                    android:text="注意事项注意事项注意事项注意事项注意事项"
+                    android:textColor="@color/text_666666"
+                    android:textSize="@dimen/common_text_15" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.kingteller.client.view.KingTellerScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_padding5" >
+
+        <Button
+            android:id="@+id/btn_deal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认接收"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_dial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_orange_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="联系调度员"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

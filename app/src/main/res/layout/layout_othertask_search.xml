@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/othertask_condition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/swdhLike"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="swdhLike"
+            aaron:fieldTitle="事物单号："
+            aaron:fieldType="String"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.KingTellerEditText
+	        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	        android:id="@+id/rwdzt"
+	        android:layout_width="fill_parent"
+	        android:layout_height="@dimen/common_layout_height"
+	        aaron:fieldName="rwdzt"
+	        aaron:fieldTitle="任务状态："
+	        aaron:fieldType="Select"
+	        android:background="@color/white"
+	        android:paddingLeft="@dimen/common_padding5"
+	        android:paddingRight="@dimen/common_padding5" />
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/cjsjRange1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="cjsjRange1"
+            aaron:fieldTitle="开始日期："
+            aaron:fieldType="Date"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/cjsjRange2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="cjsjRange2"
+            aaron:fieldTitle="结束日期："
+            aaron:fieldType="Date"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+    </LinearLayout>
+    
+      <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <include layout="@layout/common_list_view" />
+
+</LinearLayout>

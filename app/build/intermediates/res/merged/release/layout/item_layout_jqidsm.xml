@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal">
+        	
+            <TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:padding="5dp"
+            	android:text="项目任务"
+            	android:textColor="@color/common_left_edittext_textcolor"
+            	android:textSize="@dimen/common_text_middle" />
+            
+            <TextView
+                android:id="@+id/xmcount"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginLeft="5dp"
+            	android:text="0"
+            	android:textColor="@color/common_mark_edittext_textcolor_red"
+            	android:textSize="@dimen/common_text_middle" />
+        </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:background="@drawable/btn_red_bg"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_green_bg"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/editgroup_item_delete" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_gravity="right"
+            android:background="@drawable/editgroup_item_add" />
+    </LinearLayout>
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/maintainpersonname"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldEnabled="false"
+        aaron:fieldTitle="维护工程师："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/expand1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="费用类型："
+        aaron:fieldType="Dialog"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/reportAccess"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="交通工具："
+        aaron:fieldType="Select"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/trafficefee"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="费用金额："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/arriveroute"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="乘车路线："
+        aaron:fieldType="String"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+</LinearLayout>

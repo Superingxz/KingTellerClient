@@ -1,0 +1,2018 @@
+[
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_color_button.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\change_color_button.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_top_tab.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_top_tab.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_main.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_overtimepeople.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_overtimepeople.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_zytxbg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_zytxbg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_float_waitdo.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_float_waitdo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hwxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_tydmkytj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_tydmkytj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskconsign_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_taskconsign_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pick_big_images.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pick_big_images.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_function.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_function.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_add_atm.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_group_add_atm.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_arrivejqidxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_arrivejqidxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_tydmk.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_tydmk.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_change_pic_big_images.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_change_pic_big_images.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_loading_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_folder.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_select_folder.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_video_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_video_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_gridview_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_gridview_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dopxkhsj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dopxkhsj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_color_edittext.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\change_color_edittext.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_clear_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_clear_report.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_bottom_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_bottom_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_workorder.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_workorder.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pic_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pic_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_singlechoice.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_singlechoice.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_textview_st.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_textview_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_capture.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_capture.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_worktype.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_worktype.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_overtime_form.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_overtime_form.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\group_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zy_hwxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_zy_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_task_nr1.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_task_nr1.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_data.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_data.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_service_workfloor.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_service_workfloor.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_welcome.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_welcome.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\st_group_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\st_group_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datetime_picker_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\datetime_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edittext_st.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_edittext_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_taskconsign_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_taskconsign_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_dotmachine_replace_cargoscan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_dotmachine_replace_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jqidxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jqidxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_clear_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_clear_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_dd.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_dd.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_common_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\group_common_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_top_tab.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_top_tab.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dxxz_st.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_dxxz_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mypxkhsjlist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_mypxkhsjlist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_tree_child.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_service_tree_child.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_sendorder_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_sendorder_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_othertasklist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_othertasklist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_aduit_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_aduit_report.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\date_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_color_button.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\change_color_button.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zy_hwxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_zy_hwxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_write_logistic.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_write_logistic.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_offlineupload.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_offlineupload.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_upload_photos.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_upload_photos.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_historical.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_historical.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_jtgj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_jtgj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_video_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_video_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_waitdo.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_waitdo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_color_edittext.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\change_color_edittext.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hwxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_wdpd_title_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_wdpd_title_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_normalprogress_dialog.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_normalprogress_dialog.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_whry.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_whry.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dxxz_st.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_dxxz_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_attendance_audit_djxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_attendance_audit_djxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_select_wddz_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_common_select_wddz_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_show_all_photo.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_show_all_photo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_service_cargoscan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_service_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pick_or_take_image.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pick_or_take_image.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workorder.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_workorder.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_file_desc.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_file_desc.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tracebackto_show.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tracebackto_show.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_deliveryreceipt_qrcode.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_deliveryreceipt_qrcode.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_dd.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_dd.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\fragment_tab.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jjr.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jjr.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_task.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_task.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_list_view_gtgj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_list_view_gtgj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_ytjtxbg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_ytjtxbg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_aduit.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_aduit.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_twolevellist_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_twolevellist_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_zoom_image.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_widget_zoom_image.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_knowledge.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_knowledge.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\time_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_upload_progress.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_upload_progress.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_address.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\select_address.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_dd.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_dd.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_write_othertasklist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_write_othertasklist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_workattendan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_workattendan.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_main.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tree_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tree_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nzy_hwxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_nzy_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_searchgeneral.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_searchgeneral.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_servicestation_location.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_servicestation_location.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_write_logistic.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_write_logistic.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_toolbar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_toolbar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_noticelist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_noticelist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_aduitgeneral.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_aduitgeneral.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_nzytxbg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_nzytxbg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_choice.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_choice.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\atmsearchcondition_dialog.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\atmsearchcondition_dialog.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_qc.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_qc.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_search_personnel.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_search_personnel.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_select_wddz_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_common_select_wddz_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_search_personnel.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_search_personnel.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_sblr_data.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_sblr_data.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_main_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_main_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_feedback.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_feedback.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_singlechoice.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_singlechoice.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atm_add.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atm_add.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_downloadapp.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_downloadapp.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_overtimepeople_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\group_overtimepeople_list_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_aduit.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_aduit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mxxz_st.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_mxxz_st.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_report_checkout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_item_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\pop_item_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_atmcode.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_atmcode.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_zytxbg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_zytxbg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kingteller_edittext.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\kingteller_edittext.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_task_nr.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_task_nr.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_workattendan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_workattendan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button_panel.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button_panel.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_overtimepeople.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_overtimepeople.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_main.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_file.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_file.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_marker_infowindow.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\custom_marker_infowindow.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_complete.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_complete.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_video_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_video_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_aduit_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_aduit_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_foot_mapbar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_foot_mapbar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_machine_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_machine_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_file_desc.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_file_desc.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_overtimepeople_history.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_overtimepeople_history.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kingteller_textview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\kingteller_textview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pic_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pic_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_attendance_audit_ldyj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_attendance_audit_ldyj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_overtime_form.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_overtime_form.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_deliverymaterial.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_deliverymaterial.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tab_btn.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\custom_tab_btn.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_more.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_more.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_twolevellist_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_twolevellist_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_assign_worker_name.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_assign_worker_name.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_overtimepeople_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\group_overtimepeople_list_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atm_upload.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atm_upload.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_map_address.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_select_map_address.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_qrcode_input.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_qrcode_input.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_twolevel_two_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_twolevel_two_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_rpfee.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_rpfee.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_baseweb.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_baseweb.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_task_write.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_task_write.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tree_chooser.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_tree_chooser.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_function.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_function.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_folder.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_select_folder.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_pic.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_pic.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_trace_backto.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_trace_backto.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_qr_masg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_search_qr_masg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tkt_st.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tkt_st.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_file.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_file.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_shortanswer.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_shortanswer.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fuction.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_fuction.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_general.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_general.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_servicestation_location.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_servicestation_location.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_select.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_select.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tab.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\fragment_tab.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_map_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_map_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_swiperefresh_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_swiperefresh_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workorder_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_workorder_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_function_listview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_function_listview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_sendorder_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_sendorder_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atmquery.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atmquery.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fuction.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_fuction.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_dotmachine_cargoscan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_dotmachine_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_pic.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_pic.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_othertask_order.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_othertask_order.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_rpfee.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_rpfee.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_nzytxbg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_nzytxbg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_wcwh.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_wcwh.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workorder.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_workorder.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_barcodeedit.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_barcodeedit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_navline.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_navline.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_offline_qrbarcode_cargosacan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_offline_qrbarcode_cargosacan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_autocomplete.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_autocomplete.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_gridview_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_gridview_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_map_address.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_select_map_address.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_reportedit.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_reportedit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_main.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_othertask_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_othertask_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tab_btn.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\custom_tab_btn.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_alllist_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_alllist_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_upload_progress.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_upload_progress.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_report_checkout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_audit_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_audit_report.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_noticelist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_noticelist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_uploadfileandpicture.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_uploadfileandpicture.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_othertask_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_othertask_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_send_order_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_send_order_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_uploadfileandpicture.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_uploadfileandpicture.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_main_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_main_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edittext.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_edittext.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_custom.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_custom.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_select_address.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_select_address.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_album.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_album.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_work_catalog.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_work_catalog.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_main.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_main.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_selectpic_pic_up_image.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_selectpic_pic_up_image.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jqxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_jqxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_general.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_general.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_trace_backto_show.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_trace_backto_show.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_twolevel_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_twolevel_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_textview_st.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_textview_st.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atm_add.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atm_add.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_gzbj_data.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_gzbj_data.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_atmcode.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_atmcode.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_barcodeedit.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_barcodeedit.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_service_cargoscan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_service_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_othertasklist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_othertasklist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_upload_photos.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_upload_photos.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\date_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_imageall.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_select_imageall.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\st_group_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\st_group_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edittext_st.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_edittext_st.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_wcwh.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_wcwh.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_twolevel_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_twolevel_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_select_data_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_common_select_data_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_tydmkytj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_tydmkytj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_logistic_tyd.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_logistic_tyd.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_main.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_main.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_othertask_cost.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_othertask_cost.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_list_view_gtgj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_list_view_gtgj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_servicestationquery.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_servicestationquery.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_aboutus.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_aboutus.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_fhqc.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_fhqc.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_stafflocus.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_stafflocus.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_oa_people.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_search_oa_people.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loadingobj_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_loadingobj_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_othertask_cost.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_othertask_cost.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_video_catalog.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_video_catalog.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistics_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistics_report.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_wcwh.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_wcwh.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sendorder.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_sendorder.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_all_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_all_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dotmachine_cargosacan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_dotmachine_cargosacan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tree_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tree_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_map_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_map_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_dotmachine_cargoscan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_dotmachine_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistics_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistics_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_arrivexc.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_arrivexc.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pick_big_images.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pick_big_images.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_machineinformation.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_machineinformation.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_fee.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_fee.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pick_or_take_image.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_pick_or_take_image.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_increase_wddz.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_increase_wddz.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_sdyz.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_sdyz.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_workorder_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_workorder_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_selectpic_gird.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_selectpic_gird.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_xmworktype.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_xmworktype.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atmquery.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atmquery.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_loginsetup.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_loginsetup.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_ytjtxbg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_ytjtxbg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_widget_zoom_image.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_widget_zoom_image.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_aduit_batch.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_aduit_batch.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_file_chooser.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_file_chooser.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tasklist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tasklist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_report_audit.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_report_audit.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_fee.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_fee.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_audit_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_audit_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_custom.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_custom.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_atm_upload.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_atm_upload.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_assign_worker_name.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_assign_worker_name.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_dialog.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\download_dialog.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button_separator.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button_separator.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_error_code_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_error_code_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_write_othertasklist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_write_othertasklist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_album.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_album.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_cargoscan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_window.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_float_window.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_report_audit.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_report_audit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_foot_mapbar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_foot_mapbar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_select_gzms.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_select_gzms.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_backworkorder.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_backworkorder.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_fhqc.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_fhqc.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_work_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_work_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\time_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_servicestationquery.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_servicestationquery.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_gallery.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_capture_show.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_capture_show.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button_panel.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button_panel.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_qrcode_input.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_qrcode_input.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_common_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\group_common_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_increase_wddz.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_increase_wddz.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_task_write.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_task_write.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_tydmk.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_tydmk.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datetime_picker_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\datetime_picker_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_report.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_report.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ytj_hwxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_ytj_hwxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_oa_people.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_search_oa_people.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mypxkhsjlist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_mypxkhsjlist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_othertask_order.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_othertask_order.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_message.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_message.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sendorder.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_sendorder.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_image_file.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_image_file.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_title.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_title.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_dialog.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\download_dialog.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_bj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_bj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_file_chooser.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_file_chooser.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_dotmachine_replace_cargoscan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_dotmachine_replace_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistics_report_checkout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistics_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_baseweb.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_baseweb.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_service_workfloor.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_service_workfloor.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_all_list_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_all_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jqid.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jqid.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_item_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\pop_item_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_aboutus.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_aboutus.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_arrivexc.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_arrivexc.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_deliveryreceipt_qrcode.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_deliveryreceipt_qrcode.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_jqidsm.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_jqidsm.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_machine_choose.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_machine_choose.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_sblr_data.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_sblr_data.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_machineinformation.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_machineinformation.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_send_order.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_send_order.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_change_pic_big_images.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_change_pic_big_images.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_more.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_more.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_machine_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_machine_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_select_imageall.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_select_imageall.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_whry.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_whry.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_gallery.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_xmworktype.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_xmworktype.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_map_main.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_map_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_offlineupload_data.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_offlineupload_data.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_atm_upload.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_atm_upload.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_imageview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_select_imageview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_title.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_title.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_function_gridview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_function_gridview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_no_image_file.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_no_image_file.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_overtimepeople_history.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_overtimepeople_history.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ytj_hwxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_ytj_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_input.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_input.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_capture_show.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_capture_show.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_send_order_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_send_order_list.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_jqidsm.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_jqidsm.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_bottom_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_bottom_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tree_chooser.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_tree_chooser.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_normalprogress_dialog.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_normalprogress_dialog.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_searchgeneral.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_searchgeneral.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_waitdo.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_waitdo.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu_pic.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\popmenu_pic.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_send_order.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_send_order.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_noticelist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_noticelist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_task.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_task.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_selectpic_gird.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_selectpic_gird.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_map_main.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_map_main.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_trace_backto_show.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_trace_backto_show.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_atm_upload.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_atm_upload.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistic_order.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistic_order.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_capture.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_capture.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loadingobj_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_loadingobj_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_login.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_login.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_worktype.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_worktype.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistic_order.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistic_order.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_task_nr1.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_task_nr1.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_feedback.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_feedback.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_select_address.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_select_address.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notifacation_push.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_notifacation_push.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_attendance_audit_djxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_attendance_audit_djxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_aduit_batch.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_aduit_batch.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_show_all_photo.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_show_all_photo.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_error_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_error_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_video_list.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_video_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_notifacation_push.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_notifacation_push.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_function_listview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_function_listview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_webview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_webview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_choice.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_choice.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_error_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_error_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jqidxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jqidxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_report.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_report.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_imageview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_select_imageview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_knowledge.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_knowledge.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_task_nr.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_task_nr.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_message.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_message.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_twolevel_two_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_twolevel_two_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_error_code_search.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_error_code_search.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button_separator.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button_separator.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_qr_masg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_search_qr_masg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_no_image_file.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_no_image_file.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_work_catalog.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_work_catalog.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_bj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_bj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_reportedit.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_reportedit.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_waitdo.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_waitdo.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_noticelist.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_noticelist.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_deliverymaterial.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_deliverymaterial.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setline.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_setline.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_cargoscan.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_cargoscan.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_navline.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_navline.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_aduitgeneral.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_aduitgeneral.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dopxkhsj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dopxkhsj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_selectpic_album_directory.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_selectpic_album_directory.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_tree_child.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_service_tree_child.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_offlineupload_data.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_offlineupload_data.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_waitdo.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_waitdo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\group_list_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jqxx.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_jqxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_float_waitdo.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_float_waitdo.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_downloadapp.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_downloadapp.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_data.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_data.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_image_file.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\plugin_camera_image_file.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edittext.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_edittext.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_gzbj_data.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_gzbj_data.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\atmsearchcondition_dialog.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\atmsearchcondition_dialog.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_delivery_qrcode_smjl.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_delivery_qrcode_smjl.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectimg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\activity_selectimg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_jtgj.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_jtgj.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_machineinfo.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_machineinfo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_selectpic_pic_up_image.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_selectpic_pic_up_image.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_selectpic_album_directory.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_selectpic_album_directory.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_input.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_input.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_alllist_view.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_alllist_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jqid.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jqid.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_logistics_report_checkout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_logistics_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dotmachine_cargosacan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_dotmachine_cargosacan.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nzy_hwxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_nzy_hwxx.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tasklist.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tasklist.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_qc.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_qc.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_tree_group.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_service_tree_group.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_repair_report_checkout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_repair_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_globalcue.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_globalcue.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_add_atm.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_group_add_atm.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_offlineupload.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_offlineupload.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_toolbar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_toolbar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_attendance_audit_ldyj.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_attendance_audit_ldyj.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_workorder.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_workorder.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_list_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_list_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_backworkorder.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_backworkorder.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_globalcue.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_globalcue.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_select_gzms.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_select_gzms.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_welcome.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_welcome.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu_pic.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\popmenu_pic.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kingteller_edittext.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\kingteller_edittext.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_marker_infowindow.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\custom_marker_infowindow.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_stafflocus.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_stafflocus.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_assign_worker.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_assign_worker.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_online_video_catalog.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_online_video_catalog.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_wdpd_title_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\common_wdpd_title_bar.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_work_list.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_work_list.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_wddz.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_wddz.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_select_data_search.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_common_select_data_search.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tkt_st.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tkt_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_tree_group.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_service_tree_group.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_select_wddz.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_common_select_wddz.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_jjr.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_jjr.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_part_button.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\dialog_part_button.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kingteller_textview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\kingteller_textview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setline.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_setline.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mxxz_st.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_mxxz_st.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_loading_view.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_arrivejqidxx.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_arrivejqidxx.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_complete.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_complete.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectimg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\activity_selectimg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_offline_qrbarcode_cargosacan.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_offline_qrbarcode_cargosacan.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_qrcode_trace_backto.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_qrcode_trace_backto.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_webview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_webview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_assign_worker.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_assign_worker.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_dd.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_dd.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_function_gridview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_function_gridview.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_layout_sdyz.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_layout_sdyz.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_logistic_tyd.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_logistic_tyd.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_machineinfo.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_machineinfo.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_swiperefresh_view.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\common_swiperefresh_view.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_other_report_checkout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_other_report_checkout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_wcwh.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_wcwh.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_delivery_qrcode_smjl.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_delivery_qrcode_smjl.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_shortanswer.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_add_shortanswer.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_float_window.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_float_window.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_loginsetup.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_dialog_loginsetup.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_autocomplete.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_autocomplete.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_work_attendance_historical.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_work_attendance_historical.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tracebackto_show.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\layout\\item_tracebackto_show.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_machine_choose.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\layout_machine_choose.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_select.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\item_select.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_address.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\layout\\select_address.xml"
+    }
+]

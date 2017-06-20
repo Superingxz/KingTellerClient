@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	    <LinearLayout
+	        android:id="@+id/wdjq_hand"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/sdl_background"
+	        android:orientation="vertical" >
+	
+	        <RelativeLayout
+	            android:id="@+id/wdjq_hand_1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="@dimen/common_margin" >
+	
+	            <TextView
+	                android:id="@+id/wdjq_ssfwz"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:text="所属服务站："
+	                android:textColor="@color/text_666666"
+	                android:textSize="@dimen/common_text_14" />
+	        </RelativeLayout>
+	
+	        <RelativeLayout
+	            android:id="@+id/wdjq_hand_2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/common_margin"
+	            android:layout_marginRight="@dimen/common_margin" >
+	
+	            <TextView
+	                android:id="@+id/TextView02"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:layout_centerVertical="true"
+	                android:text="机器编码："
+	                android:textColor="@color/text_666666"
+	                android:textSize="@dimen/common_text_14" />
+	
+	            <EditText
+	                android:id="@+id/wdjq_jqbm"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_centerVertical="true"
+	                android:layout_toLeftOf="@+id/wdjq_select_jqbm"
+	                android:layout_toRightOf="@+id/TextView02"
+	                android:background="@null"
+	                android:hint="请输入机器编码"
+	                android:textColor="@color/text_666666"
+	                android:textSize="@dimen/common_text_14" />
+	
+	            <TextView
+	                android:id="@+id/wdjq_select_jqbm"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:paddingBottom="5dp"
+	                android:paddingLeft="5dp"
+	                android:paddingRight="5dp"
+	                android:paddingTop="5dp"
+	                android:text="搜索"
+	                android:textColor="#4169E1"
+	                android:textSize="16sp" />
+	
+	        </RelativeLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            android:paddingLeft="@dimen/common_padding5"
+	            android:paddingRight="@dimen/common_padding5" >
+	
+	            <Button
+	                android:id="@+id/ewm_opencame"
+	                android:layout_width="match_parent"
+	                android:layout_height="@dimen/common_btn_height"
+	                android:layout_gravity="center"
+	                android:layout_weight="1"
+	                android:background="@drawable/btn_red_bg"
+	                android:minHeight="@null"
+	                android:minWidth="@null"
+	                android:text="开始扫描"
+	                android:textColor="@color/white"
+	                android:textSize="14sp" />
+
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	
+	    <ListView
+	        android:id="@+id/wdjq_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/wdjq_tool"
+	        android:layout_below="@+id/wdjq_hand"
+	        android:background="@drawable/sdl_background"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:divider="@android:color/transparent"
+	        android:dividerHeight="@dimen/navigation_item_divide"
+	        android:drawSelectorOnTop="false"
+	        android:focusable="true" >
+	
+	    </ListView>
+	
+	    <LinearLayout
+	        android:id="@+id/wdjq_tool"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:padding="@dimen/common_padding5" >
+	
+	        <Button
+	            android:id="@+id/ewm_cancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginRight="@dimen/common_margin"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_orange_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="关闭"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	
+	        <Button
+	            android:id="@+id/ewm_preservation"
+	            android:layout_width="wrap_content"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginLeft="@dimen/common_margin"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="保存"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

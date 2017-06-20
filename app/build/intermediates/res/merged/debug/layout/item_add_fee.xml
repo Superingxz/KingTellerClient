@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_delete_layout"
+            android:minHeight="@null"
+            android:minWidth="@null" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_add_layout"
+            android:minHeight="@null"
+            android:minWidth="@null" />
+
+    </LinearLayout>
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/maintainpersonname"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldEnabled="false"
+        aaron:fieldTitle="维护工程师："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/expand1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="费用类型："
+        aaron:fieldType="Dialog"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.kingteller.client.view.KingTellerEditText
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/reportAccess"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_weight="1"
+            aaron:fieldTitle="交通工具："
+            aaron:fieldType="Dialog"
+            android:background="@drawable/btn_layout_off_bg"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/btn_reportAccess"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_layout_off_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="清除"
+            android:textColor="#FF0000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/trafficefee"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="费用金额："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/arriveroute"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldTitle="乘车路线："
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" />
+    
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/qzdd"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="起止地点:"
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" >
+    </com.kingteller.client.view.KingTellerEditText>
+    
+	<com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/jsdd"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="结束地点:"
+        aaron:fieldType="String"
+        android:background="@drawable/btn_layout_off_bg"
+        android:padding="5dp" >
+    </com.kingteller.client.view.KingTellerEditText>
+
+</LinearLayout>

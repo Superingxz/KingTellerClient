@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/editgroup_item_delete" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:background="@drawable/editgroup_item_add" />
+    </LinearLayout>
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/fylx"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldName="fylx"
+        aaron:fieldRequested="true"
+        aaron:fieldTitle="费用类型："
+        aaron:fieldType="Dialog"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/je"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_layout_height"
+        aaron:fieldRequested="true"
+        aaron:fieldName="je"
+        aaron:fieldTitle="费 用(元)："
+        aaron:fieldType="Number"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/common_padding5"
+        android:paddingRight="@dimen/common_padding5" />
+
+</LinearLayout>

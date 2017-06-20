@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- 用户设置 -->
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_marginTop="@dimen/common_margin"
+            aaron:fieldHint="派单来源"
+            aaron:fieldTitle="派单来源："
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_marginTop="@dimen/common_margin"
+            aaron:fieldHint="工号"
+            aaron:fieldTitle="工号："
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_marginTop="@dimen/common_margin"
+            aaron:fieldHint="姓名"
+            aaron:fieldTitle="姓名："
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_marginTop="@dimen/common_margin"
+            aaron:fieldTitle="工作日期开始："
+            aaron:fieldType="Date"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            android:layout_marginTop="@dimen/common_margin"
+            aaron:fieldTitle="工作日期结束："
+            aaron:fieldType="Date"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_listview_on_bg"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toLeftOf="@+id/checkBox"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/work_order_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工单单号:"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <TextView
+                android:id="@+id/orderNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/work_order_no"
+                android:text=""
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout1"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/machineId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机器信息:"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_left" />
+
+            <TextView
+                android:id="@+id/atmMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/machineId"
+                android:text=""
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout2"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/taskId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务信息:"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+
+            <TextView
+                android:id="@+id/taskInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/taskId"
+                android:text=""
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_item_text_size_right" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/assignManText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交人:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_item_text_size_left" />
+
+        <TextView
+            android:id="@+id/assignMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/assignManText"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_item_text_size_right" />
+
+        <TextView
+            android:id="@+id/assignTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_item_text_size_time" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/orderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/common_mark_edittext_textcolor_orange"
+        android:textSize="@dimen/common_item_text_size_mark" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/common_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="false" />
+
+</RelativeLayout>

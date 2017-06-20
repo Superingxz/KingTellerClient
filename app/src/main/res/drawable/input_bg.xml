@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 底部圆角 白色背景 灰色边框 长方体 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/white" />
+    <stroke
+        android:width="1px"
+        android:color="@color/comm_bk_input" />
+
+</shape>

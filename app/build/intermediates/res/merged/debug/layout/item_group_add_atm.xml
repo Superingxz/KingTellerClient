@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:paddingBottom="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:padding="5dp">
+            
+            <com.kingteller.client.view.image.allview.SelectPicGridView
+                android:id="@+id/layout_add_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toLeftOf="@+id/btn_delete" android:layout_weight="1" />
+            
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_delete_layout"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:layout_centerVertical="true" android:layout_toLeftOf="@+id/cb_select"
+                android:layout_alignParentRight="false"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cb_select" style="@style/common_checkbox_two"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" android:visibility="gone"/>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:id="@+id/group_add_atm_jqxx">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_bg"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <RadioGroup
+                    android:id="@+id/atmID"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/atmcodeID"
+                        style="@style/common_checkbox_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ATM机"
+                        android:textColor="@color/color_5"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/storterID"
+                        style="@style/common_checkbox_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="清分机"
+                        android:textColor="@color/color_5"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/color_bg"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="机器编号："
+                    android:textColor="@color/color_5"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sn_str"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="S/N"
+                    android:textColor="@color/color_5"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/atmcodeET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="left|center_vertical"
+                    android:padding="5dp" android:textColor="@color/color_5"/>
+
+                <Button
+                    android:id="@+id/btn_seach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:minHeight="@null"
+                    android:minWidth="@null"
+                    android:padding="5dp"
+                    android:text="搜索"
+                    android:textColor="@color/color_3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_bg"/>
+        <TextView
+            android:id="@+id/jqbhText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_3"
+            android:padding="5dp" android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

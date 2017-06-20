@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.knowledge/TR/html4/loose.dtd">
+<html>
+ <head>
+    <title>工单统计详细</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+	<link rel="stylesheet" href="../../js/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/iscroll/css/iscroll-load-data.css">
+    <script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+    <script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+    <script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+    <script src="workorderdetailstatistic.js"></script>
+   
+    
+    </head>
+    <style>
+	.zz_div{
+	 z-index:99999;  
+	 filter:alpha(opacity=60);
+	  -moz-opacity:0.6;  
+      -khtml-opacity: 0.6;  
+      background:#ffffff;
+      opacity: 0.6;  
+	 width: 100%;height: 100%; 
+	 display: block;  position: absolute;
+	 text-align: center;
+	 }	
+	footer{
+		margin-bottom:10px;
+		position:fixed;
+		border:1px solid black;
+		bottom:0px;
+	}
+	
+	.tdLabel{
+		background-color:#eee;
+		width:40%;
+		
+	}
+	.trLabel{
+		background-color:#eee;
+		 
+	}
+	
+	ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+
+</style>
+<BODY style="margin:10px;" onscroll="scroll()">
+
+	 <div class="zz_div" id="loadingDiv" tabindex="-1" >
+			<img src="../../img/loading3.gif" style="position: absolute;top: 45%;left:45%;"/> 
+	</div>
+
+	<div id="backbtn"  style="display: none;left: 0%;top:70%;position:fixed;z-index: 9999;" >
+		<img src="../../img/back.jpg" style="width: 20%;height: 10%;" onclick="javascript:history.back()"/>
+	</div>
+	
+	<div class="container" style="margin-bottom:20px">
+		<table class="table table-bordered">
+  		<thead>
+          <tr style="background-color:#CCCCCC;">
+            <th colspan='2' id="orderno"></th>
+           
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+            
+            <td style="width:30%;">项目主题</td>
+			<td id="content"></td>
+          </tr>
+          <tr>
+			<td >项目类型</td>
+            <td id="type"></td>
+            
+          </tr>
+		  
+		  <tr>
+			
+            <td>紧急程度</td>
+			<td id="emergency"></td>
+            
+          </tr>
+		  
+          <tr>
+            
+            <td>机器总数</td>
+          	<td id="gznum"></td>
+          </tr>
+		  
+		   <tr>
+            
+            <td>完成比例</td>
+          <td id="completepercent"></td>
+          </tr>
+		  
+		   <tr>
+            <td>计划开始时间</td>
+          <td id="planbegintimeStr"></td>
+          </tr>
+		   <tr>
+            <td>计划完成时间</td>
+			<td id="planendtimeStr"></td>
+
+          </tr>
+		   <tr>
+           <td>实际开始时间</td>
+		   <td id="xdbegintimeStr"></td>
+
+          </tr>
+		   <tr>
+           <td>实际完成时间</td>
+			<td id="xdendtimeStr"></td>
+
+          </tr>
+		   <tr>
+           <td>物料到货情况</td>
+			            <td id="wldhtime"></td>
+
+          
+          </tr>
+		    <tr>
+           <td>注意事项</td>
+			            <td id="remark"></td>
+
+          
+          </tr>
+		   <tr>
+           <td>总完成数 </td>
+			            <td id="completeNum"></td>
+
+          
+          </tr>
+		  
+		   <tr>
+           <td>其中无需完成数</td>
+			            <td id="needntCompleteNum"></td>
+          </tr>
+            
+            <tr style="background-color:#CCCCCC;" id="ssdq">
+            <th colspan="2" style="text-align:center;" >大区<span id="dqspan"></span></th>
+            </tr>
+            <tr style="background-color:#CCCCCC;" id="ssqy">
+            <th colspan="2" style="text-align:center;"  >区域<span id="qyspan"></span></th>
+            </tr>
+            <tr style="background-color:#CCCCCC;" id="ssbsc">
+            <th colspan="2" style="text-align:center;"  >服务站<span id="bscspan"></span></th>
+            </tr>
+        </tbody>
+</table>
+		</div>
+		<div style="Opacity:0.7;filter:alpha(opacity=70);position:fixed; bottom:0; left:0;width:100%;height:40px;background-color:black;color:#fff;text-align: center;cursor: pointer;font-size: 20px;padding-top:5px" onclick="history.go(-1);">返&nbsp;&nbsp;回</div>
+</BODY>
+</html>

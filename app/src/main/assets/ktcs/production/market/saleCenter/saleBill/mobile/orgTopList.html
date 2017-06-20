@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="saleBillMobile_common.js"></script>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1" />
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript">
+//选择这一行时，选中radio
+function selectThisRow(obj,id,name) {
+	var ra = $(obj).find("input[type=radio]");
+	
+	if(ra)
+		ra.prop("checked","checked");
+
+	//保存选择的这一行的值
+	$("#hiddenValue").val("{'orgTopId':'"+id+"','orgTopName':'"+name+"'}");
+}
+
+
+	function queryPage(pageNum) {
+		$("#form1")
+				.attr(
+						"action",
+						appContext+"/saleCenter/saleBill/bankList_salesMobile.action;jsessionid="+sessionId+"?pageNum="
+								+ pageNum);
+
+		$("#form1").submit();
+
+		$("#form1")
+				.attr("action",
+						appContext+"/saleCenter/saleBill/bankList_salesMobile.action;jsessionid="+sessionId);
+	}
+
+	//搜索
+	function search() {
+		if ($.trim($("#orgName").val()) != '') {
+			getTableData(
+					"myTable",
+					appContext+"/saleCenter/saleBill/orgTopList_salesMobile.action;jsessionid="+sessionId,
+					"orgName=" + $.trim($("#orgName").val()));
+		}
+	}
+
+	//生成table
+	function generateTable(tableId, url) {
+
+	}
+
+	//加载数据
+	function getTableData(tableId, url, param) {
+		$.ajax({
+			type : "post",//使用get方法访问后台
+			dataType : "jsonp",//返回json格式的数据
+			url : url,//要访问的后台地址
+			jsonp:"jsonpcallback",
+			data : param,//要发送的数据
+			complete : function() {
+				$("#load").hide();
+			},//AJAX请求完成时隐藏loading提示
+			success : function(msg) {//msg为返回的数据，在这里做数据绑定
+
+				var data = msg.rows;
+
+				//清空表格数据
+				$("#" + tableId + " tr:not(:first)").empty();
+
+				for ( var i = 0; i < data.length; i++) {
+					generateTr(data[i].orgId, data[i].orgName);
+				}
+			}
+		});
+	}
+
+	//生成表格行
+	function generateTr(id, name) {
+
+		var tr = $("<tr style='cursor: pointer;'></tr>");
+		tr.bind("click", function() {
+			selectThisRow(this, id, name);
+		})
+
+		var td1 = $("<td align='center'></td>");
+		var radioInput = $("<input type='radio' name='optionCheckbox' id='"+id+"' value='"+id+"'>");
+		radioInput.appendTo(td1);
+		td1.appendTo(tr);
+
+		var td2 = $("<td >" + name + "</td>");
+		td2.appendTo(tr);
+
+		tr.appendTo($("table"));
+
+	}
+
+	$(document)
+			.ready(
+					function() {
+
+						getTableData("myTable",
+								appContext+"/saleCenter/saleBill/orgTopList_salesMobile.action;jsessionid="+sessionId);
+
+					})
+</script>
+
+
+</head>
+<body style="height: 290px;">
+	<div class="input-append">
+			<input type="text" name="orgName"   > <input type="button"
+				class="btn" value="搜索" onclick="search()">
+		</div>
+
+	<input type="hidden" id="hiddenValue">
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>区域名称</th>
+		</tr>
+
+	</table>
+
+	 
+</body>
+</html>

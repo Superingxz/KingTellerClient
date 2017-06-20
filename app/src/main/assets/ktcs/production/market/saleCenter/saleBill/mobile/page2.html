@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<script src="../../../../../js/iscroll/lib/require.js"></script>
+<script>
+	require([ '../../../../../js/iscroll/common' ], function(common) {
+
+		require([ 'app/main2' ]);
+	});
+</script>
+
+<style type="text/css" media="all">
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+}
+
+.ddd {
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	z-index: 100;
+	line-height: 40px;
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: red;
+}
+</style>
+</head>
+<body>
+	<div class="ddd">标题</div>
+	<div id="wrapper"  >
+		<div class="scroller">
+			<div id="scroller-pullDown">
+				<span class="pullDownLabel">Pull down to refresh...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp">
+				<span class="pullUpLabel">Pull up to refresh...</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

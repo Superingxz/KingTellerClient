@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/line_top"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/toolbar_divide" />
+
+    <LinearLayout
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/toolbar_divide" />
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	    <LinearLayout
+	        android:id="@+id/linearLayout21"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn_layout_off_bg"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:id="@+id/LinearLayout25"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" >
+	
+	            <TextView
+	                android:id="@+id/TextView01"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:text="所属仓库："
+	                android:textColor="@color/black"
+	                android:textSize="16sp" />
+	
+	            <EditText
+	                android:id="@+id/ewm_fwz_edit"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:hint="请输入所属仓库"
+	                android:textColor="@color/black"
+	                android:textSize="16sp" />
+
+	            <Button
+	                android:id="@+id/ewm_search"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:background="@drawable/btn_search_grey"
+	                android:minHeight="@null"
+	                android:minWidth="@null" />
+
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/LinearLayout26"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            android:background="@drawable/btn_layout_off_bg"
+	            android:padding="5dp" >
+	
+	            <TextView
+	                android:id="@+id/TextView02"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:text="所属服务站："
+	                android:textColor="@color/black"
+	                android:textSize="16sp" />
+	
+	            <TextView
+	                android:id="@+id/ewm_fwz_text"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:layout_weight="1"
+	                android:textColor="@color/black"
+	                android:textSize="16sp" />
+
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/common_layout_height"
+	            android:padding="5dp" >
+	
+	            <Button
+	                android:id="@+id/ewm_opencame"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:layout_weight="1"
+	                android:background="@drawable/btn_red_bg"
+	                android:minHeight="@null"
+	                android:minWidth="@null"
+	                android:padding="5dp"
+	                android:text="开始扫描"
+	                android:textColor="@color/white"
+	                android:textSize="@dimen/common_text_middle" />
+	
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	
+	    <ListView
+	        android:id="@+id/qrcode_input_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_above="@+id/ewm_btnlinearlayout"
+	        android:layout_below="@+id/linearLayout21"
+	        android:cacheColorHint="@null"
+	        android:divider="@null"
+	        android:visibility="visible" >
+	
+	    </ListView>
+	
+	    <LinearLayout
+	        android:id="@+id/ewm_btnlinearlayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/btn_layout_off_bg" >
+	
+	        <Button
+	            android:id="@+id/ewm_cancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_orange_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:padding="5dp"
+	            android:text="关闭"
+	            android:textColor="@color/white"
+	            android:textSize="@dimen/common_text_middle" />
+	
+	        <Button
+	            android:id="@+id/ewm_preservation"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:layout_weight="1"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:padding="5dp"
+	            android:text="保存"
+	            android:textColor="@color/white"
+	            android:textSize="@dimen/common_text_middle" />
+	
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

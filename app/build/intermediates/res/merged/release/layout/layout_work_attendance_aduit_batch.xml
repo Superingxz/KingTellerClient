@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_main_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/oa_aduit_attendance_btn"
+            android:orientation="vertical" >
+
+            <include layout="@layout/common_list_view" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/oa_aduit_attendance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_layout_off_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/oa_aduit_attendance_selectall"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_orange_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="全选"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_btn_text_size" />
+
+            <Button
+                android:id="@+id/oa_aduit_attendance_aduit"
+                android:layout_width="@dimen/common_btn_width"
+                android:layout_height="@dimen/common_btn_height"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_green_bg"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:text="审批"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_btn_text_size" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

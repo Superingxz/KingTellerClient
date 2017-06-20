@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aduitreport">
+        <item>未处理</item>
+        <item>已处理</item>
+    </string-array>
+    <string-array name="atmcode">
+        <item>机器编号</item>
+        <item>jqbh</item>
+        <item>机器编号：</item>
+        <item>/sysmgr/workreportmobile/queryMachineInfoList_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="bjmk">
+        <item>故障类别</item>
+        <item>/sysmgr/workreportmobile/queryWlByAll_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="bjwl">
+        <item>故障部件</item>
+        <item>/sysmgr/workreportmobile/queryWlByAll_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="clgc">
+        <item>处理过程</item>
+        <item>/sysmgr/workreportmobile/getHandleSubInfo_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="clgcworktype">
+        <item>处理过程</item>
+        <item>/sysmgr/workreportmobile/getWorkTypeHandleSub_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="country_codes">
+		<item>-</item>
+		<item>AR</item>
+		<item>AU</item>
+		<item>BR</item>
+		<item>BG</item>
+		<item>CA</item>
+		<item>CH</item>
+		<item>CN</item>
+		<item>CZ</item>
+		<item>DE</item>
+		<item>DK</item>
+		<item>ES</item>
+		<item>FI</item>
+		<item>FR</item>
+		<item>GB</item>
+		<item>GR</item>
+		<item>HU</item>
+		<item>ID</item>
+		<item>IT</item>
+		<item>JP</item>
+		<item>KR</item>
+		<item>NL</item>
+		<item>PL</item>
+		<item>PT</item>
+		<item>RO</item>    
+		<item>RU</item>
+		<item>SE</item>
+		<item>SK</item>
+		<item>SI</item>
+		<item>TR</item>
+		<item>TW</item>
+		<item>US</item>
+	</string-array>
+    <string-array name="cxfwzry">
+		<item>查询服务站人员</item>
+		<item>/workreportmobile/queryFwzWorker_workordermobile.action</item>
+    </string-array>
+    <string-array name="feetype">
+        <item>费用类型</item>
+        <item>/sysmgr/workreportmobile/getFeeTree_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="fylx">
+        <item>费用类型</item>
+        <item>/custmgr/logisticmonitor/queryFare_TaskAndConsignMobile.action</item>
+    </string-array>
+    <string-array name="gzms">
+        <item>故障描述</item>
+        <item>/sysmgr/workreportmobile/getTroubleRemarkInfo_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="jqzd">
+        <item>机器字段</item>
+        <item>/sysmgr/workreportmobile/queryMachineComponentList_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="jtgj">
+        <item>交通工具</item>
+        <item>/sysmgr/workreportmobile/getFeeMode_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="preferences_front_light_options">
+	   <item>@string/preferences_front_light_on</item>
+	   <item>@string/preferences_front_light_auto</item>
+	   <item>@string/preferences_front_light_off</item>
+	 </string-array>
+    <string-array name="preferences_front_light_values">
+	   <item>ON</item>
+	   <item>AUTO</item>
+	   <item>OFF</item>
+	 </string-array>
+    <string-array name="repairreport">
+        <item>基本信息</item>
+        <item>维护信息</item>
+    </string-array>
+    <string-array name="sendorder">
+        <item>未接收</item>
+        <item>处理中</item>
+        <item>已结束</item>
+    </string-array>
+    <string-array name="serverState">
+        <item>服务站</item>
+        <item>orgNameLike</item>
+        <item>服务站名称：</item>
+        <item>/sysmgr/workreportmobile/queryServiceOrgList_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="wddz">
+        <item>网点信息查询</item>
+        <item>wddz</item>
+        <item>/sysmgr/workreportmobile/queryWDDZ_workReportMobileNew.action</item>
+    </string-array>
+    <string-array name="workorder">
+        <item>进行中的工单</item>
+        <item>要填写的报告</item>
+        <item>审核中</item>
+    </string-array>
+    <color name="albumback">#E1E0DE</color>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aqua">#00ffff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="beige">#f5f5dc</color>
+    <color name="bg">#ffeeeeee</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="black">#ff000000</color>
+    <color name="blanchedalmond">#ffebcd</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="brown">#a52a2a</color>
+    <color name="burlywood">#deb887</color>
+    <color name="cadetblue">#5f9ea0</color>
+    <color name="capture_buttom_color_nomal">#FFFFFFFF</color>
+    <color name="capture_buttom_color_pressde">#FF46AAF8</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <color name="color_0">#46aaf8</color>
+    <color name="color_1">#45c018</color>
+    <color name="color_10">#00000000</color>
+    <color name="color_2">#cf605a</color>
+    <color name="color_3">#fa7441</color>
+    <color name="color_4">#333333</color>
+    <color name="color_5">#666666</color>
+    <color name="color_6">#999999</color>
+    <color name="color_7">#c8c8c8</color>
+    <color name="color_8">#ffffff</color>
+    <color name="color_9">#000000</color>
+    <color name="color_bg">#ffeeeeee</color>
+    <color name="color_dddddd">#ffdddddd</color>
+    <color name="color_divider">#ffeeeeee</color>
+    <color name="comm_bk_input">#ffaaaaaa</color>
+    <color name="common_all_background">#FFF0F0F0</color>
+    <color name="common_all_color_blue">#FF46AAF8</color>
+    <color name="common_all_color_grey">#FFF0F0F0</color>
+    <color name="common_all_color_greys">#FFb0b0b0</color>
+    <color name="common_left_edittext_textcolor">#FF666666</color>
+    <color name="common_mark_edittext_textcolor_blue">#FF46AAF8</color>
+    <color name="common_mark_edittext_textcolor_greed">#FF0FB523</color>
+    <color name="common_mark_edittext_textcolor_orange">#FFFA7441</color>
+    <color name="common_mark_edittext_textcolor_red">#FFF83233</color>
+    <color name="common_right_edittext_textcolor">#FF3B3B3B</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="coral">#ff7f50</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="crimson">#dc143c</color>
+    <color name="cyan">#00ffff</color>
+    <color name="darkblue">#00008b</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkgrey">#a9a9a9</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkorange">#ff8c00</color>
+    <color name="darkorchid">#9932cc</color>
+    <color name="darkred">#8b0000</color>
+    <color name="darksalmon">#e9967a</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="darkturquoise">#00ced1</color>
+    <color name="darkviolet">#9400d3</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="divider_gray">#ffd7d7d7</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="firebrick">#b22222</color>
+    <color name="floralwhite">#fffaf0</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="gold">#ffd700</color>
+    <color name="goldenrod">#daa520</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="green">#ffa9d154</color>
+    <color name="greenyellow">#adff2f</color>
+    <color name="grey">#808080</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="ivory">#fffff0</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="lightcoral">#f08080</color>
+    <color name="lightcyan">#e0ffff</color>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="lightpink">#ffb6c1</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="lightskyblue">#87cefa</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="lime">#00ff00</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="linen">#faf0e6</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="main_bottom_color_nomal">#FF929292</color>
+    <color name="main_bottom_color_pressde">#FF47AAF8</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="mediumblue">#0000cd</color>
+    <color name="mediumorchid">#ba55d3</color>
+    <color name="mediumpurple">#9370db</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="mediumslateblue">#7b68ee</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="mediumvioletred">#c71585</color>
+    <color name="menu_color">#ff1874CD</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#f5fffa</color>
+    <color name="mistyrose">#ffe4e1</color>
+    <color name="moccasin">#ffe4b5</color>
+    <color name="more_left_textcolor">#FF3B3B3B</color>
+    <color name="more_right_textcolor">#FF929292</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="navigation_item_divide">#ffcccccc</color>
+    <color name="navy">#000080</color>
+    <color name="none_color">#00000000</color>
+    <color name="oldlace">#fdf5e6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="orange">#fffe6d00</color>
+    <color name="orangered">#ff4500</color>
+    <color name="orchid">#da70d6</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="paleturquoise">#afeeee</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="peachpuff">#ffdab9</color>
+    <color name="peru">#cd853f</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="plum">#dda0dd</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="purple">#800080</color>
+    <color name="red">#ffee4136</color>
+    <color name="red2">#ffcc0000</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="salmon">#fa8072</color>
+    <color name="sandybrown">#f4a460</color>
+    <color name="sdl_bright_foreground">#ff000000</color>
+    <color name="sdl_bright_foreground_dark">#fff3f3f3</color>
+    <color name="sdl_bright_foreground_disabled">#ffb2b2b2</color>
+    <color name="sdl_bright_foreground_disabled_dark">#ff4c4c4c</color>
+    <color name="sdl_button_focused">#4C33B5E5</color>
+    <color name="sdl_button_normal">@android:color/transparent</color>
+    <color name="sdl_button_pressed">#9933B5E5</color>
+    <color name="sdl_button_separator">#25000000</color>
+    <color name="sdl_button_text">@color/sdl_text</color>
+    <color name="sdl_message_text">#333333</color>
+    <color name="sdl_title_separator">#33B5E5</color>
+    <color name="sdl_title_text">#33B5E5</color>
+    <color name="seaShell">#fff5ee</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="sienna">#a0522d</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="skyblue">#87ceeb</color>
+    <color name="slateblue">#6a5acd</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#fffafa</color>
+    <color name="springgreen">#00ff7f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="style_divider_color">#C9C7CD</color>
+    <color name="style_red">#ff4c41</color>
+    <color name="tan">#d2b48c</color>
+    <color name="teal">#008080</color>
+    <color name="text_333333">#ff333333</color>
+    <color name="text_666666">#ff666666</color>
+    <color name="text_888888">#ff888888</color>
+    <color name="text_999999">#ff999999</color>
+    <color name="thistle">#d8bfd8</color>
+    <color name="tomato">#ff6347</color>
+    <color name="toolbar_divide">#ffcccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#8000</color>
+    <color name="transparent_background">#99000000</color>
+    <color name="transparent_half">#66000000</color>
+    <color name="transparent_half_white">#66ffffff</color>
+    <color name="turquoise">#40e0d0</color>
+    <color name="twotitle_text_color_nomal">#FF3B3B3B</color>
+    <color name="twotitle_text_color_pressde">#FF46AAF8</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="violet">#ee82ee</color>
+    <color name="wheat">#f5deb3</color>
+    <color name="white">#ffffffff</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="yellow">#fffacb25</color>
+    <color name="yellow_two">#40facb25</color>
+    <declare-styleable name="DialogStyle"><attr format="reference" name="dialogBackground"/><attr format="color|reference" name="titleTextColor"/><attr format="color|reference" name="titleSeparatorColor"/><attr format="color|reference" name="messageTextColor"/><attr format="color|reference" name="buttonTextColor"/><attr format="color|reference" name="buttonSeparatorColor"/><attr format="color|reference" name="buttonBackgroundColorNormal"/><attr format="color|reference" name="buttonBackgroundColorPressed"/><attr format="color|reference" name="buttonBackgroundColorFocused"/></declare-styleable>
+    <declare-styleable name="LoadingProgressViewStyle"><attr format="float" name="lpvs_progress"/><attr format="float" name="lpvs_maxProgress"/><attr format="integer" name="lpvs_animDuration"/><attr format="integer" name="lpvs_animSwoopDuration"/><attr format="integer" name="lpvs_animSyncDuration"/><attr format="color" name="lpvs_color"/><attr format="dimension" name="lpvs_thickness"/><attr format="boolean" name="lpvs_indeterminate"/><attr format="boolean" name="lpvs_animAutostart"/><attr format="integer" name="lpvs_animSteps"/></declare-styleable>
+    <declare-styleable name="MaterialCalendarView"><attr format="reference" name="mcv_dateTextAppearance"/><attr format="reference" name="mcv_weekDayTextAppearance"/><attr format="reference" name="mcv_headerTextAppearance"/><attr format="color" name="mcv_arrowColor"/><attr format="reference" name="mcv_leftArrowMask"/><attr format="reference" name="mcv_rightArrowMask"/><attr format="color" name="mcv_selectionColor"/><attr format="integer" name="mcv_showOtherDates">
+          <flag name="none" value="0"/>
+          <flag name="other_months" value="1"/>
+          <flag name="out_of_range" value="2"/>
+          <flag name="decorated_disabled" value="4"/>
+          <flag name="defaults" value="4"/>
+          <flag name="all" value="7"/>
+      </attr><attr format="reference" name="mcv_weekDayLabels"/><attr format="reference" name="mcv_monthLabels"/><attr format="dimension" name="mcv_tileSize"/><attr format="enum" name="mcv_firstDayOfWeek">
+          <enum name="sunday" value="1"/>
+          <enum name="monday" value="2"/>
+          <enum name="tuesday" value="3"/>
+          <enum name="wednesday" value="4"/>
+          <enum name="thursday" value="5"/>
+          <enum name="friday" value="6"/>
+          <enum name="saturday" value="7"/>
+      </attr></declare-styleable>
+    <declare-styleable name="StyledDialogs"><attr format="reference" name="sdlDialogStyle"/><attr format="reference" name="sdlTitleTextStyle"/><attr format="reference" name="sdlMessageTextStyle"/></declare-styleable>
+    <declare-styleable name="base_tab"><attr format="color|reference" name="dividerColor"/><attr format="reference" name="dividerHeight"/><attr format="boolean" name="isTop"/></declare-styleable>
+    <declare-styleable name="change_color_button"><attr format="string" name="hintString"/><attr format="reference" name="hintTextColor"/><attr format="reference" name="textColor"/><attr format="reference" name="hintDrawable"/><attr format="reference" name="drawable"/><attr format="boolean" name="textEnabled"/></declare-styleable>
+    <declare-styleable name="kingteller_edittext"><attr format="reference|string" name="fieldName"/><attr name="fieldType">
+            <enum name="String" value="1"/>
+            <enum name="Number" value="2"/>
+            <enum name="DateTime" value="3"/>
+            <enum name="Date" value="4"/>
+            <enum name="Time" value="5"/>
+            <enum name="Select" value="6"/>
+            <enum name="Dialog" value="7"/>
+            <enum name="DateTimePD" value="8"/>
+        </attr><attr format="reference|string" name="fieldValue"/><attr name="fieldOp">
+            <enum name="QUERY_TYPE_EQ" value="0"/>
+            <enum name="QUERY_TYPE_LIKE" value="1"/>
+            <enum name="EQ" value="2"/>
+            <enum name="NOT_EQ" value="3"/>
+            <enum name="LESS_THAN" value="4"/>
+            <enum name="LESS_EQ_THAN" value="5"/>
+            <enum name="LARGE_THAN" value="6"/>
+            <enum name="LARGE_EQ_THAN" value="7"/>
+            <enum name="LARGE_LESS" value="8"/>
+            <enum name="LARGE_LESS_EQ" value="9"/>
+            <enum name="LIKE" value="10"/>
+            <enum name="LLIKE" value="11"/>
+            <enum name="RLIKE" value="12"/>
+            <enum name="ISNOT" value="13"/>
+            <enum name="IN" value="14"/>
+        </attr><attr format="reference|string" name="fieldTitle"/><attr format="boolean" name="fieldRequested"/><attr format="reference|string" name="fieldHint"/><attr format="reference|string" name="fieldText"/><attr format="reference" name="fieldBindData"/><attr format="boolean" name="fieldEnabled"/><attr format="integer" name="fieldLines"/><attr format="integer" name="fieldTextSize"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_size">16.0sp</dimen>
+    <dimen name="common_btn_height">30dp</dimen>
+    <dimen name="common_btn_text_size">16sp</dimen>
+    <dimen name="common_btn_width">90dp</dimen>
+    <dimen name="common_button_height">46.0dip</dimen>
+    <dimen name="common_item_text_size_btn">14sp</dimen>
+    <dimen name="common_item_text_size_left">14sp</dimen>
+    <dimen name="common_item_text_size_mark">14sp</dimen>
+    <dimen name="common_item_text_size_right">14sp</dimen>
+    <dimen name="common_item_text_size_time">14sp</dimen>
+    <dimen name="common_item_text_size_title">16sp</dimen>
+    <dimen name="common_layout_height">50dp</dimen>
+    <dimen name="common_line_height">20.0dip</dimen>
+    <dimen name="common_margin">5.0dip</dimen>
+    <dimen name="common_padding">10.0dip</dimen>
+    <dimen name="common_padding15">15.0dip</dimen>
+    <dimen name="common_padding5">5dip</dimen>
+    <dimen name="common_select_item">45.0dip</dimen>
+    <dimen name="common_text_13">13sp</dimen>
+    <dimen name="common_text_14">14.0sp</dimen>
+    <dimen name="common_text_15">15sp</dimen>
+    <dimen name="common_text_big">22sp</dimen>
+    <dimen name="common_text_biger">26sp</dimen>
+    <dimen name="common_text_middle">16sp</dimen>
+    <dimen name="common_text_middleer">18sp</dimen>
+    <dimen name="common_text_small">14sp</dimen>
+    <dimen name="common_text_smaller">12sp</dimen>
+    <dimen name="common_text_super">28sp</dimen>
+    <dimen name="common_text_title">18.0sp</dimen>
+    <dimen name="common_title_height">50.0dip</dimen>
+    <dimen name="common_window_title_btn_size">18sp</dimen>
+    <dimen name="common_window_title_high">60dp</dimen>
+    <dimen name="common_window_title_text_size">24sp</dimen>
+    <dimen name="input_magin_top">10dp</dimen>
+    <dimen name="list_item_padding">6dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="main_btn_text">18.0sp</dimen>
+    <dimen name="main_menu_height">40dp</dimen>
+    <dimen name="navigation_item_divide">1px</dimen>
+    <dimen name="navigation_item_divide3">2px</dimen>
+    <dimen name="small_button_height">35.0dip</dimen>
+    <dimen name="ui_10_dip">10dip</dimen>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="mcv_pager" type="id"/>
+    <item name="negative_button" type="id"/>
+    <item name="neutral_button" type="id"/>
+    <item name="positive_button" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <string name="MOBILE_ASSIGN">派单工作台</string>
+    <string name="MOBILE_ATMWZ">ATM位置</string>
+    <string name="MOBILE_CACHE_DATA">离线任务</string>
+    <string name="MOBILE_EWM">二维码扫描</string>
+    <string name="MOBILE_EWM_BX_SM">报修物料扫描</string>
+    <string name="MOBILE_EWM_FH_SM">发货物料扫描</string>
+    <string name="MOBILE_EWM_LR">库存录入</string>
+    <string name="MOBILE_EWM_REG_SM">出入库物料登记扫描</string>
+    <string name="MOBILE_EWM_SH_SM">收货物料扫描</string>
+    <string name="MOBILE_EWM_WDJQGH_SM_LX">离线部件更换扫描</string>
+    <string name="MOBILE_EWM_WDJQ_SM">设备录入</string>
+    <string name="MOBILE_EWM_WDJQ_SM_LX">离线设备录入</string>
+    <string name="MOBILE_EWM_WD_FH">网点发货扫描</string>
+    <string name="MOBILE_EWM_ZS">二维码追溯</string>
+    <string name="MOBILE_JNKH">技能考核</string>
+    <string name="MOBILE_KQ_AUDIT">考勤审核</string>
+    <string name="MOBILE_KQ_FOR_MY">我的考勤</string>
+    <string name="MOBILE_MAP">地图功能</string>
+    <string name="MOBILE_MAP_DF">手机导航</string>
+    <string name="MOBILE_MAP_FWZ">服务站查询</string>
+    <string name="MOBILE_MAP_LOCATION">机器定位</string>
+    <string name="MOBILE_MAP_MACHINE">机器查询</string>
+    <string name="MOBILE_MAP_SERVICE">服务站定位</string>
+    <string name="MOBILE_MAP_USER">员工定位</string>
+    <string name="MOBILE_ONLINE_FILE">在线文档</string>
+    <string name="MOBILE_ONLINE_LEARNING">在线学习</string>
+    <string name="MOBILE_ONLINE_LEARNING_RECORDS">学习记录</string>
+    <string name="MOBILE_ONLINE_VIDEO">在线视频</string>
+    <string name="MOBILE_PROJECTDEALORDER">项目工单销单</string>
+    <string name="MOBILE_PROJECTORDERAUDIT">项目工单审批</string>
+    <string name="MOBILE_PROJECTSTATISTIC">项目管理统计</string>
+    <string name="MOBILE_PXKHSJ">专项考核</string>
+    <string name="MOBILE_RWD">我的工单</string>
+    <string name="MOBILE_SJK">数据库</string>
+    <string name="MOBILE_SPBG">报告审核</string>
+    <string name="MOBILE_XD">下单</string>
+    <string name="MOBILE_ZSK">知识库</string>
+    <string name="WLJK_MOBILE">物流监控</string>
+    <string name="WLJK_MOBILE_HDGL">货单管理</string>
+    <string name="WLJK_MOBILE_QTSWGL">其他事物管理</string>
+    <string name="WLJK_MOBILE_TXQTSWBG">填写其他事物报告</string>
+    <string name="WLJK_MOBILE_TXRWBG">查看任务报告</string>
+    <string name="action_settings">Settings</string>
+    <string name="address_default">ktcs.kingteller.com.cn</string>
+    <string name="album">相册</string>
+    <string name="app_companyname">广州御银科技股份有限公司</string>
+    <string name="app_name">御银云</string>
+    <string name="app_version">2.2.20</string>
+    <string name="app_versionCode">53</string>
+    <string name="app_versions">版权所有 ©2017</string>
+    <string name="barcode_msg_fail">扫描失败！  </string>
+    <string name="barcode_one_dimen_success">"已检测到文本内容:%1$s是否复制?"</string>
+    <string name="barcode_tow_dimen_success">"已检测到地址:%1$s是否打开?"</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="camera_cancel">取消</string>
+    <string name="cancel">取消</string>
+    <string name="choose_file">选择一个文件</string>
+    <string name="confirm">确定</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="empty_directory">空目录</string>
+    <string name="error_selecting_file">选择文件错误</string>
+    <string name="feedback_hint">请填写您的意见建议</string>
+    <string name="finish">完成</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="label_GPS_positioning">"      获取中"</string>
+    <string name="login">登录</string>
+    <string name="login_in">登录</string>
+    <string name="login_password">请输入密码</string>
+    <string name="login_setup">设置</string>
+    <string name="login_title">御银云管理平台</string>
+    <string name="login_username">请输入账号</string>
+    <string name="main_bench">工作台</string>
+    <string name="main_remind">提醒</string>
+    <string name="main_setup">设置</string>
+    <string name="memo">提示</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_tishi_nr">将二维码/条形码放入框内，即可自动扫描</string>
+    <string name="msg_tishi_sgd">按(音量+)拉近距离  或者  按(音量-)疏远距离</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="mysale">我的销售单</string>
+    <string name="net_error">当前网络不可用，请检查网络设置</string>
+    <string name="net_error_try">网络错误，点击重试</string>
+    <string name="no_data_try">没有数据，点击刷新</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="notice">公告信息</string>
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="password">密码</string>
+    <string name="photo">选择相册</string>
+    <string name="port_default">8081</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string formatted="false" name="preferences_custom_product_search_summary">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_try_bsplus">Try Barcode Scanner+</string>
+    <string name="preferences_try_bsplus_summary">Enhanced with new features and interface</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="preview">预览</string>
+    <string name="push_msg">你有&lt;%d>新消息</string>
+    <string name="push_title">广州御银提醒您</string>
+    <string name="push_title_f">(你有%d新消息)</string>
+    <string name="reset">取消</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sale">销售下单</string>
+    <string name="saleshen">销售单审核</string>
+    <string name="saleshow">销售单查询</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="serviceAddress">服务器地址</string>
+    <string name="servicePort">服务器端口</string>
+    <string name="setting_address_default">ktcs.kingteller.com.cn</string>
+    <string name="setting_cancel">取消</string>
+    <string name="setting_confirm">确认</string>
+    <string name="setting_port_default">8081</string>
+    <string name="setting_serviceaddress">服务器地址</string>
+    <string name="setting_serviceport">服务器端口</string>
+    <string name="sn_str">S/N</string>
+    <string name="status_server">not connect sever</string>
+    <string name="storage_removed">SDK未挂载或者已经移除了</string>
+    <string name="unfinished">完成</string>
+    <string name="username">账号</string>
+    <string name="versionStr">Version</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="wifi_ssid_label">Network Name</string>
+    <string name="wifi_type_label">Type</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="ATMSearchDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+    </style>
+    <style name="DialogStyleLight">
+        <item name="dialogBackground">@drawable/sdl_background</item>
+        <item name="titleTextColor">@color/sdl_title_text</item>
+        <item name="titleSeparatorColor">@color/sdl_title_separator</item>
+        <item name="messageTextColor">@color/sdl_message_text</item>
+        <item name="buttonTextColor">@color/sdl_button_text</item>
+        <item name="buttonSeparatorColor">@color/sdl_button_separator</item>
+        <item name="buttonBackgroundColorNormal">@color/sdl_button_normal</item>
+        <item name="buttonBackgroundColorPressed">@color/sdl_button_pressed</item>
+        <item name="buttonBackgroundColorFocused">@color/sdl_button_focused</item>
+    </style>
+    <style name="Login_dialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="PickDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="SDL"/>
+    <style name="SDL.Button" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="SDL.ButtonSeparator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SDL.DatePicker">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="@android:spinnersShown">true</item>
+        <item name="@android:calendarViewShown">false</item>
+    </style>
+    <style name="SDL.Dialog" parent="android:Theme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="@android:windowActionBar">false</item>
+        <item name="@android:windowActionModeOverlay">true</item>
+        <item name="@android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="sdlTitleTextStyle">@style/SDL.TextView.Title</item>
+        <item name="sdlMessageTextStyle">@style/SDL.TextView.Message</item>
+        <item name="sdlDialogStyle">@style/DialogStyleLight</item>
+    </style>
+    <style name="SDL.Group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="SDL.Group.ButtonPanel">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SDL.Group.Content">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SDL.Group.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="SDL.Group.Horizontal.ButtonPanel">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SDL.Group.Wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="SDL.HorizontalSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="SDL.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@color/color_dddddd</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+    <style name="SDL.Progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="SDL.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SDL.TextView.Message">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="SDL.TextView.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="SDL.TitleSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="Select_ImageAndFile_dialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="TextAppearance.MaterialCalendarWidget.Date" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@drawable/mcv_text_date_light</item>
+    </style>
+    <style name="TextAppearance.MaterialCalendarWidget.Header" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.MaterialCalendarWidget.WeekDay" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/common_all_color_blue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="XTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">@dimen/common_window_title_high</item>
+        <item name="android:windowTitleBackgroundStyle">@null</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="YTheme" parent="@android:style/Theme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="checkbox_checked" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_bg</item>
+    </style>
+    <style name="common_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_checkbox</item>
+    </style>
+    <style name="common_checkbox_two" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_checkbox_two</item>
+    </style>
+    <style name="common_dialog_bottom_animstyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_anim</item>
+    </style>
+    <style name="common_radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/common_radiobutton_bg</item>
+    </style>
+    <style name="fileChooserIcon">
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+    </style>
+    <style name="fileChooserName">
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+        <item name="android:layout_marginRight">@dimen/list_item_padding</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out_anim</item>
+    </style>
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/choose_bg</item>
+    </style>
+</resources>

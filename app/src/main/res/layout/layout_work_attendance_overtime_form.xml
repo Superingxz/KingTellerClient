@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_all_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title_main_bar" />
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+    <com.kingteller.client.view.KingTellerScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/oa_ouvertime_aduit_btn_layout" >
+
+        <LinearLayout
+            android:id="@+id/oa_ouvertime_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/common_attendance_audit_djxx" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加班类型："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="请选择加班类型"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/overtimeName_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加班人员："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="加班人员"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/overtimeSubsidyWay_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="补贴方式："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeSubsidyWay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="请选择补贴方式"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加班日期："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeSelectDay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="请选择加班日期"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加班时间："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeSelectStartTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="开始时间"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="——"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/overtimeSelectEndTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_text_select"
+                        android:gravity="center"
+                        android:text="结束时间"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/overtimeUseTime_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="加班时长(合计)："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/overtimeUseTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_edittext_bg"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:text="0.0"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/cursor_set_black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:text="加班原因："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/overtimeWhy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_edittext_bg"
+                        android:ems="10"
+                        android:gravity="left|top"
+                        android:minLines="3"
+                        android:textColor="@color/black"
+                        android:textCursorDrawable="@drawable/cursor_set_black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+ 
+                    <com.kingteller.client.view.groupview.listview.OverTimePeopleGroupListView
+                        android:id="@+id/jbyy_group_list"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                    
+                </LinearLayout>
+            </LinearLayout>
+
+            <include layout="@layout/common_attendance_audit_ldyj" />
+
+        </LinearLayout>
+    </com.kingteller.client.view.KingTellerScrollView>
+
+    <LinearLayout
+        android:id="@+id/oa_ouvertime_aduit_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_layout_off_bg"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/attendance_audit_ty"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="同意"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_btn_text_size" />
+
+        <Button
+            android:id="@+id/attendance_audit_th"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="退回"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_btn_text_size" />
+
+    </LinearLayout>
+
+	</RelativeLayout>
+</LinearLayout>

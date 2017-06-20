@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_select_setting"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="left|center_vertical"
+        android:layout_weight="1"
+        android:minHeight="@dimen/common_title_height" >
+
+        <ImageView
+            android:id="@+id/dj_treenode_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/common_padding5"
+            android:background="@drawable/ic_tree_ec"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/dj_tree_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dj_treenode_icon"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_15" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout011"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/common_padding5"
+        android:layout_marginRight="@dimen/common_padding5"
+        android:layout_marginTop="@dimen/common_padding5" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/dj_tree_righttop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出库总数："
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dj_tree_wlzs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dj_tree_righttop_name"
+                android:text="10"
+                android:textColor="#EE7600" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RelativeLayout02" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已扫描数："
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dj_tree_wltmzs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:text="8"
+                android:textColor="#008B00" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RelativeLayout03" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无条码数："
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dj_tree_wlwtms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/TextView02"
+                android:text="8"
+                android:textColor="#FF0000" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

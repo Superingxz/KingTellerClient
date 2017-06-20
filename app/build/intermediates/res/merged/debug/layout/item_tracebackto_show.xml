@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_all_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/traceback_basic_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="基本信息"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/traceback_basic_information_necessary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ewm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="二维码："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_ewm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_wlbm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="物料编码："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_wlbm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_wlmc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="物料名称："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_wlmc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ggxh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="规格型号："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_ggxh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_szdz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="所在地址："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_szdz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ssjg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView012"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="所属机构："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_ssjg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ssqy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="所属区域："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_ssqy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ssdq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="所属大区："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_ssdq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/traceback_basic_information_unnecessary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_jqbm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="机器编码："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_jqbm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_syzt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="使用状态："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_syzt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_wbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="维保商："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_wbs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_bbh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="版本号："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_bbh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_ddh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="生产/采购\n订单号："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_scdh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_gysdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="供应商代码："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_gysdm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_gysmc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="供应商名称："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_gysmc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_cjbmh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="厂家编码号："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_cjbmh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_cjlsm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="厂家流水码："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_cjlsm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_fhrq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="发货日期："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_fhrq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traceback_layout_basic_synx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_layout_off_bg" >
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:text="使用年限："
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/traceback_text_basic_synx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:textColor="@color/common_left_edittext_textcolor"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/traceback_basic_information_onclick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_layout_on_bg"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/traceback_basic_information_onclick_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="显示更多"
+                    android:textColor="@color/common_left_edittext_textcolor"
+                    android:textSize="@dimen/common_text_middle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/traceback_basic_zlxx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="质量信息"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/traceback_layout_basic_rkrq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_layout_off_bg" >
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="入库日期："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/traceback_text_basic_rkrq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/traceback_layout_basic_wbqx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_layout_off_bg" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="维保期限："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/traceback_text_basic_wbqx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/traceback_layout_basic_gzcs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_layout_off_bg" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="故障次数："
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/traceback_text_basic_gzcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/traceback_basic_information_zlxx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/traceback_operation_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="追溯信息"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/traceback_yearview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/traceback_year"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="2015"
+                android:textColor="#f88c3d"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/traceback_img_year"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/traceback_year"
+                android:background="@drawable/ic_time_axis_year" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/traceback_eventview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_all_background"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/traceback_time"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textColor="@color/common_left_edittext_textcolor"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/traceback_img_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/traceback_neirong"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/traceback_time"
+                android:background="@drawable/ic_time_axis_day_nomal" />
+
+            <RelativeLayout
+                android:id="@+id/traceback_neirong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/traceback_img_day"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/traceback_neirong_sj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/ic_layout_text_bg"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/traceback_operation_text_sjlx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="部件组装扫描"
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/traceback_operation_text_ywms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:text="2015-09-29 10:10 工厂总仓 张三 部件组装并把二维码信息扫描进平台;"
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="@dimen/common_text_small" />
+
+                    <TextView
+                        android:id="@+id/traceback_operation_text_bzxx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:text="备注信息"
+                        android:textColor="@color/common_right_edittext_textcolor"
+                        android:textSize="@dimen/common_text_small" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    
+    
+</LinearLayout>

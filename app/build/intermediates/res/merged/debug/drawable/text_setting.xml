@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 点击未UP -->
+    <item android:state_pressed="true">
+        <shape>
+    
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners 
+                android:bottomLeftRadius="5px" 
+                android:bottomRightRadius="5px" 
+                android:topLeftRadius="5px" 
+                android:topRightRadius="5px" />
+            <!-- 间隔 按钮文字和边缘距离(内边距) -->
+            <padding 
+                android:bottom="5dp" 
+                android:left="5dp" 
+                android:right="5dp" 
+                android:top="5dp" />
+            <!-- 填充 -->
+			<solid
+        		android:color="#5CACEE"/>
+        </shape>
+    </item>
+    
+ 	<!-- 点击 -->
+    <item android:state_focused="true">
+        <shape>
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners 
+                android:bottomLeftRadius="5px" 
+                android:bottomRightRadius="5px" 
+                android:topLeftRadius="5px" 
+                android:topRightRadius="5px" />
+            <!-- 间隔 按钮文字和边缘距离(内边距) -->
+            <padding 
+                android:bottom="5dp" 
+                android:left="5dp" 
+                android:right="5dp" 
+                android:top="5dp" />
+            <!-- 填充 -->
+			<solid
+        		android:color="#5CACEE"/>
+        </shape>
+	</item>
+	
+	<!-- 未点击 -->
+    <item>
+        <shape>
+            <!-- 圆角  按钮四个圆角       	radius:半径 -->
+            <corners 
+                android:bottomLeftRadius="5px" 
+                android:bottomRightRadius="5px" 
+                android:topLeftRadius="5px" 
+                android:topRightRadius="5px" />
+            <!-- 间隔 按钮文字和边缘距离(内边距) -->
+            <padding 
+                android:bottom="5dp" 
+                android:left="5dp" 
+                android:right="5dp" 
+                android:top="5dp" />
+            
+            <solid 
+        		android:color="#436EEE"/>
+        		<!--android:color="#436EEE"  #5CACEE -->
+           
+        </shape>
+    </item>
+</selector>

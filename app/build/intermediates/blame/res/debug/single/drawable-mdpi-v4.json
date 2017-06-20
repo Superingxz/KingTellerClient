@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

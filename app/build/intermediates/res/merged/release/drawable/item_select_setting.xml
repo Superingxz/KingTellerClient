@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 点击未UP -->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 填充 -->
+			<solid android:color="#DBDBDB"/>
+        </shape>
+    </item>
+    
+ 	<!-- 点击 -->
+    <item android:state_focused="true">
+        <shape>
+            <!-- 填充 -->
+			<solid android:color="#DBDBDB"/>
+        </shape>
+	</item>
+	
+	<!-- 未点击 -->
+    <item>
+        <shape>  
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</selector>

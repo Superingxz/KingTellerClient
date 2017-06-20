@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:padding="@dimen/common_margin" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/common_padding"
+        android:layout_toRightOf="@+id/checkBox"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relativelayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/useraccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="工号:"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/userAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding"
+                android:layout_toRightOf="@+id/useraccount"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_small" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="姓名:"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_padding"
+                android:layout_toRightOf="@+id/username"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_small" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativelayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout2"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin" >
+
+            <TextView
+                android:id="@+id/telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="手机号码:"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/linkPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/common_padding"
+                android:layout_toRightOf="@+id/telephone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_small" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/relativelayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativelayout3"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginTop="@dimen/common_margin" >
+
+            <TextView
+                android:id="@+id/workFlag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:text="工作状态:"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/common_text_small" />
+
+            <TextView
+                android:id="@+id/work_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/common_padding"
+                android:layout_toRightOf="@+id/workFlag"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_small" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.6dp"
+        android:layout_below="@+id/relativelayout"
+        android:layout_marginTop="@dimen/common_padding"
+        android:background="@color/divider_gray" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/common_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_padding"
+        android:layout_centerVertical="true"
+        android:checked="false" />
+
+</RelativeLayout>

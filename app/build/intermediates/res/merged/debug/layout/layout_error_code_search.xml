@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/common_title_main_bar" />
+
+    <LinearLayout
+        android:id="@+id/knowledge_condition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/errorCode"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+           	aaron:fieldName="codeLike"
+            aaron:fieldTitle="错误代码："
+            aaron:fieldOp="LIKE"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <com.kingteller.client.view.ConditionView
+            xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+            android:id="@+id/component"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/common_layout_height"
+            aaron:fieldName="concernCompoNameLike"
+            aaron:fieldTitle="故障部件："            
+            android:background="@color/white"
+            android:paddingLeft="@dimen/common_padding5"
+            android:paddingRight="@dimen/common_padding5" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigation_item_divide"
+        android:background="@color/navigation_item_divide" />
+
+    <include layout="@layout/common_list_view" />
+
+</LinearLayout>

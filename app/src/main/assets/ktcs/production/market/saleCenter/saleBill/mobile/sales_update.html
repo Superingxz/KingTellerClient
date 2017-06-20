@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sales_update</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<!-- Bootstrap -->
+<link rel="stylesheet"
+	href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+        <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/jquery/jquery.jsonp-2.4.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="../../../../../js/common/sun/commonSun.js"></script>
+	<script src="saleBillMobile_common.js"></script>
+	<script src="selectComponent.js"></script>
+<script  src="bankList.js"></script>
+<script  src="contractList.js"></script>
+<script  src="machineType.js"></script>
+<script  src="orgTopList.js"></script>
+<script  src="templateList.js"></script>
+<script  src="address.js"></script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+
+<script type="text/javascript">
+	//选择某一银行后的处理函数
+	function handleSelectedBank(data) {
+		$("#bankId").empty();
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#bankId").val(dataObj.bankId);
+		$("#bankName").val(dataObj.bankName);
+	}
+
+	//选择某一大区后的处理函数
+	function handleSelectedOrgTop(data) {
+		$("#orgTopId").empty();
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#orgTopId").val(dataObj.orgTopId);
+		$("#orgTopName").val(dataObj.orgTopName);
+	}
+
+	//选择某一机型后的处理函数
+	function handleSelectedMachineType(data) {
+		$("#machineType").empty();
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#machineType").val(dataObj.machineType);
+		$("#machineTypeName").val(dataObj.machineTypeName);
+	}
+
+	//选择某一模板后的处理函数
+	function handleSelectedTemplate(data) {
+
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#bankId").val(dataObj.bankId);
+		$("#bankName").val(dataObj.bankName);
+
+		$("#machineType").val(dataObj.machineType);
+		$("#machineTypeName").val(dataObj.machineTypeCode);
+
+		$("#orgTopId").val(dataObj.orgTopId);
+		$("#orgTopName").val(dataObj.orgTopName);
+
+		$("#cooperationType").val(dataObj.cooperationType);
+
+		$("#price").val(dataObj.price);
+		$("#senderAddress").val(dataObj.senderAddress);
+		$("#senderAddressId").val(dataObj.senderAddressId);
+		$("#bankContact").val(dataObj.bankContact);
+		$("#bankPhone").val(dataObj.bankPhone);
+		$("#receiverName").val(dataObj.receiverName);
+		$("#receiverPhone").val(dataObj.receiverPhone);
+
+		$("#contractId").val(dataObj.contractId);
+		$("#contractNumber").val(dataObj.contractNumber);
+
+		$("#machineConfiguration").val(dataObj.machineConfiguration);
+		$("#specialRequirement").val(dataObj.specialRequirement);
+		$("#material").val(dataObj.material);
+		$("#remark").val(dataObj.remark);
+		$("#material").val(dataObj.material);
+		 
+		$(
+				"input[type=radio][name='vo.salebillType'][value="
+						+ dataObj.salebillType + "]")
+				.prop("checked", 'checked');
+		showContract(dataObj.salebillType);
+	}
+
+	//选择某一合同后处理函数
+	function handleSelectedContract(data) {
+		$("#contractId").empty();
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#contractId").val(dataObj.contractId);
+		$("#contractNumber").val(dataObj.contractNumber);
+	}
+	
+	function handleSelectedAddress(data){
+		$("#senderAddressId").empty();
+		var dataObj = eval("(" + data + ")");
+		 
+		//设值
+		$("#senderAddressId").val(dataObj.addressId);
+		$("#senderAddress").val(dataObj.address);
+	}
+	
+
+	/**
+	 * 更新
+	 */
+	function doAdd(zancun) {
+
+		//验证表单
+		if (zancun == 1) {
+			if (confirm("确定保存？")) {
+				var url = appContext + "/saleCenter/saleBill/update_salesMobile.action;jsessionid="+sessionId+"?zancun="
+						+ zancun;
+				var param = $("#myform").serialize();
+		
+				param = decodeURIComponent(param,true);
+				//在进行编码
+				param = encodeURI(encodeURI(param));
+				
+				$.ajax({
+				type: "post",//使用get方法访问后台
+				dataType : "jsonp",//返回json格式的数据
+				jsonp:"jsonpcallback",
+				url: url,
+				data: param,
+				beforeSend:function(XMLHttpRequest){ 
+					  $("#loading").show();
+						var scrolltop = $(document).scrollTop();//获取当前窗口距离页面顶部高度
+						$("#loading").css("top",scrolltop+"px");
+				 }, 
+				complete :function(){$("#loading").hide();},
+				success : function(result) {
+					$("#loading").hide();
+					alert("操作成功!");
+					window.location.href=decorateUrlHtml("mySaleBill_list.html");
+				},
+				error : function(e) {
+					$("#loading").hide();
+					alert("系统异常:" + e.message);
+				}
+				});
+				
+				
+			}
+		} else {
+			if (doValidate()) {
+				//已签合同单,合同号不能为空
+				if ($("input[type=radio][name='vo.salebillType']:checked")
+						.val() == 2) {
+					if ($.trim($("#contractId").eq(0).val()).length == 0) {
+						alert("合同号不能为空!");
+						addAlarmBorder($("#contractNumber"));
+						return false;
+					}
+				}
+				if($("#machineCount").val() == 0)
+				{
+					alert("机器数量不能为0!");
+					return false;
+				}
+				if($("#price").val() == 0 || $("#price").val() == 0.00)
+				{
+					alert("单价(租金)不能为0或空!");
+					return false;
+				}
+
+				if (confirm("确定保存？")) {
+					var url = appContext + "/saleCenter/saleBill/update_salesMobile.action;jsessionid="+sessionId;
+					
+					var param = $("#myform").serialize();
+				
+					param = decodeURIComponent(param,true);
+					//在进行编码
+					param = encodeURI(encodeURI(param));
+				
+					$.ajax({
+					type: "post",//使用get方法访问后台
+					dataType : "jsonp",//返回json格式的数据
+					jsonp:"jsonpcallback",
+					url: url,
+					data: param,
+					beforeSend:function(XMLHttpRequest){ 
+					  $("#loading").show();
+						var scrolltop = $(document).scrollTop();//获取当前窗口距离页面顶部高度
+						$("#loading").css("top",scrolltop+"px");
+					 }, 
+					complete :function(){$("#loading").hide();},
+					success : function(result) {
+						$("#loading").hide();
+						alert("操作成功!");
+						window.location.href=decorateUrlHtml("mySaleBill_list.html");
+					},
+					error : function(e) {
+						$("#loading").hide();
+						alert("系统异常:" + e.message);
+					}
+					});
+				}
+			}
+		}
+
+	}
+	
+	//另存为模板
+	function saveForTemplate()
+	{
+		var templateName = window.prompt("请输入模板名称:");
+		
+		if(templateName == null)
+		{
+			return;
+		}
+		
+		
+		if($.trim(templateName) == '')
+		{
+			alert("名称不能为空!");
+			return;
+		}
+		
+		if (templateName) {
+			var url = appContext + "/saleCenter/saleBill/addByJsonP_salesTemplate.action;jsessionid="+sessionId;
+			var params = $("#myform").serialize();
+			params = decodeURIComponent(params,true);
+			//在进行编码
+			params = encodeURI(encodeURI(params+"&vo.templateName="+templateName));
+			params = params.replace("vo.salebillId","salebillId");
+			 
+			$.ajax({
+				type: "post",//使用get方法访问后台
+				dataType : "jsonp",//返回json格式的数据
+				jsonp:"jsonpcallback",
+				url: url,
+				data: params,
+				beforeSend:function(XMLHttpRequest){ 
+					  $("#loading").show();
+						var scrolltop = $(document).scrollTop();//获取当前窗口距离页面顶部高度
+						$("#loading").css("top",scrolltop+"px");
+					 }, 
+				complete :function(){$("#loading").hide();},
+				success : function(result) {
+					$("#loading").hide();
+					alert("操作成功!");
+					//window.location.href=decorateUrlHtml("mySaleBill_list.html");
+				},
+				error : function(e) {
+					$("#loading").hide();
+					alert("系统异常:" + e.message);
+				}
+				});
+			
+		}
+	}
+
+	
+
+	function showContract(flag) {
+		if (1 == flag) {
+			$("#contractDiv").hide();
+		} else if (2 == flag) {
+			$("#contractDiv").show();
+		}
+	}
+
+	//引入公共html组件
+	$(document)
+			.ready(
+					function() {
+						//$("body").append("<div id='commDiv'></div>");
+						//$("#commDiv").load("selectComponent.html");
+						  
+						//得到请求的参数 
+						var id = window.kingteller.getParam("id");
+						  
+						var params = window.kingteller.getParam("params");
+					 
+						var salebillType ;
+						var flowCode ;
+						if(params)
+						{
+							var params = window.kingteller.getParam("params"); 
+							var dataObj=eval("("+params+")");
+						   
+							id = dataObj.id;
+							salebillType = dataObj.salebillType;
+							flowCode = dataObj.flowCode;
+						}
+						 
+						
+						if(id == '' || id == null)
+						{
+							alert("发机单编号为空,数据有错误!");
+							return;
+						}
+
+						//得到要修改的数据
+						$
+								.ajax({
+									type : "post",//使用get方法访问后台
+									dataType : "jsonp",//返回json格式的数据
+									jsonp:"jsonpcallback",
+									url : appContext+'/saleCenter/saleBill/toSalesEdit_salesMobile.action;jsessionid='+sessionId,//要访问的后台地址
+									data : 'saleBillId=' + id,//要发送的数据
+									complete : function() {
+										$("#load").hide();
+									},//AJAX请求完成时隐藏loading提示
+									success : function(msg) {//msg为返回的数据，在这里做数据绑定
+
+										$(
+												"input[type=radio][value="
+														+ msg.salebillType
+														+ "]").attr("checked",
+												'checked');
+
+										if (msg.salebillType == 1) {
+											$("#contractDiv").hide();
+										} else if (msg.salebillType == 2) {
+											$("#contractDiv").show();
+										}
+
+										$("#contractNumber").val(
+												msg.contractNumber);
+										$("#contractId").val(msg.contractId);
+
+										$("#cooperationType").val(
+												msg.cooperationType);
+										$("#machineConfiguration").val(
+												msg.machineConfiguration);
+
+										$("#machineCount")
+												.val(msg.machineCount);
+										$("#machineType").val(msg.machineType);
+
+										$("#machineTypeName").val(
+												msg.machineTypeCode);
+										$("#orgTopId").val(msg.orgTopId);
+
+										$("#orgTopName").val(msg.orgTopName);
+										$("#price").val(msg.price);
+
+										$("#receiverName")
+												.val(msg.receiverName);
+										$("#receiverPhone").val(
+												msg.receiverPhone);
+
+										$("#remark").val(msg.remark);
+										$("#salebillId").val(msg.salebillId);
+
+										$("#senderAddress").val(
+												msg.senderAddress);
+										$("#senderAddressId").val(
+												msg.senderAddressId);
+										$("#specialRequirement").val(
+												msg.specialRequirement);
+
+										$("#bankId").val(msg.bankId);
+										$("#bankName").val(msg.bankName);
+
+										$("#bankContact").val(msg.bankContact);
+										$("#bankPhone").val(msg.bankPhone);
+
+										$("#salebillId").val(msg.salebillId);
+										
+										$("#deliverytimeRequirement").val(msg.deliverytimeRequirementStr);
+										$("#arrivaltimeRequirement").val(msg.arrivaltimeRequirementStr);
+										
+										$("#material").val(msg.material);
+										$("#machineConfiguration").val(msg.machineConfiguration);
+										$("#specialRequirement").val(msg.specialRequirement);
+									 
+										$("#remark").val(msg.remark);
+										
+										 
+										if (msg.flowStatus == 0
+												|| msg.flowStatus == 1
+												|| msg.flowStatus == -1) {
+											 
+											 $("#templateBtn").css("width","50%");
+											  $("#cancelBtn").css("width","50%");
+											 
+											//var zancunBtn = $("<input type='button' value='暂存' onclick='doAdd(1)' class='btn btn-default' > ");
+											var zancunBtn = $("<a type='button'   class='btn btn-default' href='javascript:;' onclick='doAdd(1)'  style='background-color:#eee;float:left;width:33%;'  >暂存</a>");
+											
+											//var submitBtn = $("<input type='button' value='提交' onclick='doAdd()' class='btn btn-default'  >")
+											//var saveBtn = $("<a type='button'   class='btn btn-default' onclick='doAdd()' href='javascript:;'  style='background-color:#eee;float:left;width:34%;'  >保存</a>");
+											
+											var submitBtn = $("<a type='button'   class='btn btn-default' onclick='tijiao()' href='javascript:;'  style='background-color:#eee;float:left;width:34%;'  >提交审核</a>");
+											
+											zancunBtn.insertBefore($("#templateBtn"));
+											//saveBtn.insertBefore($("#templateBtn"));
+											submitBtn.insertBefore($("#templateBtn"));
+											
+											
+										}
+										
+										if(msg.senderAddressId == '')	//新网点
+										{
+											handWangdiaoType('new');
+											$("#senderAddress2").val(msg.senderAddress);
+											$("#senderAddress").val("");
+										}
+										else	//旧网点
+										{
+											handWangdiaoType('old');
+											$("#senderAddress").val(msg.senderAddress);
+											$("#senderAddress2").val("");
+										}
+
+									}
+								});
+								
+								$('#myModalBank').on('hidden.bs.modal', function (e) {
+			
+								   $("#myform").find("*").each(function() { 
+										$(this).prop("disabled", ""); 
+									}); 
+								});
+								
+								$('#myModalBank').on('shown.bs.modal', function (e) {
+									
+								   //让原form失去焦点
+									$("#myform").find("*").each(function() { 
+										$(this).prop("disabled", "disabled"); 
+									});  
+								})
+
+					});
+					
+	function tijiao()
+	{
+		  if (doValidate()) {
+				//已签合同单,合同号不能为空
+				if ($("input[type=radio][name='vo.salebillType']:checked")
+						.val() == 2) {
+					if ($.trim($("#contractId").eq(0).val()).length == 0) {
+						alert("合同号不能为空!");
+						addAlarmBorder($("#contractNumber"));
+						return false;
+					}
+				}
+				
+				if($("#machineCount").val() == 0)
+				{
+					alert("机器数量不能为0!");
+					return false;
+				}
+		
+				if(window.confirm("确认提交审核?"))
+				{
+					var url = appContext + "/saleCenter/saleBill/updateAndSubmit_salesMobile.action;jsessionid="+sessionId;
+					
+					var param = $("#myform").serialize();
+				
+					param = decodeURIComponent(param,true);
+					//在进行编码
+					param = encodeURI(encodeURI(param));
+				
+					$.ajax({
+					type: "post",//使用get方法访问后台
+					dataType : "jsonp",//返回json格式的数据
+					jsonp:"jsonpcallback",
+					url: url,
+					data: param,
+					beforeSend:function(XMLHttpRequest){ 
+					  $("#loading").show();
+						var scrolltop = $(document).scrollTop();//获取当前窗口距离页面顶部高度
+						$("#loading").css("top",scrolltop+"px");
+					 }, 
+					complete :function(){$("#loading").hide();},
+					success : function(result) {
+						$("#loading").hide();
+						if(result.successful == false)
+						{
+							alert(result.message);
+							return;
+						}
+						else if(result.successful == true)
+						{
+							alert("操作成功!");
+							window.location.href=decorateUrlHtml("mySaleBill_list.html");
+						}
+					},
+					error : function(e) {
+						$("#loading").hide();
+						alert("系统异常:" + e.message);
+					}
+					});
+				}
+		}
+		
+							 
+	}
+	
+	function handWangdiaoType(type)
+	{
+		if('old' == type)	//
+		{
+			$("#senderAddress2").parent().hide();
+			$("#senderAddress").parent().show();
+			$("#newWangdian").css("text-decoration","none").css("color","black");;;
+			$("#oldWangdian").css("text-decoration","underline").css("color","red");;
+			$("#wangdianType").val('old');
+		}
+		else if('new' == type)
+		{
+  
+			$("#senderAddress").parent().hide();
+			$("#senderAddress2").parent().show();
+			$("#newWangdian").css("text-decoration","underline").css("color","red");
+			$("#oldWangdian").css("text-decoration","none").css("color","black");
+			$("#wangdianType").val('new');
+		}
+	}	
+</script>
+
+<style>
+
+	div .form-group {
+		
+		margin-bottom:5px;
+		
+	}
+	
+	 
+	 
+	.form-horizontal .checkbox{
+		padding-top:0px;
+	}
+
+	a{
+		color:black;
+	}
+	
+	a:visited {
+		text-decoration:underline;
+	}
+	
+	a:hover {color: red; text-decoration:underline;}
+</style>
+
+</head>
+<body>
+
+	<div id="loading" style="position:absolute;  top:0,left:0; display:none; width:100%;height:100%;z-index:910000990;background-color:#fff;filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.5; ">
+	
+		<img   src="../../../../../img/loading.gif" style="position:relative;width:300px; left:50%; height:200px; margin-left:-155px; top:50%; margin-top:-100px;   ">
+	
+	</div>
+
+	<div class="container" style="margin-bottom:90px;">
+
+		<form role="form" method="post" class="form-horizontal" id="myform"
+			action="/ktcs/saleCenter/saleBill/update_salesMobile.action;jsessionid="+sessionId>
+
+			<input type="hidden" name="vo.salebillId" id="salebillId">
+
+			<div class="form-group">
+				<label for="salebillType" class="col-sm-2 control-label"><font
+					color="red">*</font>单据类型</label>
+
+				<div class="col-sm-10">
+					<div class="checkbox">
+						<label> <input type="radio" name="vo.salebillType"
+							value="1" onclick="showContract(1)"> 未签合同单
+						</label>
+					</div>
+					<div class="checkbox">
+						<label> <input type="radio" name="vo.salebillType"
+							onclick="showContract(2)" value="2"> 已签合同单
+						</label>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="form-group" id="contractDiv">
+				<label for="contractId" class="col-sm-2 control-label"><font
+					color="red">*</font>合同号</label>
+				<div class="input-group col-sm-10"
+					style="padding-left: 15px; padding-right: 15px;">
+					<input type="text" class="form-control" id="contractNumber"
+						readonly="readonly" name="vo.contractNumber" placeholder="合同号">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button"
+							onclick="showModal('handleSelectedContract',decorateUrlHtml('contractList.html'),'选择合同','contractList')">选择</button>
+					</span> <input type="hidden" name="vo.contractId" id="contractId">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="bankId" class="col-sm-2 control-label"><font
+					color="red">*</font>银行</label>
+				<div class="input-group col-sm-10"
+					style="padding-left: 15px; padding-right: 15px;">
+					<input type="text" class="form-control  valid_require"
+						id="bankName" readonly="readonly" name="vo.bankName"
+						placeholder="银行名称"> <span class="input-group-btn">
+						<button class="btn btn-default" type="button"
+							onclick="showModal('handleSelectedBank',decorateUrlHtml('bankList.html'),'选择银行','bankList')">选择</button>
+					</span> <input type="hidden" name="vo.bankId" id="bankId">
+				</div>
+			</div>
+
+			<div class="form-group" style="display:none;">
+				<label for="orgTopId" class="col-sm-2 control-label">区域</label>
+				<div class="input-group col-sm-10"
+					style="padding-left: 15px; padding-right: 15px;">
+					<input type="text" class="form-control" id="orgTopName"
+						readonly="readonly" name="vo.orgTopName" placeholder="银行名称">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button"
+							onclick="showModal('handleSelectedOrgTop',decorateUrlHtml('orgTopList.html'),'选择区域','orgTopList')">选择</button>
+					</span> <input type="hidden" name="vo.orgTopId" id="orgTopId">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="cooperationType" class="col-sm-2 control-label">合作方式</label>
+				<div class="col-sm-10">
+					<select name="vo.cooperationType" class="form-control"
+						id="cooperationType">
+						<option value="1"  >销售</option>
+						<option value="2"  >租赁</option>
+						<option value="3"  >合作</option>
+						<option value="4"  >测试</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="machineType" class="col-sm-2 control-label"><font
+					color="red">*</font>机型</label>
+				<div class="input-group col-sm-10  valid_require"
+					style="padding-left: 15px; padding-right: 15px;">
+					<input type="text" class="form-control valid_require" id="machineTypeName"
+						readonly="readonly" name="vo.machineTypeName" placeholder="机型">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" 
+							onclick="showModal('handleSelectedMachineType',decorateUrlHtml('machineType.html'),'选择机型','machineTypeList')">选择</button>
+					</span> <input type="hidden" name="vo.machineType" id="machineType">
+				</div>
+				
+			</div>
+
+
+			<div class="form-group">
+				<label for="machineCount" class="col-sm-2 control-label "><font
+					color="red">*</font>数量</label>
+				<div class="col-sm-10">
+					<input type="number" name="vo.machineCount"
+						class="form-control valid_require" id="machineCount"
+						placeholder="机器数量">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="price" class="col-sm-2 control-label"><font
+					color="red">*</font>单价</label>
+				<div class="col-sm-10">
+					<input type="number" name="vo.price"
+						class="form-control  valid_require" id="price" placeholder="单价">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="bankContact" class="col-sm-2 control-label">银行联系人</label>
+				<div class="col-sm-10">
+					<input type="text" name="vo.bankContact"
+						class="form-control" id="bankContact"
+						placeholder="银行联系人">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="bankPhone" class="col-sm-2 control-label">银行联系电话</label>
+				<div class="col-sm-10">
+					<input type="text" name="vo.bankPhone" class="form-control"
+						id="bankPhone">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="receiverName" class="col-sm-2 control-label"><font
+					color="red">*</font>接货人</label>
+				<div class="col-sm-10">
+					<input type="text" name="vo.receiverName"
+						class="form-control  valid_require" id="receiverName">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="receiverPhone" class="col-sm-2 control-label"><font
+					color="red">*</font>接货人联系方式</label>
+				<div class="col-sm-10">
+					<input type="text" name="vo.receiverPhone"
+						class="form-control  valid_require" id="receiverPhone">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="deliverytimeRequirement" class="col-sm-2 control-label">要求发货时间(格式:1990-06-09)</label>
+				<div class="col-sm-10">
+					<input name="vo.deliverytimeRequirement" type="date"
+						class="form-control" id="deliverytimeRequirement">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="arrivaltimeRequirement" class="col-sm-2 control-label">要求收货时间(格式:1990-06-11)</label>
+				<div class="col-sm-10">
+					<input name="vo.arrivaltimeRequirement" type="date"
+						class="form-control" id="arrivaltimeRequirement">
+				</div>
+			</div>
+			<div class="form-group" style="display:none;">
+				<label for="machineConfiguration"
+					class="col-sm-2 control-label"><font
+					color="red">*</font>机器配置</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="3" cols="20"
+						name="vo.machineConfiguration" id="machineConfiguration"></textarea>
+				</div>
+			</div>
+			 
+			
+			<div class="form-group"   >
+				<label for="senderAddressId" class="col-sm-2 control-label"><font
+					color="red">*</font>发机详细地址</label>
+				<div class="input-group col-sm-10"
+					style="padding-left: 15px; padding-right: 15px;">
+					<input type="text" class="form-control valid_require" id="senderAddress"
+						  readonly="readonly" name="vo.senderAddress"
+						placeholder="发机详细地址"> <span class="input-group-btn">
+						<button class="btn btn-default" type="button"
+							onclick="showModal('handleSelectedAddress','','选择地址','addressList')">选择</button>
+					</span> <input type="hidden" name="vo.senderAddressId" id="senderAddressId" >
+				</div>
+				<div class="col-sm-10"
+					style="padding-left: 15px; padding-right: 15px;display:none;   ">
+					<input type="text" class="form-control" id="senderAddress2" 
+						   name="senderAddress2" placeholder="发机详细地址"> 
+				</div>
+				<div class="input-group col-sm-10" style="padding-left: 15px; padding-right: 15px;">
+					<a id="oldWangdian" onclick="handWangdiaoType('old')" >[旧网点]</a>
+					<a id="newWangdian" onclick="handWangdiaoType('new')" >[新网点]</a>
+					<input type="hidden" name="wangdianType" id="wangdianType" value="old" />
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label for="specialRequirement" class="col-sm-2 control-label">特殊要求</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="3" cols="20"
+						name="vo.specialRequirement" id="specialRequirement"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="material" class="col-sm-2 control-label">新增物料</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="3" cols="20"
+						name="vo.material" id="material"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="remark" class="col-sm-2 control-label">备注</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="3" cols="20" id="remark"
+						name="vo.remark"></textarea>
+				</div>
+			</div>
+
+		</form>
+
+	</div>
+
+<div class="btn-group-justified navbar-fixed-bottom btn-group " id="bottom_toolbar"   style="background-color:#eee;z-index:1030; ">
+				    
+			<a type="button"   class="btn btn-default" href="javascript:;" style="background-color:#eee;float:left;width:33%;"
+				onclick="showModal('handleSelectedTemplate',decorateUrlHtml('templateList.html'),'选择模板','templateList')" >从模板选择</a>
+				
+			
+						
+			<a type="button" id="templateBtn"  onclick="saveForTemplate()" href="javascript:;"  style="background-color:#eee;float:left;width:33%;"
+						class="btn btn-default" />另存为模板</a>
+						
+					
+						
+			<a type="button"  id="cancelBtn" href="javascript:;"  style="background-color:#eee;float:left;width:33%;" onclick="javascript:window.location.href=decorateUrlHtml('mySaleBill_list.html')" class="btn btn-default" />返回</a>		
+</div>
+
+
+<div id="commonSelectDiv">
+	
+		<input type="hidden" id="funcName" />
+	<!-- Modal -->
+	<div class="modal fade" id="myModalBank" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog"  >
+			<div class="modal-content"  >
+				<div class="modal-header" style="padding-top:10px;padding-bottom:5px;">
+					<button type="button" class="close" data-dismiss="modal" onclick="closeModal()">X</button>
+					<h4 class="modal-title" id="myModalLabel"  >选择银行</h4>
+				</div>
+				<div class="modal-body" style="padding:0px 0px 0px 20px;" >
+					
+					<div id="body-content" style="width:100%;height:100%;">
+					
+					</div>
+					
+					<div id="loading2" style="width:100%;height:100%; position:absolute;top:0;left:0; display:none;  z-index:1099;background-color:#fff;filter:alpha(Opacity=40);-moz-opacity:0.4;opacity: 0.4; ">
+							 <img   src="../../../../../img/loading3.gif" style="position:absolute;  left:50%;   top:50%;  margin-left:-16px;margin-top:-16px; ">
+					</div>
+					
+				</div>
+				<div class="modal-footer"  style="padding-top:5px;padding-bottom:5px;margin-top:0px;display:none; ">
+					<button type="button" class="btn btn-default"  onclick="closeModal()">取消</button>
+					<button type="button" class="btn btn-primary"
+						onclick="handSelect()">确认</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+		
+	</div>
+	</div>
+	
+	
+	
+	<div id="bankList" style="display:none;">
+	
+		<div style="">
+			<input type="text"   style="display: inline; "
+				name="bankName" id="bankName" placeholder="银行名称" />
+			<input type="button" class="btn btn-default" value="搜索" onclick="searchBank()" />
+		</div>
+
+		<input type="hidden" id="hiddenValue" />
+
+		<table class="table table-condensed table-striped " 
+			style="margin-top: 0; margin-bottom: 0;">
+			<tr>
+				<th width="60" align="center" style="text-align: center;">选择</th>
+				<th>银行名称</th>
+			</tr>
+			<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+		</table>
+		
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageBank(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageBank(1)" style="display:none;">下一页</a></li>
+		</ul>
+	
+	</div>
+	
+	<div id="contractList" style="display:none;">
+		<div class="input-append">
+		<input type="text" name="contractnumber" id="contractnumber" placeholder="合同号" />
+		<input type="button" class="btn" value="搜索" onclick="searchContract()" />
+	</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>合同号</th>
+		</tr>
+		<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+	</table>
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageContract(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageContract(1)" style="display:none;">下一页</a></li>
+		</ul>
+	
+	</div>
+	
+	<div id="machineTypeList" style="display:none;">
+	
+		<div class="input-append">
+			<input type="text" name="machineTypeCode"  id="machineTypeCode" placeholder="机型" /> <input type="button" onclick="searchMachineType()"
+				class="btn" value="搜索" />
+		</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>机型</th>
+		</tr>
+		<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+	</table>
+
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageMachineType(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageMachineType(1)" style="display:none;">下一页</a></li>
+		</ul>
+	</div>
+	
+	<div id="orgTopList" style="display:none;">
+	
+		<div class="input-append">
+			<input type="text" name="orgName" id="orgName" placeholder="区域名称" /> <input type="button"
+				class="btn" value="搜索" onclick="searchOrgTopList()" />
+		</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>区域名称</th>
+		</tr>
+		<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+	</table>
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageOrgTopList(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageOrgTopList(1)" style="display:none;">下一页</a></li>
+		</ul>
+	</div>
+	
+	<div id="templateList" style="display:none;">
+	
+		<div class="input-append">
+		<input type="text" name="templateName" id="templateName" placeholder="模板名称" /> <input
+			type="button" class="btn" value="搜索" onclick="searchTemplateList()" />
+	</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>模板名称</th>
+		</tr>
+		<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+	</table>
+			<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageTemplateList(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageTemplateList(1)" style="display:none;">下一页</a></li>
+		</ul>
+		</div>
+	
+	<div id="addressList" style="display:none;">
+	
+		<div class="input-append">
+		<input type="text" name="address" id="address" placeholder="地址" /> <input
+			type="button" class="btn" value="搜索" onclick="searchAddressList()" />
+	</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>地址</th>
+		</tr>
+		<tr style="height:198px;" class="initTr">
+				<td colspan="2"  style="line-height:198px;">
+					
+				</td>
+			</tr>
+
+	</table>
+			<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageAddressList(-1)" style="display:none;">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageAddressList(1)" style="display:none;">下一页</a></li>
+		</ul>
+		</div>
+	
+	
+
+</body>
+</html>

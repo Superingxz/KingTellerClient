@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+  <include layout="@layout/common_title_main_bar" />
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+	    <include layout="@layout/common_map_view" />
+	
+	    <RelativeLayout
+	        android:id="@+id/pos"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_centerInParent="true" >
+	
+	        <ImageView
+	            android:id="@+id/st"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:background="@drawable/map_location_point" />
+	
+	        <LinearLayout
+	            android:id="@+id/ll_from_location"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/st"
+	            android:layout_centerHorizontal="true"
+	            android:background="@drawable/selector_tooltip_bg"
+	            android:orientation="horizontal"
+	            android:paddingLeft="10dip"
+	            android:paddingRight="10dip" >
+	
+	            <ProgressBar
+	                android:id="@+id/progbar_searching"
+	                style="?android:attr/progressBarStyleSmallTitle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:visibility="visible" />
+	
+	            <TextView
+	                android:id="@+id/tv_start_position"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:singleLine="true"
+	                android:text="@string/label_GPS_positioning"
+	                android:textColor="@color/white" />
+	        </LinearLayout>
+	
+	        <ImageButton
+	            android:id="@+id/imageButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginBottom="115dp"
+	            android:layout_marginRight="20dp"
+	            android:background="@drawable/location_circle"
+	            android:contentDescription="@null" />
+	
+	    </RelativeLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

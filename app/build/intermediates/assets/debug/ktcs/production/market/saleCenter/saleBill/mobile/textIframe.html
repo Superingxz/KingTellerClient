@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TouchEvent测试</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+		
+		<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+		
+		<script type="text/javascript">
+	function handBack(obj) {
+		alert(obj);
+	}
+
+	function SetCwinHeight(srcPath) {
+		var bobo = document.getElementById("bobo"); //iframe id
+		
+		if (document.getElementById) {
+			if
+
+			(bobo && !window.opera) {
+				if (bobo.contentDocument &&
+
+				bobo.contentDocument.body.offsetHeight) {
+					bobo.height =bobo.contentDocument.body.offsetHeight + 5;
+					//bobo.width = bobo.contentDocument.body.scrollWidth+5; 
+					//alert("cd:" + bobo.width);
+				} else if (bobo.Document &&
+
+				bobo.Document.body.scrollHeight) {
+					bobo.height = bobo.Document.body.scrollHeight + 35;
+					//bobo.width = bobo.Document.body.scrollWidth + 15;
+					//alert("d:" + bobo.width);
+				}
+			}
+		}
+		
+		
+	}
+	
+	</script>
+		
+    </head>
+    <body>
+	
+		<button onclick='showModal()' >test</button>
+		
+			<iframe id="bobo" name="bobo"     style="border: 1;margin:0;" src="selectComponent.html"
+						width="100%"    ></iframe>
+	
+	</body>
+</html>

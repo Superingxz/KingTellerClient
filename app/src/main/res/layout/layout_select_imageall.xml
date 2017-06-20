@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:orientation="vertical" >
+    
+	<include layout="@layout/common_title_main_bar" />
+
+    <com.kingteller.client.view.image.allview.SelectPicGridView
+        android:id="@+id/layout_add_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </com.kingteller.client.view.image.allview.SelectPicGridView>
+
+</LinearLayout>

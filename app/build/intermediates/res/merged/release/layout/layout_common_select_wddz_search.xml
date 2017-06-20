@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_above="@+id/layout_btn"
+	        android:orientation="vertical" >
+	
+	        <LinearLayout
+	            android:id="@+id/knowledge_condition"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/white"
+	            android:orientation="horizontal" >
+	
+	            <com.kingteller.client.view.ConditionView
+	                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                android:id="@+id/condition"
+	                android:layout_width="0dp"
+	                android:layout_height="@dimen/common_layout_height"
+	                android:layout_weight="1"
+	                aaron:fieldHint="例如:乡镇名称,街道名称,门牌号"
+	                aaron:fieldName="condition"
+	                aaron:fieldOp="LIKE"
+	                android:background="@drawable/btn_layout_off_bg"
+	                android:padding="5dp" />
+
+	        </LinearLayout>
+	
+	        <include layout="@layout/common_list_view" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/layout_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:padding="@dimen/common_padding5" >
+	
+	        <Button
+	            android:id="@+id/btn_add_item"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="新增网点"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>

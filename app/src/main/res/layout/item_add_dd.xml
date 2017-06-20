@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/hwmc"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:layout_weight="1"
+        aaron:fieldEnabled="false"
+        aaron:fieldName="hwmc"
+        aaron:fieldTextSize="15"
+        aaron:fieldTitle="货物名称："
+        aaron:fieldType="String"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+    <com.kingteller.client.view.KingTellerEditText
+        xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+        android:id="@+id/sqxxz"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:layout_weight="1"
+        aaron:fieldName="sqxxz"
+        aaron:fieldRequested="true"
+        aaron:fieldTextSize="15"
+        aaron:fieldTitle="市区/县乡镇："
+        aaron:fieldType="Select"
+        android:paddingLeft="@dimen/common_padding"
+        android:paddingRight="@dimen/common_padding" />
+
+</LinearLayout>

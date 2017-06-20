@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/foot_map"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bg"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/up_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_setting"
+            android:text="上一页"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_14" />
+
+        <TextView
+            android:id="@+id/current_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/common_text_middle" />
+
+        <TextView
+            android:id="@+id/down_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_setting"
+            android:ellipsize="end"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:text="下一页"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_text_14" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayout2" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总数量："
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_14" />
+
+            <TextView
+                android:id="@+id/text_dTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#436EEE"
+                android:textSize="@dimen/common_text_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总页数："
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_text_14" />
+
+            <TextView
+                android:id="@+id/text_totalPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#436EEE"
+                android:textSize="@dimen/common_text_14" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/atm_selectstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/text_setting" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/atm_statusname_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机器状态："
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_text_14" />
+
+            <TextView
+                android:id="@+id/atm_statusname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atm_statusname_text"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/common_text_14" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

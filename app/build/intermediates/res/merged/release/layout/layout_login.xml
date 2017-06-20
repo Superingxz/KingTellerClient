@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login_bg" >
+
+    <LinearLayout
+        android:id="@+id/login_linlay_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_linlay_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/login_title"
+            android:textSize="@dimen/common_text_super"
+            android:textColor="#ffffff"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_linlay_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login_in"
+        android:layout_alignRight="@+id/btn_login_in"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <com.kingteller.client.view.edittext.LoginEditTextView
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_login_username_nomal"
+            android:drawableRight="@drawable/ic_delete_nomal"
+            android:hint="@string/login_username"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@drawable/cursor_set_white"
+            android:textSize="@dimen/common_text_middle" />
+
+        <com.kingteller.client.view.edittext.LoginEditTextView
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_login_password_nomal"
+            android:drawableRight="@drawable/ic_delete_nomal"
+            android:hint="@string/login_password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@drawable/cursor_set_white"
+            android:textSize="@dimen/common_text_middle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_linlay_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login_in"
+        android:gravity="center"
+        android:text="@string/login_in"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_text_middle" />
+
+    <Button
+        android:id="@+id/btn_login_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_login_setup"
+        android:text="@string/login_setup"
+        android:textColor="@color/black"
+        android:textSize="@dimen/common_text_middle" />
+
+</RelativeLayout>

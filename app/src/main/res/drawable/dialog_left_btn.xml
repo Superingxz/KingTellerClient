@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true">
+        <shape>
+            <!-- 圆角  左下角     	radius:半径 -->
+            <corners 
+                android:topLeftRadius="0dp"      
+                android:topRightRadius="0dp"
+                android:bottomRightRadius="10dp"      
+                android:bottomLeftRadius="10dp" />  
+
+            <!--填充-->
+            <solid android:color="#E3E3E3"/>
+
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+           
+            <!-- 圆角  左下角     	radius:半径 -->
+            <corners 
+                android:topLeftRadius="0dp"      
+                android:topRightRadius="0dp"
+                android:bottomRightRadius="10dp"      
+                android:bottomLeftRadius="10dp" />  
+
+            <!--填充-->
+            <solid android:color="#E3E3E3"/>
+
+        </shape>
+    </item>
+    
+    <item>
+        <shape>
+            
+            <!-- 圆角  左下角     	radius:半径 -->
+            <corners 
+                android:topLeftRadius="0dp"      
+                android:topRightRadius="10dp"
+                android:bottomRightRadius="0dp"      
+                android:bottomLeftRadius="10dp" />  
+                
+            <!--填充-->
+            <solid android:color="#ffffff"/>
+
+        </shape>
+    </item>
+</selector>

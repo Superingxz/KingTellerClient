@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/upload_file_pic_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="请选择"
+            android:textColor="#cccccc"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/upload_file_pic_filebtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="文件"
+            android:textColor="@color/common_mark_edittext_textcolor_orange"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/upload_file_pic_camerabtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="拍照"
+            android:textColor="@color/common_mark_edittext_textcolor_orange"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/upload_file_pic_picbtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="从相册中选择"
+            android:textColor="@color/common_mark_edittext_textcolor_orange"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/upload_file_pic_canclebtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="@color/common_mark_edittext_textcolor_blue"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

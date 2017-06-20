@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/common_padding"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+
+    <com.kingteller.client.view.KingTellerScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg"
+            android:orientation="vertical" >
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/fhqclcs"
+                android:layout_width="300dp"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldName="fhqclcs"
+                aaron:fieldRequested="true"
+                aaron:fieldTitle="返回里程数(km)："
+                aaron:fieldType="Number"
+                android:paddingLeft="@dimen/common_padding"
+                android:paddingRight="@dimen/common_padding" />
+
+            <com.kingteller.client.view.KingTellerEditText
+                xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+                android:id="@+id/involvesFee"
+                android:layout_width="300dp"
+                android:layout_height="@dimen/common_layout_height"
+                aaron:fieldName="involvesFee"
+                aaron:fieldRequested="true"
+                aaron:fieldTitle="是否填写费用："
+                aaron:fieldType="Select"
+                android:paddingLeft="@dimen/common_padding"
+                android:paddingRight="@dimen/common_padding" />
+
+            <LinearLayout
+                android:id="@+id/layout_fee_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.kingteller.client.view.GroupListView
+                    android:id="@+id/costType_group_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </com.kingteller.client.view.GroupListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/common_padding" >
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="@dimen/common_padding"
+                    android:background="@drawable/btn_green_bg"
+                    android:minHeight="@null"
+                    android:minWidth="@null"
+                    android:text="确认"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.kingteller.client.view.KingTellerScrollView>
+
+</LinearLayout>

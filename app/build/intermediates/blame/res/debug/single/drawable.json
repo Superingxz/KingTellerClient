@@ -1,0 +1,714 @@
+[
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\segment_left.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\segment_left.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_ok_btn_state.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_ok_btn_state.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_text.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_text.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_preview.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_preview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_image.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_image.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_listview_on_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_listview_on_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_checkbox_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_checkbox_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_right_btn.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_right_btn.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\segment_right.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\segment_right.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg_lightblue.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg_lightblue.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_btn.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_btn.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_arrow.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_back_arrow.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_transparent_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_transparent_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_green_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_listview_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_listview_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gridview_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_gridview_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_direction.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_direction.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_selector.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\color_selector.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_shap.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_shap.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_transparent_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_transparent_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_text_select.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_text_select.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_driving.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_remind.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_remind.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor_set_black.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\cursor_set_black.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_txm.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_txm.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_radiobutton.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_radiobutton.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_off_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_off_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_search_grey.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_search_grey.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_save.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_save.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_in.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_login_in.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_del_state.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_del_state.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_text_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_text_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_setup.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_login_setup.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_three_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_three_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_close.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_close.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_select_pic.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_select_pic.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compose_pic_add.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\compose_pic_add.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\up_selector.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\up_selector.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mcv_text_date_dark.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\mcv_text_date_dark.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_select_setting.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\item_select_setting.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_on_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_on_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_serach.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_serach.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_web_bar.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\progress_web_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_shape.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\down_selector.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\down_selector.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_text_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_text_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\checkbox_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_check.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_check.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_add.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editgroup_item_delete.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\editgroup_item_delete.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg_black.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg_black.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_cancel.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_cancel.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_driving.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_driving.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\segment_left.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\segment_left.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_checkbox.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_edittext_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_edittext_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_gridview_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_gridview_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_serach.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_serach.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mcv_text_date_dark.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\mcv_text_date_dark.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_layout.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editgroup_item_delete.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\editgroup_item_delete.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_ewm.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_ewm.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_back.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_back.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\segment_right.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\segment_right.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_listview_off_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_listview_off_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_sgd.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_sgd.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_normal.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\contact_edit_normal.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_two_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_blue_two_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_shap.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_shap.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_checkbox_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_checkbox_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_black_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editgroup_item_add.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\editgroup_item_add.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_user_location.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_user_location.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_remind.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_remind.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_in.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_login_in.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor_set_white.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\cursor_set_white.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\choose_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_add_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_icon.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\delete_icon.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\up_selector.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\up_selector.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_search_grey.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_search_grey.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox_two.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_checkbox_two.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_listview_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_listview_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_setting.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_setting.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_transit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg_black.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg_black.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_text.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_text.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_three_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_three_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_back.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_back.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_bench.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_bench.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_pic_choose_selector.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_pic_choose_selector.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_albumbackground.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_albumbackground.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_off_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_off_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_edittext_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_edittext_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_pressed.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\contact_edit_pressed.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_picture.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_picture.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\checkbox_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editgroup_item_add.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\editgroup_item_add.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_walk.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_transit.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_transit.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_normal.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\contact_edit_normal.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_edit_pressed.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\contact_edit_pressed.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_orange_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_orange_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_preview.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_preview.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_ewm.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_ewm.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_image.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_image.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mcv_text_date_light.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\mcv_text_date_light.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_btn.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_btn.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_checkbox.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_arrow.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_back_arrow.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_setting.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\text_setting.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pic_back.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_pic_back.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_shape.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_icon.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\delete_icon.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_white_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_black_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_pic_choose_selector.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_pic_choose_selector.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_cancel.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_cancel.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_red_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_layout_on_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_layout_on_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_two_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_blue_two_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_sgd.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_sgd.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_web_bar.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\progress_web_bar.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_select_pic.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_select_pic.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_radiobutton_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_radiobutton_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_close.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_close.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_del_state.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_del_state.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_selector.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\toggle_selector.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_delete_layout.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_delete_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_right_btn.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_right_btn.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_radiobutton_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\common_radiobutton_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_green_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mcv_text_date_light.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\mcv_text_date_light.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_text_select.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_text_select.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\choose_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\choose_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_setting.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\text_setting.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_user_location.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_user_location.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_direction.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_direction.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_albumbackground.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_albumbackground.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pic_back.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_pic_back.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_red_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_setup_bg_lightblue.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_setup_bg_lightblue.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_orange_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_orange_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_picture.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_picture.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_left_btn.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_left_btn.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor_set_black.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\cursor_set_black.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_save.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_save.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_bench.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_bench.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\down_selector.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\down_selector.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_left_btn.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\dialog_left_btn.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\compose_pic_add.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\compose_pic_add.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\item_select_setting.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\item_select_setting.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_listview_on_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_listview_on_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_check.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_check.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox_two.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_checkbox_two.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_listview_off_bg.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_listview_off_bg.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_selector.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\color_selector.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_setting.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\img_main_setting.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_setup.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_login_setup.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_add.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_capture_txm.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_capture_txm.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toggle_selector.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\toggle_selector.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_bg.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_white_bg.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mode_walk.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\mode_walk.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_layout.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_add_layout.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_ok_btn_state.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\plugin_camera_ok_btn_state.xml"
+    },
+    {
+        "merged": "E:\\asworkspace\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cursor_set_white.xml",
+        "source": "E:\\asworkspace\\KingTellerClient\\app\\src\\main\\res\\drawable\\cursor_set_white.xml"
+    },
+    {
+        "merged": "E:\\KingTeller\\KingTellerClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_radiobutton.xml",
+        "source": "E:\\KingTeller\\KingTellerClient\\app\\src\\main\\res\\drawable\\btn_radiobutton.xml"
+    }
+]

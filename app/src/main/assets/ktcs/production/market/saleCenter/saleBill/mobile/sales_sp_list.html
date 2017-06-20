@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>待审核发机单</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<script src="../../../../../js/iscroll/lib/require.js"></script>
+<script>
+	require([ '../../../../../js/iscroll/common'], function(common) {
+
+		require([ 'saleBillMobile_common.js','sales_sp_list.js' ]);
+	});
+
+</script>
+
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<style type="text/css" media="all">
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+}
+
+.ddd {
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	z-index: 100;
+	line-height: 40px;
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: red;
+	text-align: center;
+}
+
+.backgroundDiv{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1040;
+	
+	display: none;
+	overflow-x: auto;
+	overflow-y: scroll;
+	display:none;
+	
+	background-color:#fff;
+	opacity: 0.4;
+	filter:Alpha(opacity=40);
+	
+}
+ 
+.backgroundDiv div{
+	position:absolute;
+	text-align:center;
+	margin-right: auto; margin-left: auto; 
+	vertical-align:middle;
+	left:45%;
+	top:45%;
+	 
+}
+
+ 
+</style>
+
+
+<script type="text/javascript">
+	
+</script>
+
+</head>
+<body>
+
+
+
+
+
+	<div class="btn-group btn-group-justified" id="toolbarDiv"
+		style="z-index: 99; border-bottom: 1px solid;height:25px;display:none;" >
+		<a type="button" class="btn btn-default" style="border: 0;" id="auditBtn">审核</a>
+		<a type="button" class="btn btn-default" style="border: 0;" id="historyFlowBtn" >流程历史</a>
+		<a type="button" class="btn btn-default" style="border: 0;"
+			href="javascript:;" id=""  >搜索</a> 
+			
+	</div>
+	
+	<div class="btn-group btn-group-justified" id="tabDiv"
+		style="z-index: 99; border-bottom: 1px solid;height:25px;" >
+		<a type="button" class="btn btn-default" style=" width:40%;border: 0;" id="toDoBtn">待审核单</a>
+		<a type="button" class="btn btn-default" style=" width:40%;border: 0;" id="doneBtn" >已审核单</a>
+		<a type="button" class="btn btn-default" style="  width:10%;min-size:40px; border: 0;"  id="showSearchBtn"  ><img src="../../../../../img/search.gif"  /></a> 
+	</div>
+
+	<div id="wrapper" style="margin-top:-6px;">
+		<div class="scroller">
+			<div id="scroller-pullDown"  >
+				<span class="pullDownLabel">下拉刷新...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp">
+				<span class="pullUpLabel">上翻更多...</span>
+			</div>
+		</div>
+	</div>
+	
+	<div class="backgroundDiv" id="loadingDiv" tabindex="-1"  style="top:32px;">
+		<div>
+			<img src="../../../../../img/loading3.gif" /> 
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="contentDia" class="modal-content"
+			style="top: 40%; left: 35%; width: 100px;">
+			<div class="modal-body">
+				<ul
+					style="list-style: none; padding: 0; margin: 0; line-height: 30px; font-size: 14px; text-align: center;">
+					<li>新增</li>
+					<li>修改</li>
+					<li>删除</li>
+					<li>提交</li>
+					<li>搜索</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+
+	<div class="modal fade" id="searchModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="searchModal_contentDia" class="modal-content"
+			style=" positon:absolute; width:250px; left:50%; height:280px; margin-left:-125px; top:50%; margin-top:-120px;   ">
+			<div class="modal-body">
+				<form role="form" id="searchForm">
+					<div class="form-group">
+						<label for="bankName">银行名称</label> <input
+							type="text" class="form-control" id="bankName" name="bankName"
+							placeholder="银行名称">
+					</div>
+					<div class="form-group">
+						<label for="bankName">下单人姓名</label> <input
+							type="text" class="form-control" id="salesMan" name="salesMan"
+							placeholder="下单人姓名">
+					</div>
+					<div class="form-group">
+						<label for="salebillType">单据类别</label> 
+						<select class="form-control" id="salebillType" name="salebillType"  >
+							<option value=""></option>
+							<option value="1">未签合同单</option>
+							<option value="2">已签合同单</option>
+						</select>
+					</div>
+						<button type="reset" id="resetBtn" class="btn btn-default"  >重置</button>
+					<button type="button" id="searchBtn" class="btn btn-default"  >搜索</button>
+					<button type="button" id="cancelBtn" class="btn btn-default" onclick="javascript:$('#searchModal').modal('hide');" >关闭</button>
+				</form>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+
+</body>
+</html>

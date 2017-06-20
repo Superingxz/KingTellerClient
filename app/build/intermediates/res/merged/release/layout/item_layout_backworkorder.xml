@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_setup_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/backorderType"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="false"
+                android:drawableLeft="@drawable/btn_radiobutton"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:text="机器无故障/故障已修复"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_text_middle" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="false"
+                android:drawableLeft="@drawable/btn_radiobutton"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:text="派单错误"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_text_middle" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="false"
+                android:drawableLeft="@drawable/btn_radiobutton"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:text="重复派单"
+                android:textColor="@color/common_right_edittext_textcolor"
+                android:textSize="@dimen/common_text_middle" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/backorderType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="退单原因:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_middle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/backorderEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/backorderRemark"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_middle" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/backorderEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/backorderRemark"
+            android:orientation="vertical"
+            android:textColor="@color/common_right_edittext_textcolor"
+            android:textSize="@dimen/common_text_14"
+            android:visibility="gone" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/backorderRemark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="退单说明:"
+            android:textColor="@color/common_left_edittext_textcolor"
+            android:textSize="@dimen/common_text_middle" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_red_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="@dimen/common_btn_width"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_green_bg"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:text="确认退单"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>发机单详情</title>
+
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+	<script src="saleBillMobile_common.js"></script>
+	
+<script type="text/javascript">
+	
+	
+
+	//引入公共html组件
+	$(document).ready(
+			function() {
+
+				//得到请求的参数 
+				var id = window.kingteller.getParam("id");
+				   
+				$("#salebillId").val(id);
+				 
+			});
+			
+	function toChange()
+	{
+		var v = $('input:radio:checked').val();
+		 
+		window.kingteller.setParam("id",$("#salebillId").val());
+		
+		if('SALEBILL_CHANGE_CONFIGURE' == v)
+		{
+			javascript:window.location.href=decorateUrlHtml('sales_change_machineConfigure.html');
+		}
+		else if('SALEBILL_CHANGE_MACHINETYPE' == v)
+		{
+			javascript:window.location.href=decorateUrlHtml('sales_change_machineType.html');
+		}
+		else if('SALEBILL_CHANGE_ADDMACHINECOUNT' == v)
+		{
+			javascript:window.location.href=decorateUrlHtml('sales_change_AddMachineCount.html');
+		}
+		else if('SALEBILL_CHANGE_REDUCEMACHINECOUNT' == v)
+		{
+			javascript:window.location.href=decorateUrlHtml('sales_change_ReduceMachineCount.html');
+		}
+	}
+	
+	function selectThisRow(obj)
+	{
+		$(obj).find("input:radio").prop("checked","checked");
+	}
+	
+	function turnBack()
+	{
+		var salebillId = $("#salebillId").val();
+		window.kingteller.setParam("id",salebillId);
+		var lo = 'my_sales_view.html';
+		window.location.href=decorateUrlHtml(lo);
+	}
+</script>
+ 
+
+ <style>
+ 
+	.tdLabel{
+		background-color:#eee;
+		width:40%;
+		
+	}
+	.trLabel{
+		background-color:#eee;
+		 
+	}
+ ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+
+	ul li {
+		height:90px;
+	}
+ 
+ </style>
+ 
+</head>
+
+<body>
+	<div class="container">
+					<input type="hidden" id="salebillId" value="" />
+					<fieldset >
+						<legend>选择变更类型</legend>
+							<table class="table" style="border:1px solid #C0C0C0;">
+								<tr>
+									<td class="tdLabel" >选择</td>
+									<td  id="saleBillTypeName">
+										类型名称
+									</td>
+								</tr>
+							<tr onclick="selectThisRow(this)">
+									<td   class="tdLabel" >
+										<input type="radio" name="changeType" value="SALEBILL_CHANGE_CONFIGURE" />
+									</td>
+									<td  id="contractNumber">
+										配置变更
+									</td>
+								</tr>
+								<tr onclick="selectThisRow(this)">
+									<td   class="tdLabel" >
+										<input type="radio" name="changeType" value="SALEBILL_CHANGE_MACHINETYPE" />
+									</td>
+									<td  id="contractNumber">
+										机型变更
+									</td>
+								</tr>
+								<tr onclick="selectThisRow(this)">
+									<td   class="tdLabel" >
+										<input type="radio" name="changeType" value="SALEBILL_CHANGE_ADDMACHINECOUNT" />
+									</td>
+									<td  id="contractNumber">
+										数量追加变更
+									</td>
+								</tr>
+								<tr onclick="selectThisRow(this)">
+									<td   class="tdLabel" >
+										<input type="radio" name="changeType" value="SALEBILL_CHANGE_REDUCEMACHINECOUNT" />
+									</td>
+									<td  id="contractNumber">
+										数量减少变更
+									</td>
+								</tr>
+							</table>
+					</fieldset>
+					
+					
+					 
+	</div>
+	<div class="btn-group btn-group-justified navbar-fixed-bottom" id="bottom_toolbar" style="background-color:#aaa;">
+				   <a type="button" id="cancelBtn" style=" background-color:#eee;" href="javascript:;"
+						 onclick="turnBack()"
+						class="btn btn-default" >返回</a>
+					<a type="button"   style=" background-color:#eee;" href="javascript:;"
+						 onclick="toChange()"
+						class="btn btn-default" >确定</a>
+				</div>
+</body>
+</html>
+
+

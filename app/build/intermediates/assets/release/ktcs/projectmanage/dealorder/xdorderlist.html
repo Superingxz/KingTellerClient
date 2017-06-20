@@ -1,0 +1,114 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>项目管理销单-工单管理页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+ 
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href="../../js/bootstrap3/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../js/iscroll/css/iscroll-load-data.css">
+<script src="../../js/iscroll/lib/jquery-1.9.1.min.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-probe_old.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-probe.js"></script>
+<script src="../../production/market/saleCenter/saleBill/mobile/saleBillMobile_common.js"></script>
+<script src="../../js/iscroll/lib/iscroll/iscroll-load-data.js"></script>
+<script src="../../js/iscroll/lib/require.js"></script>
+<script src="../../js/bootstrap3/js/bootstrap.min.js"></script>
+ <script>
+	require([ '../../js/iscroll/common'], function(commonaaa) {
+
+		require([ 'xdorderlist.js' ]);
+	});
+	</script>
+<style type="text/css" media="all">
+body,ul,li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-size: 12px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+}
+
+.btn[disabled]{
+	color:#ccc;
+	opacity:1;
+}
+</style>
+
+
+</head>
+<body>
+	<!--<div class="btn-group btn-group-justified" id="toolbarDiv"
+		style="z-index: 99;  height:25px;  border-bottom: 1px solid; " >
+		<a type="button" class="btn btn-default" id="addBtn" style="border: 0; width:20%" >添加</a>
+		<a type="button" id="editBtn"  class="btn btn-default" style="border: 0;width:20% " disabled="true">修改</a>
+		<a type="button" class="btn btn-default" style="border: 0;width:20%" id="deleteBtn"  disabled="true">删除</a>
+		<a type="button" class="btn btn-default" style="border: 0;width:20%" id="historyFlowBtn"  disabled="true">流程历史</a>
+		<a type="button" class="btn btn-default" style="border: 0; width:10%;min-size:40px; "  id="showSearchBtn"  ><img src="./mobile/img/search.gif"  /></a> 
+	</div>glyphicon glyphicon-search
+	-->
+	<div class="btn-group btn-group-justified" id="toolbarDiv"
+		style="z-index: 99;  height:25px;  border-bottom: 0px solid; background-color: white;" onclick="showSearchDiv()">
+        <input type="text" class="form-control" id="gdh" placeholder="工单号">
+ 		<a type="button" class="btn btn-default" style="border: 1;width:20%" id="serBtn">搜索</a>
+ 		<a type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="border-top: 0;border-bottom:0;width:20%" ><span class="glyphicon glyphicon-search"></span></a>
+	</div>
+	
+	<div id="wrapper" style="margin-top:-10px;">
+		<div class="scroller">
+			<div id="scroller-pullDown"  align="center">
+				<span class="pullDownLabel">下拉刷新...</span>
+			</div>
+			<ul id="thelist">
+			</ul>
+			<div id="scroller-pullUp" align="center">
+				<span class="pullUpLabel">上翻更多...</span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+       <form class="form-horizontal" role="form">
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">工单号</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="orderno" id="orderno" placeholder="">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputEmail3" class="col-sm-2 control-label">创建人</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control" name="createname" id="crateus" placeholder="">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <label for="inputPassword3" class="col-sm-2 control-label">项目类型</label>
+		    <div class="col-sm-10" id="xmlxsel">
+		     
+		    </div>
+		  </div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="searchCond()">搜索</button>
+        <button type="button" class="btn btn-default" id="cz" onclick='cz()' >重置</button>
+        <button type="button" class="btn btn-default" id="gb" data-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

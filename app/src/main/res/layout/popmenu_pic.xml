@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_my_info_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_photo"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:padding="5dp"
+                android:text="拍照"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_window_title_btn_size" />
+
+            <Button
+                android:id="@+id/button_my_info_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_picture"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:padding="5dp"
+                android:text="图片"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_window_title_btn_size" />
+            
+            <Button
+                android:id="@+id/button_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_all_file"
+                android:minHeight="@null"
+                android:minWidth="@null"
+                android:padding="5dp"
+                android:text="文件"
+                android:textColor="@color/black"
+                android:textSize="@dimen/common_window_title_btn_size" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigation_item_divide"
+            android:background="@color/navigation_item_divide" />
+
+        <Button
+            android:id="@+id/button_my_info_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="@null"
+            android:minWidth="@null"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>发机单详情</title>
+
+<script src="../../../../../js/jquery/jquery-1.10.2.min.js"></script>
+<script src="../../../../../js/bootstrap3/js/bootstrap.min.js"></script>
+<link href="../../../../../js/bootstrap3/css/bootstrap.min.css"
+	rel="stylesheet">
+	<script src="saleBillMobile_common.js"></script>
+	<script src="selectComponent.js"></script>
+	<script  src="machineType.js"></script>
+	
+<script type="text/javascript">
+	
+	//选择某一机型后的处理函数
+	function handleSelectedMachineType(data) {
+		$("#machineType").empty();
+		var dataObj = eval("(" + data + ")");
+
+		//设值
+		$("#machineType").val(dataObj.machineType);
+		$("#machineTypeName").val(dataObj.machineTypeName);
+	}
+
+	//引入公共html组件
+	$(document).ready(
+			function() {
+
+				//得到请求的参数
+				var id = window.kingteller.getParam("id");  
+				$("#saleBillId").val(id);
+				//得到要修改的数据
+				$.ajax({
+					type : "post",//使用get方法访问后台
+					dataType : "jsonp",//返回json格式的数据
+					jsonp:"jsonpcallback",
+					url : appContext+'/saleCenter/saleBill/toSalesEdit_salesMobile.action;jsessionid='+sessionId,//要访问的后台地址
+					data : 'saleBillId='+id,//要发送的数据
+					complete : function() {
+						$("#load").hide();
+					},//AJAX请求完成时隐藏loading提示
+					success : function(msg) {//msg为返回的数据，在这里做数据绑定
+						
+						$("#saleBillTypeName").text(msg.saleBillTypeName);
+						$("#contractNumber").text(msg.contractNumber);
+						$("#bankName").text(msg.bankName);
+						$("#salesMan").text(msg.salesMan);
+						$("#cooperationTypeName").text(msg.cooperationTypeName);
+						$("#machineTypeCode").text(msg.machineTypeCode);
+						$("#machineCount").text(msg.machineCount);
+						$("#price").text(msg.price);
+						$("#bankContact").text(msg.bankContact);
+						$("#bankPhone").text(msg.bankPhone);
+						$("#receiverName").text(msg.receiverName);
+						$("#receiverPhone").text(msg.receiverPhone);
+						$("#orgTopName").text(msg.orgTopName);
+						$("#machineConfiguration").text(msg.machineConfiguration);
+						$("#senderAddress").text(msg.senderAddress);
+						$("#specialRequirement").text(msg.specialRequirement);
+						$("#remark").text(msg.remark);
+						$("#workFlowName").text(msg.workFlowName);
+						$("#deliverytimeRequirement").text(msg.deliverytimeRequirementStr);
+						$("#arrivaltimeRequirement").text(msg.arrivaltimeRequirementStr);
+						$("#material").text(msg.material);
+						$("#salebillTypeNameCreate").text(msg.salebillTypeNameCreate);
+						$("#hasChangedName").text(msg.hasChangedName);
+						//alert(msg.salebillTypeCreate);
+						 
+						
+						 if(msg.salebillTypeCreate == 1)	// 1:普通单据
+						{
+							$("#parentSaleBillNumber").parent().hide();
+							$("#changeTypeName").parent().hide();
+						}
+						else if(msg.salebillTypeCreate == 2) //变更单据
+						{
+							$("#parentSaleBillNumber").text(msg.parentSaleBillNumber);
+							$("#changeTypeName").text(msg.changeTypeName);
+						}
+						
+						
+						
+					}
+				});
+				
+				if(flowCode == null || typeof(flowCode) != 'undefined')
+				{
+					if(salebillType == 1)
+					{
+						flowCode = 'saleBillFlowNoContract';
+					}
+					else if(salebillType == 2)
+					{
+						flowCode = 'saleBillFlowContracted';
+					}
+				}
+				$.ajax({
+					type : "post",//使用get方法访问后台
+					dataType : "jsonp",//返回json格式的数据
+					jsonp:"jsonpcallback",
+					url : appContext+'/workflow/getHistoryJsonP_History.action;jsessionid='+sessionId+'?busId='+id+'&flowCode='+flowCode,//要访问的后台地址
+					data : 'saleBillId='+id,//要发送的数据
+					complete : function() {
+						$("#load").hide();
+					},//AJAX请求完成时隐藏loading提示
+					success : function(msg) {//msg为返回的数据，在这里做数据绑定
+						
+						var data = msg.rows;
+						//alert(data.length);
+						var fragment = $(document.createDocumentFragment());
+						for(var i = 0; i < data.length; i++)
+						{
+							var li= $("<li style='padding:2px 5px; height:95px; border-bottom:1px solid #C0C0C0 ' ></li>");
+		        	 
+							var leftDiv = $("<div style='float:left;height:100%;overflow:hidden;width:80%; line-height:16px;'></div>");
+		          
+							leftDiv.append("<input type='radio' style='display:none;'  name='idd' value='"+data[i].salebillId+"' >");
+							leftDiv.append("<span style='display:block; height:15px; margin:3px 0px;overflow:hidden; ' >【" + data[i].title + "】</span>");
+							 
+							leftDiv.append("<span style='display:block;height:15px;  margin:3px 6px;overflow:hidden;' >处理情况:" + data[i].status + "</span>");
+							leftDiv.append("<span style='display:block;height:15px;  margin:3px 6px;overflow:hidden;' >处理人:" + data[i].handlerName + "</span>");
+							leftDiv.append("<span style='display:block;height:15px;  margin:3px 6px;overflow:hidden;' >审核意见:" + data[i].suggestion + "</span>");
+							leftDiv.append("<span style='display:block;height:15px;  margin:3px 6px;overflow:hidden;' >处理时间:" + data[i].handlerTime + "</span>");
+							
+							li.append(leftDiv);
+							fragment.append(li);
+						}
+												
+						$("#thelist").append(fragment);
+						
+						
+						
+					}
+				});
+			});
+			
+			function tijiao()
+			{
+				if($.trim($("#machineCount").val()) == '')
+				{
+					alert("机器数量不能为空!");
+					return;
+				}
+				if($.trim($("#machineType").val()) == '')
+				{
+					alert("机型不能为空!");
+					return;
+				}
+				if(window.confirm("确认提交?"))
+				{
+					var url = appContext+"/saleCenter/saleBill/saveMachineTypeChangeSaleBill_salesMobile.action;jsessionid="+sessionId;
+					var params = $("#myform").serialize();
+					params = decodeURIComponent(params,true);
+					//在进行编码
+					params = encodeURI(encodeURI(params));
+					
+					$.ajax({
+							type: "post",//使用get方法访问后台
+							dataType : "jsonp",//返回json格式的数据
+							jsonp:"jsonpcallback",
+							url: url,
+							data: params,
+							beforeSend:function(XMLHttpRequest){ 
+								  $("#loading").show();
+								  var scrolltop = $(document).scrollTop();//获取当前窗口距离页面顶部高度
+									$("#loading").css("top",scrolltop+"px");
+							 }, 
+							complete :function(){$("#loading").hide();},
+							success : function(result) {
+								$("#loading").hide();
+								alert("操作成功!");
+								window.location.href=decorateUrlHtml("mySaleBill_list.html");
+							},
+							error : function(e) {
+								alert("系统异常:" + e.message);
+							}
+							});
+				}	
+				
+			}
+			
+			function turnBack()
+			{
+				var salebillId = $("#saleBillId").val();
+				window.kingteller.setParam("id",salebillId);
+				var lo = 'sales_change_selectType.html';
+				window.location.href=decorateUrlHtml(lo);
+			}
+ </script>
+
+ <style>
+ 
+	.tdLabel{
+		background-color:#eee;
+		width:40%;
+		
+	}
+	.trLabel{
+		background-color:#eee;
+		 
+	}
+ ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+
+	ul li {
+		height:90px;
+	}
+ 
+ </style>
+ 
+</head>
+
+<body>
+	<div class="container">
+	
+					<fieldset  >
+						<legend>变更信息</legend>
+							<form method="post" id="myform">
+							<input type="hidden" id="saleBillId" name="saleBillId" value="" />
+							<table class="table" style=" border:1px solid #C0C0C0;">
+								<tr>
+									<td  class="tdLabel" >变更类型</td>
+									<td   >
+										机型变更
+									</td>
+								</tr>
+								<tr>
+									<td  class="tdLabel" >原单据编码</td>
+									<td   id="parentSaleBillNumber">
+										
+									</td>
+								</tr>
+								<tr>
+									<td  class="trLabel"   colspan="2"  >机器数量</td>
+								</tr>
+								<tr>
+									<td    colspan="2"  >
+										<input type="number" name="machineCount" id="machineCount"  class="form-control"   />
+									</td>
+								</tr>
+								<tr>
+									<td  class="trLabel"   colspan="2" >机型</td>
+								</tr>
+								<tr>
+									<td    colspan="2"  >
+										<input type="text" class="form-control" style="width:70%;display:inline;" id="machineTypeName" readonly="readonly" name="vo.machineTypeName" placeholder="机型"> 
+						<button class="btn btn-default" type="button"
+							onclick="showModal('handleSelectedMachineType',decorateUrlHtml('machineType.html'),'选择机型','machineTypeList')">选择</button>
+					  <input type="hidden" name="machineType" id="machineType" >
+									</td>
+								</tr>
+								<tr>
+									<td  class="trLabel"   colspan="2" >备注</td>
+								</tr>
+								<tr>
+									<td    colspan="2"  >
+										<textarea   name="remark" rows="3" cols="30"  class="form-control"  ></textarea>
+									</td>
+								</tr>
+							</table>
+							</form>
+					</fieldset>
+		
+					<fieldset >
+						<legend>合同信息</legend>
+							<table class="table" style="border:1px solid #C0C0C0;">
+								<tr>
+									<td class="tdLabel" >类别</td>
+									<td  id="saleBillTypeName">
+									111
+									</td>
+								</tr>
+							<tr>
+									<td   class="tdLabel" >合同号
+									</td>
+									<td  id="contractNumber">
+										
+									</td>
+								</tr>
+							</table>
+					</fieldset>
+					
+					 
+					
+					<fieldset style="margin-bottom:20px;">
+						<legend>发机单内容</legend>
+						<table class="table" style=" border:1px solid #C0C0C0;">
+							<input  type="hidden" name="salebillId" >
+							<tr>
+								<td   class="tdLabel" >银行名称</td>
+								<td  id="bankName">
+								</td>
+							</tr>
+							<tr>
+								<td   class="tdLabel" >销售人员</td>
+								<td  id="salesMan">
+
+								</td>
+							</tr>
+							<tr>
+								<td  class="tdLabel">合作方式</td>
+								<td  id="cooperationTypeName">
+								</td>
+								</tr>
+							<tr>
+								<td   class="tdLabel" >机型</td>
+								<td  id="machineTypeCode">
+								 </td>
+							</tr>
+							
+							<tr>
+								<td   class="tdLabel" >单价(租金)</td>
+								<td  id="price"> </td>
+							</tr>
+							<tr>
+								<td   class="tdLabel" >银行联系人</td>
+								<td  id="bankContact"> </td>
+								</tr>
+							<tr>
+								<td   class="tdLabel" >银行联系电话</td>
+								<td  id="bankPhone"> </td>
+							</tr>
+							<tr>
+								<td   class="tdLabel" >接货人</td>
+								<td  id="receiverName"> </td>
+								</tr>
+							<tr>
+								<td   class="tdLabel" >接货人联系方式</td>
+								<td  id="receiverPhone"> </td>
+							</tr>
+							<tr>
+								<td  class="tdLabel" >要求发货时间</td>
+								<td  id="deliverytimeRequirement">
+									<s:date name="vo.deliverytimeRequirement" format="yyyy-MM-dd" />
+								</td>
+								</tr>
+							<tr>
+								<td   class="tdLabel" >要求到货时间</td>
+								<td  id="arrivaltimeRequirement">
+									<s:date name="vo.arrivaltimeRequirement" format="yyyy-MM-dd" />
+								</td>
+							</tr>
+							<tr style="display:none;">
+								<td   class="tdLabel" >所属大区</td>
+								<td  id="orgTopName"> </td>
+							</tr>
+						
+								<tr style="display:none;">
+									<td   class="trLabel" colspan="2">机器配置</td>
+								</tr>
+								<tr style="display:none;">
+									<td  colspan="2" id="machineConfiguration"> </td>
+
+								</tr>
+								<tr>
+									<td   class="trLabel" colspan="2">发机详细地址</td>
+								</tr>
+								<tr>
+									<td  colspan="2" id="senderAddress"> </td>
+								</tr>
+
+
+								<tr>
+									<td   class="trLabel" colspan="2" >特殊要求</td>
+								
+								</tr>
+								<tr>
+									<td  colspan="2" id="specialRequirement"> 
+									</td>
+								</tr>
+								
+								<tr>
+									<td   class="trLabel" colspan="2" >新增物料</td>
+								
+								</tr>
+								<tr>
+									<td  colspan="2" id="material"> 
+									</td>
+								</tr>
+								
+								
+							</table>
+					 
+						
+					</fieldset>
+					 
+	</div>
+	<div class="btn-group btn-group-justified navbar-fixed-bottom" id="bottom_toolbar" style="background-color:#aaa;">
+				   <a type="button" id="cancelBtn" style=" background-color:#eee;" href="javascript:;"
+						 onclick="turnBack()"
+						class="btn btn-default" >返回</a>
+						<a type="button" id="cancelBtn" style=" background-color:#eee;" href="javascript:;"
+						 onclick="tijiao()"
+						class="btn btn-default" >提交</a>
+				</div>
+				
+				
+
+	<div id="commonSelectDiv">
+	
+		<input type="hidden" id="funcName" />
+	<!-- Modal -->
+	<div class="modal fade" id="myModalBank" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog"  >
+			<div class="modal-content"  >
+				<div class="modal-header" style="padding-top:10px;padding-bottom:5px;">
+					<button type="button" class="close" data-dismiss="modal" onclick="closeModal()">x</button>
+					<h4 class="modal-title" id="myModalLabel"  >选择银行</h4>
+				</div>
+				<div class="modal-body" style="padding:0px 0px 0px 20px;" >
+					
+				</div>
+				<div class="modal-footer"  style="padding-top:5px;padding-bottom:5px;margin-top:0px;display:none; ">
+					<button type="button" class="btn btn-default"  onclick="closeModal()">取消</button>
+					<button type="button" class="btn btn-primary"
+						onclick="handSelect()">确认</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+		
+	</div>
+	</div>
+				
+	<div id="machineTypeList" style="display:none;">
+	
+		<div class="input-append">
+			<input type="text" name="machineTypeCode"  id="machineTypeCode" placeholder="机型" /> <input type="button" onclick="searchMachineType()"
+				class="btn" value="搜索" />
+		</div>
+
+	<input type="hidden" id="hiddenValue" />
+
+	<table class="table table-condensed table-striped " id="myTable"
+		style="margin-top: 0; margin-bottom: 0;">
+		<tr>
+			<th width="60" align="center" style="text-align: center;">选择</th>
+			<th>机型</th>
+		</tr>
+
+
+	</table>
+
+		<ul class="pagination"   >
+		  <li><a href="#" id="prePage" onclick="queryPageMachineType(-1)">上一页</a></li>
+		  <li><a href="#" id="nextPage" onclick="queryPageMachineType(1)">下一页</a></li>
+		</ul>
+	</div>
+				
+				
+</body>
+</html>
+
+

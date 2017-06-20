@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	
+	    <ScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_above="@+id/layout_btn" >
+	
+	        <LinearLayout
+	            android:id="@+id/layout_form"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+	
+	            <include layout="@layout/common_report_audit" />
+	
+	            <RelativeLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content" >
+	
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="@dimen/common_title_height"
+	                    android:layout_marginLeft="@dimen/common_margin"
+	                    android:gravity="left|center_vertical"
+	                    android:text="工单信息"
+	                    android:textColor="@color/black"
+	                    android:textSize="@dimen/common_text_title" />
+	
+	                <Button
+	                    android:id="@+id/hide"
+	                    android:layout_width="25dp"
+	                    android:layout_height="25dp"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_marginRight="5dp"
+	                    android:layout_marginTop="10dp"
+	                    android:background="@drawable/arrow_down"
+	                    android:contentDescription="@null"
+	                    android:gravity="left|center_vertical" />
+	            </RelativeLayout>
+	
+	            <LinearLayout
+	                android:id="@+id/layout_hide"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="vertical"
+	                android:visibility="gone" >
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/orderNo"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="orderNo"
+	                    aaron:fieldTitle="工单号："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/workDateStr"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="workDateStr"
+	                    aaron:fieldTitle="清洁日期："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <!-- 角色部门设置 -->
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/flowStatusName"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="flowStatusName"
+	                    aaron:fieldTitle="流程状态："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/ssbscName"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="ssbscName"
+	                    aaron:fieldTitle="服务站："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/sszhName"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="sszhName"
+	                    aaron:fieldTitle="所属银行："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/workerNames"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="workerNames"
+	                    aaron:fieldTitle="执行工程师："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/wdsbjc"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="wdsbjc"
+	                    aaron:fieldTitle="网点地址 ："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/assignOrderTimeStr"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="assignOrderTimeStr"
+	                    aaron:fieldTitle="派单时间："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5"
+	                    android:visibility="gone" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/arriveTimeStr"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="arriveTimeStr"
+	                    aaron:fieldTitle="到达现场时间："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5"
+	                    android:visibility="gone" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/maintainEndTimeStr"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldName="maintainEndTimeStr"
+	                    aaron:fieldTitle="完成清洁时间："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5"
+	                    android:visibility="gone" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/orderRemark"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    aaron:fieldEnabled="false"
+	                    aaron:fieldLines="3"
+	                    aaron:fieldName="orderRemark"
+	                    aaron:fieldTitle="派单备注："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/defraudTipsFlag"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldName="defraudTipsFlag"
+	                    aaron:fieldRequested="true"
+	                    aaron:fieldTitle="粘贴诈骗提示："
+	                    aaron:fieldType="Select"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/otherFlag"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldName="otherFlag"
+	                    aaron:fieldRequested="true"
+	                    aaron:fieldTitle="加装不明信息："
+	                    aaron:fieldType="Select"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/lampFaultFlag"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/common_layout_height"
+	                    aaron:fieldName="lampFaultFlag"
+	                    aaron:fieldRequested="true"
+	                    aaron:fieldTitle="灯箱损坏/照明不亮："
+	                    aaron:fieldType="Select"
+	                    android:background="@color/white"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5" />
+	
+	                <View
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="@dimen/navigation_item_divide"
+	                    android:background="@color/navigation_item_divide" />
+	
+	                <com.kingteller.client.view.KingTellerEditText
+	                    xmlns:aaron="http://schemas.android.com/apk/res/com.kingteller"
+	                    android:id="@+id/reportReamrk"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    aaron:fieldLines="3"
+	                    aaron:fieldName="reportReamrk"
+	                    aaron:fieldRequested="true"
+	                    aaron:fieldTitle="清洁备注："
+	                    aaron:fieldType="String"
+	                    android:background="@color/white"
+	                    android:paddingBottom="@dimen/common_padding"
+	                    android:paddingLeft="@dimen/common_padding5"
+	                    android:paddingRight="@dimen/common_padding5"
+	                    android:paddingTop="@dimen/common_padding" />
+	            </LinearLayout>
+	
+	            <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="@dimen/common_title_height"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:gravity="left|center_vertical"
+	                android:text="机器信息"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/common_text_title" />
+	
+	            <ListView
+	                android:id="@+id/listView"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="@dimen/common_padding5"
+	                android:paddingRight="@dimen/common_padding5" >
+	            </ListView>
+	
+	            <TextView
+	                android:layout_width="fill_parent"
+	                android:layout_height="@dimen/common_title_height"
+	                android:layout_marginLeft="@dimen/common_margin"
+	                android:gravity="left|center_vertical"
+	                android:text="图片信息"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/common_text_title" />
+	        </LinearLayout>
+	    </ScrollView>
+	
+	    <LinearLayout
+	        android:id="@+id/layout_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:orientation="horizontal"
+	        android:padding="5dp" >
+	
+	        <Button
+	            android:id="@+id/btn_temp_save"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/btn_orange_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="暂存"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	
+	        <Button
+	            android:id="@+id/btn_submit"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/btn_green_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="提交"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	
+	        <Button
+	            android:id="@+id/btn_sp"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/btn_green_bg"
+				android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="审批"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+	
+	        <Button
+	            android:id="@+id/btn_back"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/btn_red_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="退回"
+	            android:textColor="@color/white"
+	            android:textSize="14sp" />
+
+	    </LinearLayout>
+	
+	    <include
+	        layout="@layout/common_loading_view"
+	        android:visibility="visible" />
+	
+	</RelativeLayout>
+
+</LinearLayout>

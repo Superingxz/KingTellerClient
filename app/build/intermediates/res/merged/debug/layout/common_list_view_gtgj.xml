@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_all_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title_main_bar" />
+    
+	<RelativeLayout 
+	    android:id="@+id/list_loading_view"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="top"
+	    android:orientation="vertical" >
+	
+	    <com.kingteller.client.view.XListView
+	        android:id="@+id/list_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:cacheColorHint="@android:color/transparent"
+	        android:divider="@android:color/transparent"
+	        android:dividerHeight="@dimen/navigation_item_divide"
+	        android:drawSelectorOnTop="false"
+	        android:focusable="true"
+	        android:visibility="gone" />
+	
+	    <include layout="@layout/common_loading_view" />
+	    
+	    <LinearLayout
+	        android:id="@+id/bottom_ll"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/btn_layout_off_bg"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:padding="5dp" >
+	
+	        <Button
+	            android:id="@+id/cancel"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/btn_red_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="取消"
+	            android:textColor="@color/white" />
+	        
+	        <Button
+	            android:id="@+id/submit"
+	            android:layout_width="@dimen/common_btn_width"
+	            android:layout_height="@dimen/common_btn_height"
+	            android:layout_gravity="center"
+	            android:layout_marginLeft="10dp"
+	            android:background="@drawable/btn_orange_bg"
+	            android:minHeight="@null"
+	            android:minWidth="@null"
+	            android:text="确定"
+	            android:textColor="@color/white" />
+	
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</LinearLayout>
